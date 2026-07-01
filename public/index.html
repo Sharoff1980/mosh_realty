@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mosh Realty — Luxury Real Estate Sri Lanka</title>
+  <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+  <meta name="description" content="Sri Lanka's premier luxury real estate agency. Buy, sell, and rent exceptional properties across Colombo and beyond.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300&display=swap" rel="stylesheet">
+
+  <style>
+    /* ─── TOKENS (overrides global.css) ─────── */
+    :root {
+      --navy-bar:     #0e1130;
+      --navy-deepest: #080d24;
+      --navy-deep:    #0e1338;
+      --navy:         #162050;
+      --navy-mid:     #1d2b6b;
+      --navy-light:   #253680;
+      --navy-glass:   rgba(14,19,56,0.9);
+
+      --page-bg:      #ffffff;
+      --page-bg-alt:  #f8f6f2;
+      --page-bg-soft: #f2ede4;
+
+      --gold:         #c8a96e;
+      --gold-bright:  #e4c07a;
+      --gold-pale:    #f2dfa8;
+      --gold-dim:     #8a6d38;
+      --gold-deep:    #6b5020;
+      --gold-glow:    rgba(200,169,110,0.18);
+      --gold-border:  rgba(200,169,110,0.35);
+
+      --text-dark:    #111118;
+      --text-body:    #2e2e3a;
+      --text-soft:    #5a5a6e;
+      --text-muted:   #8a8a9e;
+
+      --white:        #ffffff;
+      --off-white:    #f8f6f2;
+      --text-mid:     rgba(255,255,255,0.72);
+      --text-light:   rgba(255,255,255,0.50);
+      --text-xlight:  rgba(255,255,255,0.30);
+
+      --border-soft:  #e8e2d8;
+      --border:       rgba(200,169,110,0.25);
+
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body:    'DM Sans', system-ui, sans-serif;
+
+      --radius:       8px;
+      --radius-md:    12px;
+      --radius-lg:    18px;
+      --radius-xl:    24px;
+
+      --transition:   0.25s ease;
+      --shadow-card:  0 2px 16px rgba(14,19,56,0.08), 0 1px 4px rgba(14,19,56,0.06);
+      --shadow-sm:    0 2px 12px rgba(14,19,56,0.08);
+      --shadow-md:    0 6px 32px rgba(14,19,56,0.12);
+      --shadow-lg:    0 16px 56px rgba(14,19,56,0.16);
+      --shadow-gold:  0 6px 28px rgba(200,169,110,0.28);
+      --shadow-glow:  0 0 40px rgba(200,169,110,0.1);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      background: var(--page-bg);
+      color: var(--text-body);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    img { display: block; max-width: 100%; }
+    a { text-decoration: none; color: inherit; }
+
+    /* ─── UTILITY ─────────────────────────────── */
+    .container { max-width: 1240px; margin: 0 auto; padding: 0 clamp(1rem,3vw,2.5rem); }
+    .section { padding: clamp(4rem,8vw,7rem) 0; }
+
+    .btn-gold {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-bright) 100%);
+      color: var(--navy-deepest);
+      font-family: var(--font-body);
+      font-size: 0.82rem; font-weight: 700;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 0.8rem 1.8rem; border-radius: var(--radius);
+      border: none; cursor: pointer;
+      transition: filter var(--transition), transform var(--transition), box-shadow var(--transition);
+      box-shadow: 0 4px 24px rgba(201,168,76,0.3);
+    }
+    .btn-gold:hover { filter: brightness(1.1); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(201,168,76,0.45); }
+
+    .btn-outline {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: transparent;
+      color: black;
+      font-family: var(--font-body);
+      font-size: 0.82rem; font-weight: 600;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 0.8rem 1.8rem; border-radius: var(--radius);
+      border: 2px solid rgb(131, 120, 57);
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+    .btn-outline:hover { background: var(--navy-bar); border-color: var(--gold); color: var(--gold-pale); transform: translateY(-2px); }
+
+    /* gold line tag */
+    .section-tag {
+      display: inline-flex; align-items: center; gap: 0.6rem;
+      font-size: 0.68rem; font-weight: 600;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .section-tag::before { content: ''; width: 28px; height: 1.5px; background: var(--gold); }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem,3.5vw,3rem);
+      font-weight: 100;
+      color: black;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+    }
+    .section-title em { font-style: italic; font-weight: 400; color: var(--gold-dim); }
+
+    /* ─── GOLD DIVIDER ────────────────────────── */
+    .gold-divider {
+      width: 100%; height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold-border), transparent);
+    }
+
+    /* ─── NAV ────────────────────────────────── */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 900;
+      background: var(--navy-bar);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid rgba(201,168,76,0.1);
+      transition: background var(--transition);
+    }
+    .nav-inner {
+      background-color: var(--navy-bar);
+      max-width: 1240px; margin: 0 auto;
+      padding: 0 clamp(1rem,3vw,2.5rem);
+      display: flex; align-items: center; justify-content: space-between;
+      height: 72px; gap: 1.5rem;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 0.7rem; width: 6%;}
+    .nav-logo-text {
+      font-family: var(--font-display);
+      font-size: 1.5rem; font-weight: 700;
+      color: var(--white); letter-spacing: 0.02em;
+      line-height: 1;
+    }
+    .nav-logo-text span { color: var(--gold); }
+    .nav-logo-sub { font-size: 0.62rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--text-muted); margin-top: 2px; }
+    .nav-links { display: flex; gap: 2.2rem; }
+    .nav-links a {
+      font-size: 0.82rem; font-weight: 500;
+      color: var(--text-mid); letter-spacing: 0.04em;
+      transition: color var(--transition); position: relative;
+    }
+    .nav-links a::after {
+      content: ''; position: absolute; bottom: -4px; left: 0; right: 0;
+      height: 1.5px; background: var(--gold);
+      transform: scaleX(0); transition: transform var(--transition);
+    }
+    .nav-links a:hover { color: var(--white); }
+    .nav-links a:hover::after { transform: scaleX(1); }
+    .nav-links a.active { color: var(--white); }
+    .nav-links a.active::after { transform: scaleX(1); }
+    .nav-right { display: flex; align-items: center; gap: 1rem; }
+    .nav-contact-link { font-size: 0.8rem; color: var(--text-muted); transition: color var(--transition); }
+    .nav-contact-link:hover { color: var(--gold); }
+    .btn-nav-cta {
+      display: flex; align-items: center; gap: 0.4rem;
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-bright) 100%);
+      color: var(--navy-deepest);
+      font-size: 0.78rem; font-weight: 700;
+      letter-spacing: 0.05em; text-transform: uppercase;
+      padding: 0.55rem 1.2rem; border-radius: var(--radius);
+      transition: filter var(--transition), transform var(--transition);
+    }
+    .btn-nav-cta:hover { filter: brightness(1.1); transform: translateY(-1px); }
+    .nav-toggle {
+      display: none; flex-direction: column; gap: 5px;
+      background: none; border: none; cursor: pointer; padding: 4px;
+    }
+    .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--white); border-radius: 2px; transition: all 0.25s; }
+
+    /* ─── HERO ───────────────────────────────── */
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 72px;
+      position: relative;
+    }
+    .hero-left {
+      background: var(--page-bg);
+      display: flex; flex-direction: column; justify-content: center;
+      padding: clamp(3rem,6vw,5rem) clamp(2rem,5vw,4.5rem);
+      position: relative; overflow: hidden;
+      border-right: 1px solid var(--border-soft);
+    }
+    /* Subtle warm glow on white */
+    .hero-left::before {
+      content: '';
+      position: absolute; top: -120px; left: -120px;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(201,168,76,0.07) 0%, transparent 65%);
+      animation: pulseGlow 6s ease-in-out infinite alternate;
+    }
+    .hero-left::after {
+      content: '';
+      position: absolute; bottom: -80px; right: -60px;
+      width: 300px; height: 300px;
+      background: radial-gradient(circle, rgba(201,168,76,0.05) 0%, transparent 70%);
+    }
+    @keyframes pulseGlow {
+      from { transform: scale(1); opacity: 0.8; }
+      to   { transform: scale(1.2); opacity: 1; }
+    }
+
+    .hero-left-content { position: relative; z-index: 1; max-width: 520px; }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.7rem;
+      font-size: 0.68rem; font-weight: 600;
+      letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--gold-dim); margin-bottom: 1.4rem;
+    }
+    .hero-eyebrow::before { content: ''; width: 28px; height: 1.5px; background: var(--gold); }
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.8rem,4.5vw,4.6rem);
+      font-weight: 600; color: var(--text-dark);
+      line-height: 1.08; letter-spacing: -0.02em;
+      margin-bottom: 1.4rem;
+    }
+    .hero-title em {
+      font-style: italic; font-weight: 400;
+      color: var(--gold-dim); display: block;
+    }
+    .hero-sub {
+      font-size: 0.97rem; color: var(--text-soft);
+      line-height: 1.85; margin-bottom: 2.5rem; max-width: 400px;
+    }
+    .hero-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 3rem; }
+
+    /* ── Search bar ── */
+    .hero-search-wrap {
+      background: var(--page-bg-soft);
+      border: 1px solid var(--border-soft);
+      border-radius: var(--radius-lg);
+      padding: 1rem 1.2rem;
+      max-width: 460px;
+    }
+    .hero-search-label { font-size: 0.65rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 0.7rem; }
+    .hero-search-row {
+      display: flex; align-items: center;
+      background: var(--page-bg);
+      border: 1.5px solid var(--border-soft);
+      border-radius: var(--radius); padding: 0.55rem 0.8rem; gap: 0.6rem;
+      margin-bottom: 0.9rem;
+    }
+    .hero-search-row svg { color: var(--text-muted); flex-shrink: 0; }
+    .hero-search-row input {
+      flex: 1; background: none; border: none; outline: none;
+      color: var(--text-dark); font-size: 0.88rem; font-family: var(--font-body);
+    }
+    .hero-search-row input::placeholder { color: var(--text-muted); }
+    .hero-search-btn {
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-bright) 100%);
+      color: var(--navy-deepest); border: none;
+      padding: 0.5rem 1.1rem; border-radius: 6px;
+      font-family: var(--font-body); font-size: 0.75rem; font-weight: 700;
+      letter-spacing: 0.05em; text-transform: uppercase;
+      cursor: pointer; transition: filter var(--transition); white-space: nowrap;
+    }
+    .hero-search-btn:hover { filter: brightness(1.1); }
+    .hero-quick-tags { display: flex; gap: 0.45rem; flex-wrap: wrap; }
+    .hero-tag {
+      font-size: 0.7rem; font-weight: 500;
+      color: var(--text-soft);
+      padding: 0.28rem 0.8rem;
+      border: 1px solid var(--border-soft);
+      border-radius: 100px; cursor: pointer;
+      transition: all var(--transition);
+    }
+    .hero-tag:hover { border-color: var(--gold); color: var(--gold-dim); }
+
+    /* ── Hero right – Ken Burns slider ── */
+    .hero-right { position: relative; overflow: hidden; }
+    .hero-slide {
+      position: absolute; inset: 0;
+      opacity: 0; transition: opacity 1s ease;
+    }
+    .hero-slide.active { opacity: 1; }
+    .hero-slide img {
+      width: 100%; height: 100%; object-fit: cover;
+      animation: kenBurns 8s ease-in-out infinite alternate;
+    }
+    @keyframes kenBurns {
+      from { transform: scale(1); }
+      to   { transform: scale(1.06); }
+    }
+    .hero-right-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(4,13,26,0.55) 0%, transparent 50%);
+    }
+    .hero-stat-pills {
+      position: absolute; bottom: 1.5rem; left: 1.5rem;
+      display: flex; gap: 0.8rem; flex-wrap: wrap;
+    }
+    .hero-stat-pill {
+      background: rgba(4,13,26,0.7);
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: var(--radius-md); padding: 0.65rem 1.1rem; text-align: center;
+    }
+    .hero-stat-pill .n {
+      font-family: var(--font-display); font-size: 1.4rem; font-weight: 700;
+      line-height: 1; color: var(--gold-pale);
+    }
+    .hero-stat-pill .l { font-size: 0.62rem; color: rgba(255,255,255,0.5); font-weight: 500; margin-top: 0.1rem; }
+    .slide-dots {
+      position: absolute; bottom: 1.5rem; right: 1.5rem;
+      display: flex; gap: 0.4rem; align-items: center;
+    }
+    .slide-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: rgba(255,255,255,0.3); cursor: pointer; transition: all var(--transition);
+    }
+    .slide-dot.active { background: var(--gold); width: 20px; border-radius: 3px; }
+
+    /* ─── STAT BAR ───────────────────────────── */
+    .stat-bar-wrap {
+      padding: 0 clamp(1rem,3vw,2.5rem);
+      transform: translateY(-1.5rem);
+      max-width: 1240px; margin: 0 auto;
+    }
+    .stat-bar {
+      background: white;
+      border: 3px solid rgba(143, 111, 23);
+      border-radius: var(--radius-lg);
+      padding: 1.6rem 2.5rem;
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      box-shadow: var(--shadow-card);
+    }
+    .stat-item { text-align: center; }
+    .stat-num {
+      font-family: var(--font-display); font-size: 2rem; font-weight: 800;
+      color: black; line-height: 1;
+    }
+    .stat-num span { font-size: 1.1rem; color: black; font-weight: 400; }
+    .stat-label { font-size: 0.7rem; color: rgb(168, 147, 27); font-weight: 900; margin-top: 0.3rem; letter-spacing: 0.05em; text-transform: uppercase; }
+
+    /* ─── BUDGET FILTER ──────────────────────── */
+    .budget-section {
+      padding: 3rem 0 4rem;
+    }
+    .budget-wrap {
+      background: var(--page-bg-soft);
+      border: 2px solid black;
+      border-radius: var(--radius-xl);
+      padding: 2.5rem clamp(1.5rem,4vw,3rem);
+    }
+    .budget-header {
+      display: flex; align-items: flex-end; justify-content: space-between;
+      flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;
+    }
+    .budget-title { font-family: var(--font-display); font-size: 2rem; font-weight: 600; color: var(--text-dark); }
+    .budget-price-display { font-family: rgb(212, 188, 48); font-size: 2.7rem; font-weight: 500; color: var(--gold-dim); }
+    .budget-controls {
+      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem 2.5rem;
+      align-items: start;
+    }
+    .filter-group label {
+      display: block; font-size: 0.67rem; font-weight: 600;
+      letter-spacing: 0.15em; text-transform: uppercase;
+      color: black; margin-bottom: 0.5rem;
+    }
+    .filter-select {
+      width: 100%; background: var(--page-bg);
+      border: 1px solid var(--border-soft); border-radius: var(--radius);
+      color: var(--text-dark); font-family: var(--font-body); font-size: 0.88rem;
+      padding: 0.65rem 1rem; appearance: none; cursor: pointer;
+      background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23c9a84c' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 0.8rem center;
+      transition: border-color var(--transition);
+    }
+    .filter-select:focus { outline: none; border-color: var(--gold-border); }
+    .filter-select option { background: var(--page-bg); color: var(--text-dark); }
+
+    /* ── Range slider ── */
+    .range-wrap { grid-column: span 3; }
+    .range-labels { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-soft); margin-bottom: 0.6rem; }
+    .range-track {
+      position: relative; height: 4px;
+      background: var(--border-soft); border-radius: 2px; margin: 0.5rem 0 0.3rem;
+    }
+    .range-fill { position: absolute; top: 0; height: 100%; background: linear-gradient(90deg, var(--gold-dim), var(--gold-bright)); border-radius: 2px; }
+    input[type=range].budget-slider {
+      width: 100%; margin: 0;
+      -webkit-appearance: none;
+      height: 4px;
+      background: transparent;
+      position: relative; z-index: 2;
+    }
+    input[type=range].budget-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 20px; height: 20px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-bright) 100%);
+      border: 2.5px solid var(--navy-deepest);
+      cursor: pointer; box-shadow: 0 0 12px rgba(201,168,76,0.5);
+      transition: transform 0.15s;
+    }
+    input[type=range].budget-slider::-webkit-slider-thumb:hover { transform: scale(1.2); }
+    .budget-footer { display: flex; justify-content: flex-end; margin-top: 1.5rem; }
+
+    /* ─── PROPERTIES SECTION ─────────────────── */
+    .props-section { padding-top: 2rem; }
+    .section-head {
+      display: flex; align-items: flex-end; justify-content: space-between;
+      gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2.5rem;
+    }
+    .filter-tabs { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+    .ftab {
+      font-size: 0.75rem; font-weight: 600; padding: 0.45rem 1.1rem;
+      border-radius: 100px; border: 1.5px solid var(--border-soft);
+      color: var(--text-soft); background: transparent; cursor: pointer;
+      transition: all var(--transition); letter-spacing: 0.04em;
+    }
+    .ftab:hover { border-color: var(--gold-border); color: var(--gold-dim); }
+    .ftab.active { background: linear-gradient(135deg, var(--gold) 0%, var(--gold-bright) 100%); color: var(--navy-bar); border-color: transparent; }
+
+    /* ── Property grid ── */
+    .props-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.8rem;
+    }
+
+    /* ── Property card ── */
+    .prop-card {
+      background: var(--page-bg);
+      border: 2px solid var(--navy);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      cursor: pointer;
+      display: block;
+      color: inherit;
+      box-shadow: var(--shadow-card);
+      transition: transform 0.4s cubic-bezier(.2,.8,.2,1), box-shadow 0.4s ease, border-color 0.4s ease;
+      opacity: 0; transform: translateY(28px);
+    }
+    .prop-card.visible { opacity: 1; transform: translateY(0); }
+    .prop-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 50px rgba(14,19,56,0.14), 0 0 0 1px rgba(201,168,76,0.3);
+      border-color: rgba(201,168,76,0.35);
+    }
+
+    .prop-img-wrap { position: relative; overflow: hidden; aspect-ratio: 1/1; display: block; }
+    .prop-img-wrap img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.7s ease;
+    }
+    .prop-card:hover .prop-img-wrap img { transform: scale(1.07); }
+    .prop-img-gradient {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(4,13,26,0.92) 0%, rgba(4,13,26,0.15) 45%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .prop-badge {
+      position: absolute; top: 1rem; left: 1rem; z-index: 2;
+      font-size: 0.64rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+      padding: 0.32rem 0.8rem; border-radius: 100px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    }
+    .prop-badge.sale { background: linear-gradient(135deg, var(--gold) 0%, var(--gold-bright) 100%); color: var(--navy-bar); }
+    .prop-badge.rent { background: rgba(255,255,255,0.92); color: var(--navy-bar); border: 1px solid rgba(14,19,56,0.2); }
+    .prop-badge.land { background: rgba(72,160,80,0.28); backdrop-filter: blur(8px); color: #8df0a4; border: 1px solid rgba(126,232,150,0.25); }
+    .prop-badge.commercial { background: rgba(140,130,255,0.25); backdrop-filter: blur(8px); color: #c2bbff; border: 1px solid rgba(180,172,255,0.3); }
+
+    .prop-fav {
+      position: absolute; top: 1rem; right: 1rem; z-index: 2;
+      width: 34px; height: 34px; border-radius: 50%;
+      background: rgba(4,13,26,0.55); backdrop-filter: blur(8px);
+      border: 1px solid rgba(201,168,76,0.25);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; transition: all var(--transition);
+    }
+    .prop-fav:hover { background: rgba(201,168,76,0.25); border-color: var(--gold); transform: scale(1.08); }
+    .prop-fav svg { transition: fill var(--transition); pointer-events: none; }
+    .prop-fav.liked svg { fill: var(--gold); stroke: var(--gold); }
+
+    .prop-featured-tag {
+      position: absolute; bottom: 0.9rem; left: 1.05rem; z-index: 2;
+      display: flex; align-items: center; gap: 0.35rem;
+      font-size: 0.68rem; font-weight: 600; letter-spacing: 0.04em;
+      color: var(--gold-pale);
+    }
+    .prop-featured-tag svg { fill: var(--gold); stroke: none; }
+
+    .prop-type-pill {
+      position: absolute; bottom: 0.9rem; right: 1.05rem; z-index: 2;
+      font-size: 0.66rem; font-weight: 600; letter-spacing: 0.03em;
+      color: rgba(255,255,255,0.75);
+    }
+
+    .prop-body { padding: 1.35rem 1.4rem 1.5rem; position: relative; }
+    .prop-location {
+      display: flex; align-items: center; gap: 0.4rem;
+      font-size: 0.7rem; font-weight: 500; letter-spacing: 0.05em;
+      text-transform: uppercase; color: var(--gold-dim); margin-bottom: 0.5rem;
+    }
+    .prop-location svg { opacity: 0.7; flex-shrink: 0; }
+    .prop-name {
+      font-family: var(--font-display); font-size: 1.25rem; font-weight: 600;
+      color: var(--text-dark); line-height: 1.25; margin-bottom: 0.9rem;
+      transition: color var(--transition);
+    }
+    .prop-card:hover .prop-name { color: var(--navy-mid); }
+    .prop-specs {
+      display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.2rem;
+    }
+    .prop-spec {
+      display: flex; align-items: center; gap: 0.45rem;
+      font-size: 0.78rem; color: var(--text-soft); font-weight: 500;
+    }
+    .prop-spec-icon {
+      display: flex; align-items: center; justify-content: center;
+      width: 24px; height: 24px; border-radius: 7px; flex-shrink: 0;
+      background: rgba(201,168,76,0.12); color: var(--gold-dim);
+    }
+    .prop-bottom {
+      display: flex; align-items: center; justify-content: space-between;
+      padding-top: 1.1rem;
+      border-top: 1px solid var(--border-soft);
+    }
+    .prop-price {
+      font-family: var(--font-display); font-size: 1.35rem; font-weight: 700;
+      color: var(--navy-bar); line-height: 1;
+    }
+    .prop-price-label { font-size: 0.65rem; color: var(--text-muted); font-weight: 400; font-family: var(--font-body); margin-top: 3px; }
+    .prop-btn {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+      color: var(--navy-deepest);
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-bright) 100%);
+      border: none; border-radius: 100px;
+      padding: 0.5rem 1.05rem; cursor: pointer;
+      transition: all var(--transition);
+      box-shadow: 0 4px 16px rgba(201,168,76,0.25);
+    }
+    .prop-btn svg { transition: transform var(--transition); }
+    .prop-card:hover .prop-btn { filter: brightness(1.08); box-shadow: 0 6px 20px rgba(201,168,76,0.4); }
+    .prop-card:hover .prop-btn svg { transform: translateX(3px); }
+
+    /* ─── SELL BAND ──────────────────────────── */
+    .sell-band {
+      background: linear-gradient(135deg, var(--navy-mid) 0%, var(--navy-light) 100%);
+      border-top: 1px solid rgba(201,168,76,0.15);
+      border-bottom: 1px solid rgba(201,168,76,0.15);
+      padding: clamp(3.5rem,7vw,5.5rem) 0; position: relative; overflow: hidden;
+    }
+    .sell-band::before {
+      content: '';
+      position: absolute; right: -100px; top: -100px;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(201,168,76,0.1) 0%, transparent 70%);
+      animation: pulseGlow 8s ease-in-out infinite alternate;
+    }
+    .sell-band-inner {
+      display: grid; grid-template-columns: 1fr auto;
+      align-items: center; gap: 2.5rem; position: relative; z-index: 1;
+    }
+    .sell-band h2 {
+      font-family: var(--font-display); font-size: clamp(1.8rem,3vw,2.8rem);
+      font-weight: 600; color: var(--white); letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 0.6rem;
+    }
+    .sell-band h2 em { font-style: italic; font-weight: 400; color: var(--gold-pale); }
+    .sell-band p { font-size: 0.9rem; color: var(--text-muted); max-width: 420px; }
+    .sell-band-actions { display: flex; gap: 0.7rem; flex-shrink: 0; flex-wrap: wrap; }
+
+    /* ─── WHY SECTION ────────────────────────── */
+    .why-section { background: var(--navy-deep); }
+    .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .why-img { position: relative; border-radius: var(--radius-xl); overflow: hidden; aspect-ratio: 4/5; }
+    .why-img img { width: 100%; height: 100%; object-fit: cover; }
+    .why-img::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, transparent 60%, rgba(4,13,26,0.5));
+    }
+    .why-img-badge {
+      position: absolute; bottom: 1.5rem; right: 1.5rem; z-index: 1;
+      background: var(--navy-mid); border: 1px solid var(--gold-border);
+      border-radius: var(--radius-lg); padding: 1.1rem 1.4rem; text-align: center;
+      box-shadow: var(--shadow-glow);
+    }
+    .why-img-badge .n { font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--gold); line-height: 1; }
+    .why-img-badge .l { font-size: 0.7rem; color: var(--text-muted); font-weight: 500; margin-top: 0.2rem; }
+    .why-features { margin-top: 2rem; display: flex; flex-direction: column; gap: 1.5rem; }
+    .why-feat { display: flex; gap: 1rem; align-items: flex-start; }
+    .why-feat-icon {
+      width: 44px; height: 44px; border-radius: var(--radius-md); flex-shrink: 0;
+      background: linear-gradient(135deg, rgba(201,168,76,0.1) 0%, rgba(201,168,76,0.04) 100%);
+      border: 1px solid rgba(201,168,76,0.2);
+      display: flex; align-items: center; justify-content: center; color: var(--gold);
+    }
+    .why-feat h4 { font-size: 0.95rem; font-weight: 600; color: var(--white); margin-bottom: 0.25rem; }
+    .why-feat p { font-size: 0.83rem; color: var(--text-muted); line-height: 1.75; }
+
+    /* ─── TESTIMONIALS ───────────────────────── */
+    .testi-section { background: var(--navy-deep); }
+    .testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2.5rem; }
+    .testi-card {
+      background: white;
+      border: 2px solid rgb(180, 145, 47);
+      border-radius: var(--radius-lg); padding: 1.8rem;
+      transition: border-color var(--transition), transform var(--transition);
+    }
+    .testi-card:hover { border-color: rgba(201,168,76,0.3); transform: translateY(-4px); }
+    .testi-stars { color: var(--gold-bright); font-size: 0.85rem; margin-bottom: 1rem; letter-spacing: 0.1em; }
+    .testi-text {
+      font-family: var(--font-display); font-size: 1rem; font-style: italic; font-weight: 300;
+      color: rgba(0, 0, 0, 0.75); line-height: 1.8; margin-bottom: 1.5rem;
+    }
+    .testi-author { display: flex; align-items: center; gap: 0.8rem; }
+    .testi-avatar {
+      width: 40px; height: 40px; border-radius: 50%;
+      background: linear-gradient(135deg, rgba(201,168,76,0.2) 0%, rgba(201,168,76,0.08) 100%);
+      border: 1.5px solid rgba(0, 0, 0);
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-display); font-size: 0.95rem; color: black; flex-shrink: 0;
+    }
+    .testi-name { font-size: 0.87rem; font-weight: 600; color: black; }
+    .testi-role { font-size: 0.72rem; color: black; }
+
+    /* ─── FOOTER ─────────────────────────────── */
+    .footer {
+      background: var(--page-bg);
+      border-top: 1px solid rgba(201,168,76,0.12);
+      padding: clamp(4rem,7vw,5rem) 0 2rem;
+    }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 3rem; margin-bottom: 3rem; }
+    .footer-logo-text { width: 20%; padding-bottom: 17px;}
+    .footer-logo-text span { color: var(--gold); }
+    .footer-brand p { font-size: 0.83rem; color: black; line-height: 1.8; max-width: 280px; }
+    .footer-social { display: flex; gap: 0.6rem; margin-top: 1.2rem; }
+    .footer-social a {
+      width: 34px; height: 34px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.7rem; font-weight: 600; color: var(--text-muted);
+      transition: all var(--transition);
+    }
+    .footer-social a:hover { background: var(--gold-glow); border-color: var(--gold-border); color: var(--gold); }
+    .footer-heading { font-size: 1rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+    .footer-links a { font-size: 0.9rem; color: black; transition: color var(--transition); }
+    .footer-links a:hover { color: var(--gold-pale); }
+    .footer-contact-item { display: flex; gap: 0.6rem; align-items: flex-start; font-size: 0.82rem; color: black; margin-bottom: 0.6rem; }
+    .footer-contact-item svg { margin-top: 3px; color: var(--gold-dim); flex-shrink: 0; }
+    .footer-bottom {
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;
+      padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .footer-bottom p { font-size: 0.78rem; color: black; }
+
+    /* ─── WHATSAPP FLOAT ─────────────────────── */
+    .wa-float {
+      position: fixed; bottom: 1.5rem; right: 1.5rem; z-index: 800;
+      width: 54px; height: 54px; border-radius: 50%;
+      background: #25D366; color: var(--white);
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+    .wa-float:hover { transform: scale(1.08); box-shadow: 0 8px 30px rgba(37,211,102,0.5); }
+
+    /* ─── SCROLL ANIMATIONS ──────────────────── */
+    .fade-up {
+      opacity: 0; transform: translateY(30px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+    .fade-in { opacity: 0; transition: opacity 0.8s ease; }
+    .fade-in.visible { opacity: 1; }
+    .stagger-1 { transition-delay: 0.1s; }
+    .stagger-2 { transition-delay: 0.2s; }
+    .stagger-3 { transition-delay: 0.3s; }
+
+    /* ─── MOBILE MENU ────────────────────────── */
+    .nav-mobile-menu {
+      display: none; flex-direction: column;
+      position: fixed; top: 72px; left: 0; right: 0;
+      background: var(--navy-deep);
+      border-bottom: 1px solid rgba(201,168,76,0.15);
+      padding: 1.2rem clamp(1rem,3vw,2.5rem) 1.5rem;
+      z-index: 899; gap: 0.6rem;
+    }
+    .nav-mobile-menu.open { display: flex; }
+    .nav-mobile-menu a { font-size: 0.9rem; color: var(--text-mid); padding: 0.4rem 0; }
+    .nav-mobile-menu .cta-mobile {
+      color: var(--gold); font-weight: 600; margin-top: 0.4rem;
+      border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.8rem;
+    }
+
+    /* ─── RESPONSIVE ─────────────────────────── */
+    @media (max-width: 1024px) {
+      .hero { grid-template-columns: 1fr; min-height: auto; }
+      .hero-right { height: 55vw; min-height: 320px; }
+      .props-grid { grid-template-columns: repeat(2, 1fr); }
+      .budget-controls { grid-template-columns: 1fr 1fr; }
+      .budget-controls .range-wrap { grid-column: span 2; }
+      .why-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .why-img { display: none; }
+      .sell-band-inner { grid-template-columns: 1fr; }
+      .testi-grid { grid-template-columns: 1fr 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+      .nav-links { display: none; }
+      .nav-contact-link { display: none; }
+      .nav-toggle { display: flex; }
+      .stat-bar { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .nav-logo {
+        width: 15%;
+      }
+      .hero-left { padding: 3rem 1.2rem; }
+      .props-grid { grid-template-columns: 1fr; }
+      .testi-grid { grid-template-columns: 1fr; }
+      .filter-tabs { display: grid; grid-template-columns: 1fr 1fr; }
+      .budget-controls { grid-template-columns: 1fr; }
+      .budget-controls .range-wrap { grid-column: span 1; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .sell-band-actions { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+<!-- ── LOADING SCREEN ── -->
+<!-- Paste this right after your <body> tag, before everything else -->
+
+<div id="loader" style="
+  position: fixed;
+  inset: 0;
+  background: var(--navy-bar);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+">
+  <img src="logo_cir.png" alt="Mosh Realty" style="
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    animation: loaderPulse 1.6s ease-in-out infinite;
+  ">
+  <div style="
+    margin-top: 28px;
+    width: 48px;
+    height: 2px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 2px;
+    overflow: hidden;
+  ">
+    <div style="
+      height: 100%;
+      width: 40%;
+      background: #B8943A;
+      border-radius: 2px;
+      animation: loaderBar 1.6s ease-in-out infinite;
+    "></div>
+  </div>
+</div>
+
+<style>
+  @keyframes loaderPulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.75; transform: scale(0.96); }
+  }
+  @keyframes loaderBar {
+    0% { transform: translateX(-100%); }
+    50% { transform: translateX(150%); }
+    100% { transform: translateX(-100%); }
+  }
+</style>
+
+<script>
+  window.addEventListener('load', () => {
+    const loader = document.getElementById('loader');
+    loader.style.opacity = '0';
+    loader.style.visibility = 'hidden';
+    // Remove from DOM after fade completes
+    setTimeout(() => loader.remove(), 500);
+  });
+</script>
+
+<!-- ── NAV ── -->
+<nav class="nav" id="mainNav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="./logo_cir.png" alt="Mosh Realty" class="nav-logo-img" style="border-radius:50%;">
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="sell-with-us.html">Sell With Us</a>
+      </div>
+    <div class="nav-right">
+      <a href="tel:+94777150066" class="nav-contact-link">+94 77 715 0066</a>
+      <a href="sell-with-us.html" class="btn-nav-cta">
+        Sell With Us
+        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="properties.html">Properties</a>
+  <a href="sell-with-us.html" class="cta-mobile">Sell With Us →</a>
+</div>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-left-content">
+      <div class="hero-eyebrow">Sri Lanka's Premier Agency</div>
+      <h1 class="hero-title">
+        Find Your Perfect
+        <em>Property</em>
+      </h1>
+      <p class="hero-sub">Exceptional homes, investment properties and land across Colombo's most prestigious addresses.</p>
+      <div class="hero-actions">
+        <a href="properties.html" class="btn-gold">Browse Properties</a>
+        <a href="sell-with-us.html" class="btn-outline">Sell With Us</a>
+      </div>
+      <div class="hero-search-wrap">
+        <div class="hero-search-label">Quick Search</div>
+        <div class="hero-search-row">
+          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input type="text" id="heroSearchInput" placeholder="Search by location or property type…">
+          <button class="hero-search-btn" onclick="doHeroSearch()">Search</button>
+        </div>
+        <div class="hero-quick-tags">
+          <span class="hero-tag" onclick="filterGo('Colombo 7')">Colombo 7</span>
+          <span class="hero-tag" onclick="filterGo('Mount Lavinia')">Mount Lavinia</span>
+          <span class="hero-tag" onclick="filterGo('Battaramulla')">Battaramulla</span>
+          <span class="hero-tag" onclick="filterGo('For Rent')">For Rent</span>
+          <span class="hero-tag" onclick="filterGo('Land')">Land</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-right" id="heroSlider">
+    <div class="hero-slide active">
+      <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1400&q=85" alt="Luxury villa" loading="eager">
+    </div>
+    <div class="hero-slide">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=85" alt="Modern apartment">
+    </div>
+    <div class="hero-slide">
+      <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1400&q=85" alt="Penthouse view">
+    </div>
+    <div class="hero-slide">
+      <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1400&q=85" alt="Luxury home">
+    </div>
+    <div class="hero-right-overlay"></div>
+    <div class="hero-stat-pills">    </div>
+    <div class="slide-dots" id="slideDots"></div>
+  </div>
+</section>
+
+<!-- ── STAT BAR ── -->
+<div class="stat-bar-wrap">
+  <div class="stat-bar">
+    <div class="stat-item">
+      <div class="stat-num">7<span> Yrs</span></div>
+      <div class="stat-label">Market Experience</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">0<span>%</span></div>
+      <div class="stat-label">Fees Upfront</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">24<span>hr</span></div>
+      <div class="stat-label">Avg. Response Time</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">500<span>K+</span></div>
+      <div class="stat-label">Buyer Network Reach</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── BUDGET FILTER ── -->
+<section class="budget-section">
+  <div class="container">
+    <div class="budget-wrap">
+      <div class="budget-header">
+        <div>
+          <div class="section-tag">Smart Search</div>
+          <div class="budget-title">Find Within Your Budget</div>
+        </div>
+        <div class="budget-price-display" id="budgetDisplay">Up to LKR 200 Mn</div>
+      </div>
+      <div class="budget-controls">
+        <div class="filter-group">
+          <label for="filterType">Property Type</label>
+          <select class="filter-select" id="filterType">
+            <option value="all">All Types</option>
+            <option value="house">House / Villa</option>
+            <option value="apartment">Apartment</option>
+            <option value="land">Land</option>
+            <option value="commercial">Commercial</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filterLocation">Location</label>
+          <select class="filter-select" id="filterLocation">
+            <option value="all">All Areas</option>
+            <option value="colombo7">Colombo 7</option>
+            <option value="colombo3">Colombo 3</option>
+            <option value="battaramulla">Battaramulla</option>
+            <option value="rajagiriya">Rajagiriya</option>
+            <option value="mountlavinia">Mount Lavinia</option>
+            <option value="nugegoda">Nugegoda</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filterBeds">Bedrooms</label>
+          <select class="filter-select" id="filterBeds">
+            <option value="any">Any</option>
+            <option value="1">1 Bedroom</option>
+            <option value="2">2 Bedrooms</option>
+            <option value="3">3 Bedrooms</option>
+            <option value="4">4+ Bedrooms</option>
+          </select>
+        <div class="filter-group">
+          <label for="filterBaths">Bathrooms</label>
+          <select class="filter-select" id="filterBaths">
+            <option value="any">Any</option>
+            <option value="1">1 Bathroom</option>
+            <option value="2">2 Bathrooms</option>
+            <option value="3">3 Bathrooms</option>
+            <option value="4">4+ Bathrooms</option>
+          </select> 
+        </div>
+        </div>
+        <div class="filter-group range-wrap">
+          <label>Max Budget</label>
+          <div style="display:flex; align-items:center; gap:1rem;">
+            <span style="font-size:0.75rem; color:var(--text-muted); white-space:nowrap;">LKR 5 Mn</span>
+            <div style="flex:1; position:relative;">
+              <div class="range-track">
+                <div class="range-fill" id="rangeFill" style="width:40%"></div>
+              </div>
+              <input type="range" class="budget-slider" id="budgetSlider" min="1" max="300" value="50" step="3"
+                style="position:absolute; top:-8px; left:0; right:0;">
+            </div>
+            <span style="font-size:0.75rem; color:var(--text-muted); white-space:nowrap;">LKR 500 Mn</span>
+          </div>
+        </div>
+      </div>
+      <div class="budget-footer">
+        <button class="btn-gold" onclick="applyBudgetFilter()">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          Search Properties
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FEATURED PROPERTIES ── -->
+<section class="section props-section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="section-tag">Featured Listings</div>
+        <h2 class="section-title">Exceptional <em>Properties</em></h2>
+      </div>
+      <div class="filter-tabs">
+        <button class="ftab active" data-f="all">All</button>
+        <button class="ftab" data-f="For Sale">For Sale</button>
+        <button class="ftab" data-f="For Rent">For Rent</button>
+        <button class="ftab" data-f="Land">Land</button>
+        <button class="ftab" data-f="Commercial">Commercial</button>
+      </div>
+    </div>
+    <div class="props-grid" id="propsGrid"></div>
+    <div style="text-align:center; margin-top:3rem;">
+      <a href="properties.html" class="btn-outline">View All Properties</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── SELL BAND ── -->
+<div class="sell-band">
+  <div class="container">
+    <div class="sell-band-inner">
+      <div>
+        <h2>Ready to Sell? List With <em>Mosh Realty</em></h2>
+        <p>Professional photography. A curated network of qualified buyers. Zero upfront cost — full-service, start to finish.</p>
+      </div>
+      <div class="sell-band-actions">
+        <a href="sell-with-us.html" class="btn-gold">Sell With Us</a>
+        <a href="tel:+94777150066" class="btn-outline">Talk to Us</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── WHY MOSH ── -->
+<section class="section why-section">
+  <div class="container">
+    <div class="why-grid">
+      <div class="why-img fade-in">
+        <img src="https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?w=900&q=80" alt="Interior">
+        <div class="why-img-badge"><div class="n">4</div><div class="l">Years of Trust</div></div>
+      </div>
+      <div>
+        <div class="section-tag">Why Choose Us</div>
+        <h2 class="section-title" style="color: white;">The Mosh Realty<br><em>Difference</em></h2>
+        <p style="font-size:0.93rem; color:var(--text-muted); line-height:1.85; margin-top:0.8rem; max-width:440px;">We go beyond transactions — delivering a bespoke experience that matches exceptional clients with exceptional properties.</p>
+        <div class="why-features">
+          <div class="why-feat fade-up">
+            <div class="why-feat-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <h4>Verified Listings Only</h4>
+              <p>Every property is personally verified — clear title, accurate measurements, no hidden surprises.</p>
+            </div>
+          </div>
+          <div class="why-feat fade-up stagger-1">
+            <div class="why-feat-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M3 21v-2a7 7 0 0114 0v2"/></svg>
+            </div>
+            <div>
+              <h4>Dedicated Property Advisor</h4>
+              <p>One expert contact from first viewing to final handover — responsive and entirely on your side.</p>
+            </div>
+          </div>
+          <div class="why-feat fade-up stagger-2">
+            <div class="why-feat-icon">
+              <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div>
+              <h4>Deep Market Intelligence</h4>
+              <p>Precise knowledge of Colombo's micro-markets ensures you buy at the right price — and sell at the best.</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:2.2rem;"><a href="properties.html" class="btn-gold">Explore Our Listings</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ── -->
+<section class="section testi-section">
+  <div class="container">
+    <div style="text-align:center;">
+      <div class="section-tag" style="justify-content:center;">Client Stories</div>
+      <h2 class="section-title" style="color: white;">Real Results, <em>Real People</em></h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card fade-up">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Mosh Realty found us our dream home in Colombo 7. Their network of off-market listings is unmatched."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">RS</div>
+          <div><div class="testi-name">Rajan S.</div><div class="testi-role">Purchased — Colombo 7</div></div>
+        </div>
+      </div>
+      <div class="testi-card fade-up stagger-1">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Sold our property at 12% above asking price. The photography and listing strategy was exceptional."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">DP</div>
+          <div><div class="testi-name">Dilanka P.</div><div class="testi-role">Sold — Battaramulla</div></div>
+        </div>
+      </div>
+      <div class="testi-card fade-up stagger-2">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"As an overseas Sri Lankan, I needed complete trust. Mosh handled everything professionally and transparently — seamless."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">NA</div>
+          <div><div class="testi-name">Nirosha A.</div><div class="testi-role">Investment — Rajagiriya</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-text"><img src="./logo.jpg" alt="logo"></div>
+        <p>Sri Lanka's most trusted luxury real estate agency. We match exceptional properties with exceptional people.</p>
+        <div class="footer-social">
+          <a href="https://wa.me/94777150066" target="_blank"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 31C23.732 31 30 24.732 30 17C30 9.26801 23.732 3 16 3C8.26801 3 2 9.26801 2 17C2 19.5109 2.661 21.8674 3.81847 23.905L2 31L9.31486 29.3038C11.3014 30.3854 13.5789 31 16 31ZM16 28.8462C22.5425 28.8462 27.8462 23.5425 27.8462 17C27.8462 10.4576 22.5425 5.15385 16 5.15385C9.45755 5.15385 4.15385 10.4576 4.15385 17C4.15385 19.5261 4.9445 21.8675 6.29184 23.7902L5.23077 27.7692L9.27993 26.7569C11.1894 28.0746 13.5046 28.8462 16 28.8462Z" fill="#BFC8D0"></path> <path d="M28 16C28 22.6274 22.6274 28 16 28C13.4722 28 11.1269 27.2184 9.19266 25.8837L5.09091 26.9091L6.16576 22.8784C4.80092 20.9307 4 18.5589 4 16C4 9.37258 9.37258 4 16 4C22.6274 4 28 9.37258 28 16Z" fill="url(#paint0_linear_87_7264)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 30C23.732 30 30 23.732 30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 18.5109 2.661 20.8674 3.81847 22.905L2 30L9.31486 28.3038C11.3014 29.3854 13.5789 30 16 30ZM16 27.8462C22.5425 27.8462 27.8462 22.5425 27.8462 16C27.8462 9.45755 22.5425 4.15385 16 4.15385C9.45755 4.15385 4.15385 9.45755 4.15385 16C4.15385 18.5261 4.9445 20.8675 6.29184 22.7902L5.23077 26.7692L9.27993 25.7569C11.1894 27.0746 13.5046 27.8462 16 27.8462Z" fill="white"></path> <path d="M12.5 9.49989C12.1672 8.83131 11.6565 8.8905 11.1407 8.8905C10.2188 8.8905 8.78125 9.99478 8.78125 12.05C8.78125 13.7343 9.52345 15.578 12.0244 18.3361C14.438 20.9979 17.6094 22.3748 20.2422 22.3279C22.875 22.2811 23.4167 20.0154 23.4167 19.2503C23.4167 18.9112 23.2062 18.742 23.0613 18.696C22.1641 18.2654 20.5093 17.4631 20.1328 17.3124C19.7563 17.1617 19.5597 17.3656 19.4375 17.4765C19.0961 17.8018 18.4193 18.7608 18.1875 18.9765C17.9558 19.1922 17.6103 19.083 17.4665 19.0015C16.9374 18.7892 15.5029 18.1511 14.3595 17.0426C12.9453 15.6718 12.8623 15.2001 12.5959 14.7803C12.3828 14.4444 12.5392 14.2384 12.6172 14.1483C12.9219 13.7968 13.3426 13.254 13.5313 12.9843C13.7199 12.7145 13.5702 12.305 13.4803 12.05C13.0938 10.953 12.7663 10.0347 12.5 9.49989Z" fill="white"></path> <defs> <linearGradient id="paint0_linear_87_7264" x1="26.5" y1="7" x2="4" y2="28" gradientUnits="userSpaceOnUse"> <stop stop-color="#5BD066"></stop> <stop offset="1" stop-color="#27B43E"></stop> </linearGradient> </defs> </g></svg></a>
+          <a href="https://www.instagram.com/moshrealty/" target="_blank"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint0_radial_87_7153)"></rect><rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint1_radial_87_7153)"></rect><rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint2_radial_87_7153)"></rect><path d="M23 10.5C23 11.3284 22.3284 12 21.5 12C20.6716 12 20 11.3284 20 10.5C20 9.67157 20.6716 9 21.5 9C22.3284 9 23 9.67157 23 10.5Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21ZM16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M6 15.6C6 12.2397 6 10.5595 6.65396 9.27606C7.2292 8.14708 8.14708 7.2292 9.27606 6.65396C10.5595 6 12.2397 6 15.6 6H16.4C19.7603 6 21.4405 6 22.7239 6.65396C23.8529 7.2292 24.7708 8.14708 25.346 9.27606C26 10.5595 26 12.2397 26 15.6V16.4C26 19.7603 26 21.4405 25.346 22.7239C24.7708 23.8529 23.8529 24.7708 22.7239 25.346C21.4405 26 19.7603 26 16.4 26H15.6C12.2397 26 10.5595 26 9.27606 25.346C8.14708 24.7708 7.2292 23.8529 6.65396 22.7239C6 21.4405 6 19.7603 6 16.4V15.6ZM15.6 8H16.4C18.1132 8 19.2777 8.00156 20.1779 8.0751C21.0548 8.14674 21.5032 8.27659 21.816 8.43597C22.5686 8.81947 23.1805 9.43139 23.564 10.184C23.7234 10.4968 23.8533 10.9452 23.9249 11.8221C23.9984 12.7223 24 13.8868 24 15.6V16.4C24 18.1132 23.9984 19.2777 23.9249 20.1779C23.8533 21.0548 23.7234 21.5032 23.564 21.816C23.1805 22.5686 22.5686 23.1805 21.816 23.564C21.5032 23.7234 21.0548 23.8533 20.1779 23.9249C19.2777 23.9984 18.1132 24 16.4 24H15.6C13.8868 24 12.7223 23.9984 11.8221 23.9249C10.9452 23.8533 10.4968 23.7234 10.184 23.564C9.43139 23.1805 8.81947 22.5686 8.43597 21.816C8.27659 21.5032 8.14674 21.0548 8.0751 20.1779C8.00156 19.2777 8 18.1132 8 16.4V15.6C8 13.8868 8.00156 12.7223 8.0751 11.8221C8.14674 10.9452 8.27659 10.4968 8.43597 10.184C8.81947 9.43139 9.43139 8.81947 10.184 8.43597C10.4968 8.27659 10.9452 8.14674 11.8221 8.0751C12.7223 8.00156 13.8868 8 15.6 8Z" fill="white"></path><defs><radialGradient id="paint0_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)"><stop stop-color="#B13589"></stop><stop offset="0.79309" stop-color="#C62F94"></stop><stop offset="1" stop-color="#8A3AC8"></stop></radialGradient><radialGradient id="paint1_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)"><stop stop-color="#E0E8B7"></stop><stop offset="0.444662" stop-color="#FB8A2E"></stop><stop offset="0.71474" stop-color="#E2425C"></stop><stop offset="1" stop-color="#E2425C" stop-opacity="0"></stop></radialGradient><radialGradient id="paint2_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)"><stop offset="0.156701" stop-color="#406ADC"></stop><stop offset="0.467799" stop-color="#6A45BE"></stop><stop offset="1" stop-color="#6A45BE" stop-opacity="0"></stop></radialGradient></defs></g></svg></a>
+          <a href="https://www.facebook.com/moshrealty.lk/"><svg viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Facebook-color</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Color-" transform="translate(-200.000000, -160.000000)" fill="#4460A0"> <path d="M225.638355,208 L202.649232,208 C201.185673,208 200,206.813592 200,205.350603 L200,162.649211 C200,161.18585 201.185859,160 202.649232,160 L245.350955,160 C246.813955,160 248,161.18585 248,162.649211 L248,205.350603 C248,206.813778 246.813769,208 245.350955,208 L233.119305,208 L233.119305,189.411755 L239.358521,189.411755 L240.292755,182.167586 L233.119305,182.167586 L233.119305,177.542641 C233.119305,175.445287 233.701712,174.01601 236.70929,174.01601 L240.545311,174.014333 L240.545311,167.535091 C239.881886,167.446808 237.604784,167.24957 234.955552,167.24957 C229.424834,167.24957 225.638355,170.625526 225.638355,176.825209 L225.638355,182.167586 L219.383122,182.167586 L219.383122,189.411755 L225.638355,189.411755 L225.638355,208 L225.638355,208 Z" id="Facebook"> </path> </g> </g> </g></svg></a>  
+        </div>
+      </div>
+      <div>
+        <div class="footer-heading">Properties</div>
+        <ul class="footer-links">
+          <li><a href="properties.html">All Listings</a></li>
+          <li><a href="properties.html?f=For+Sale">For Sale</a></li>
+          <li><a href="properties.html?f=For+Rent">For Rent</a></li>
+          <li><a href="properties.html?f=Land">Land</a></li>
+          <li><a href="properties.html?f=Commercial">Commercial</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">Company</div>
+        <ul class="footer-links">
+          <li></li>
+          <li><a href="sell-with-us.html">Sell With Us</a></li>
+          <li></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">Contact</div>
+        <div class="footer-contact-item"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Courtyard Wing, Cinnamon Grand</div>
+        <div class="footer-contact-item"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12 19.79 19.79 0 011.65 3.38 2 2 0 013.62 1.22h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+94 77 715 0066</div>
+        <div class="footer-contact-item"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>admin.moshrealty@gmail.lk</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Mosh Realty (Pvt) Ltd. All rights reserved.</p>
+      <p>Luxury · Integrity · Results</p>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/94777150066" class="wa-float" target="_blank" aria-label="WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- ── PROPERTIES DATA ── -->
+<script src="js/properties.js"></script>
+<script>
+// PROPERTIES comes from js/properties.js — the same catalog used by every
+// other page on the site, so cards here link to real, matching property pages.
+
+function badgeClassFor(status) {
+  if (status === 'For Sale') return 'sale';
+  if (status === 'For Rent') return 'rent';
+  if (status === 'Commercial') return 'commercial';
+  return 'land';
+}
+
+function renderPropCard(p, i) {
+  const specs = [];
+  if (p.beds) specs.push(`<span class="prop-spec"><span class="prop-spec-icon"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>${p.beds} Beds</span>`);
+  if (p.baths) specs.push(`<span class="prop-spec"><span class="prop-spec-icon"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12V4a1 1 0 011-1h5a1 1 0 011 1v3M2 20h20M20 20v-8a2 2 0 00-2-2h-6"/></svg></span>${p.baths} Baths</span>`);
+  if (p.sqft) specs.push(`<span class="prop-spec"><span class="prop-spec-icon"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg></span>${p.sqft}${p.beds ? ' sq.ft' : ''}</span>`);
+
+  return `
+    <a href="property-${p.id}.html" class="prop-card" style="transition-delay:${i * 0.07}s">
+      <div class="prop-img-wrap">
+        <img src="${p.image}" alt="${p.name}" loading="lazy">
+        <div class="prop-img-gradient"></div>
+        <span class="prop-badge ${badgeClassFor(p.status)}">${p.status}</span>
+        <div class="prop-fav" onclick="event.preventDefault();event.stopPropagation();this.classList.toggle('liked')">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+        </div>
+        ${p.featured ? `<div class="prop-featured-tag"><svg width="11" height="11" viewBox="0 0 24 24"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 6.9L12 17.3 5.7 20.8l1.7-6.9L2 9.2l7.1-.6z"/></svg>Featured</div>` : ''}
+        <div class="prop-type-pill">${p.type}</div>
+      </div>
+      <div class="prop-body">
+        <div class="prop-location">
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          ${p.location}
+        </div>
+        <div class="prop-name">${p.name}</div>
+        <div class="prop-specs">${specs.join('')}</div>
+        <div class="prop-bottom">
+          <div>
+            <div class="prop-price">${p.price}</div>
+            <div class="prop-price-label">${p.status === 'For Rent' ? 'Monthly rent' : 'Asking price'}</div>
+          </div>
+          <span class="prop-btn">View Details
+            <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </span>
+        </div>
+      </div>
+    </a>`;
+}
+
+// Grid rendering
+let activeFilter = 'all';
+const grid = document.getElementById('propsGrid');
+
+function renderGrid() {
+  const list = activeFilter === 'all'
+    ? PROPERTIES.slice(0, 6)
+    : PROPERTIES.filter(p => p.status === activeFilter).slice(0, 6);
+  grid.innerHTML = list.length
+    ? list.map((p, i) => renderPropCard(p, i)).join('')
+    : '<p style="color:var(--text-muted);padding:2rem 0;">No properties match this filter.</p>';
+
+  // Animate in
+  requestAnimationFrame(() => {
+    grid.querySelectorAll('.prop-card').forEach(el => {
+      requestAnimationFrame(() => el.classList.add('visible'));
+    });
+  });
+}
+
+document.querySelectorAll('.ftab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.ftab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.f;
+    grid.querySelectorAll('.prop-card').forEach(el => el.classList.remove('visible'));
+    setTimeout(renderGrid, 50);
+  });
+});
+
+renderGrid();
+
+// Hero search
+function doHeroSearch() {
+  const q = document.getElementById('heroSearchInput').value.trim();
+  location.href = q ? `properties.html?q=${encodeURIComponent(q)}` : 'properties.html';
+}
+document.getElementById('heroSearchInput').addEventListener('keydown', e => { if (e.key === 'Enter') doHeroSearch(); });
+function filterGo(q) { location.href = `properties.html?q=${encodeURIComponent(q)}`; }
+
+// Budget slider
+const slider = document.getElementById('budgetSlider');
+const display = document.getElementById('budgetDisplay');
+const fill = document.getElementById('rangeFill');
+function updateSlider() {
+  const val = parseInt(slider.value);
+  const pct = ((val - 5) / (500 - 5)) * 100;
+  fill.style.width = pct + '%';
+  if (val >= 500) display.textContent = 'LKR 500 Mn+';
+  else if (val >= 100) display.textContent = `Up to LKR ${val} Mn`;
+  else display.textContent = `Up to LKR ${val} Mn`;
+}
+slider.addEventListener('input', updateSlider);
+updateSlider();
+
+// Budget/type/location search → properties listing (type maps to property "type", location to a text search)
+function applyBudgetFilter() {
+  const typeMap = { house: 'House', apartment: 'Apartment', land: 'Land', commercial: 'Commercial' };
+  const locMap = { colombo7: 'Colombo 7', colombo3: 'Colombo 3', battaramulla: 'Battaramulla', rajagiriya: 'Rajagiriya', mountlavinia: 'Mount Lavinia', nugegoda: 'Nugegoda' };
+  const type = document.getElementById('filterType').value;
+  const loc = document.getElementById('filterLocation').value;
+  const beds = document.getElementById('filterBeds').value;
+  const budget = parseInt(document.getElementById('budgetSlider').value);
+  const params = new URLSearchParams();
+  const q = locMap[loc] || typeMap[type] || '';
+  if (q) params.set('q', q);
+  if (beds && beds !== 'any') params.set('beds', beds);
+  const baths = document.getElementById('filterBaths').value;
+  if (baths && baths !== 'any') params.set('baths', baths);
+  if (budget < 500) params.set('budget', budget);
+  const qs = params.toString();
+  location.href = qs ? `properties.html?${qs}` : 'properties.html';
+}
+
+// Hero slider
+const slides = document.querySelectorAll('.hero-slide');
+const dotsWrap = document.getElementById('slideDots');
+let current = 0;
+slides.forEach((_, i) => {
+  const d = document.createElement('div');
+  d.className = 'slide-dot' + (i === 0 ? ' active' : '');
+  d.onclick = () => goSlide(i);
+  dotsWrap.appendChild(d);
+});
+function goSlide(n) {
+  slides[current].classList.remove('active');
+  dotsWrap.children[current].classList.remove('active');
+  current = n;
+  slides[current].classList.add('active');
+  dotsWrap.children[current].classList.add('active');
+}
+setInterval(() => goSlide((current + 1) % slides.length), 4500);
+
+// Nav scroll
+window.addEventListener('scroll', () => {
+  document.getElementById('mainNav').classList.toggle('scrolled', window.scrollY > 30);
+}, { passive: true });
+
+// Mobile nav
+document.getElementById('navToggle').addEventListener('click', () => {
+  const isOpen = document.getElementById('mobileMenu').classList.toggle('open');
+  document.body.style.overflow = isOpen ? 'hidden' : '';
+});
+document.querySelectorAll('#mobileMenu a').forEach(a => {
+  a.addEventListener('click', () => {
+    document.getElementById('mobileMenu').classList.remove('open');
+    document.body.style.overflow = '';
+  });
+});
+
+// Intersection observer for scroll animations
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.12 });
+document.querySelectorAll('.fade-up, .fade-in').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
