@@ -193,7 +193,7 @@ const PROPERTIES = [
     id: 'havelock-4br',
     status: 'For Rent',
     badgeClass: 'badge-rent',
-    price: 'LKR 700k Mn',
+    price: 'LKR 700k',
     name: 'Havelock City',
     location: 'Colombo 2',
     beds: 4, baths: 3, sqft: '2200', furnished: false,
