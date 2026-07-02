@@ -136,7 +136,7 @@ const PROPERTIES = [
     status: 'For Sale',
     badgeClass: 'badge-sale',
     price: 'LKR 67 Mn',
-    name: 'The Residencies: Kotte ICC',
+    name: 'The Residencies by Kotte ICC',
     location: '27 Thalapathpitiya Rd, Nugegoda',
     beds: 2, baths: 2, sqft: '823', furnished: false,
     type: 'Apartment',
