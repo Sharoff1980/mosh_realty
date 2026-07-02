@@ -12,7 +12,7 @@ const PROPERTIES = [
     price: 'LKR 220 Mn',
     name: '606 The Address',
     location: 'Colombo 7',
-    beds: 3, baths: 3, sqft: '2,425',
+    beds: 3, baths: 3, sqft: '2,425', furnished: false,
     type: 'Apartment',
     featured: true,
     image: './Images/606-address/1.jpeg',
@@ -37,7 +37,7 @@ const PROPERTIES = [
     price: 'USD 4000',
     name: 'Altair Apartments',
     location: 'Colombo 2',
-    beds: 3, baths: 3, sqft: '2086',
+    beds: 3, baths: 3, sqft: '2086', furnished: true,
     type: 'Apartment',
     featured: true,
     image: './Images/altair/1.jpeg',
@@ -75,7 +75,7 @@ const PROPERTIES = [
     price: 'USD 2250',
     name: 'The Grand Ward Place',
     location: 'Colombo 7',
-    beds: 3, baths: 2, sqft: '1428',
+    beds: 3, baths: 2, sqft: '1428', furnished: true,
     type: 'Apartment',
     featured: true,
     image: './Images/the-grand-ward/1.jpg',
@@ -111,7 +111,7 @@ const PROPERTIES = [
     price: 'USD 1800',
     name: 'The Tri-zen by John Keells Properties.',
     location: 'Colombo 2',
-    beds: 2, baths: 2, sqft: '750',
+    beds: 2, baths: 2, sqft: '750', furnished: true,
     type: 'Apartment',
     featured: true,
     image: './Images/trizen-02-dulith/1.jpg',
@@ -138,7 +138,7 @@ const PROPERTIES = [
     price: 'LKR 67 Mn',
     name: 'The Residencies: Kotte ICC',
     location: '27 Thalapathpitiya Rd, Nugegoda',
-    beds: 2, baths: 2, sqft: '823',
+    beds: 2, baths: 2, sqft: '823', furnished: false,
     type: 'Apartment',
     featured: true,
     image: './Images/the-residence/1.jpeg',
@@ -172,7 +172,7 @@ const PROPERTIES = [
     price: 'USD 1800 ',
     name: 'The Tri-zen by John Keells Properties.',
     location: 'Colombo 2',
-    beds: 2, baths: 2, sqft: '775',
+    beds: 2, baths: 2, sqft: '775', furnished: true,
     type: 'Apartment',
     featured: true,
     image: './Images/trizen-01/1.jpeg',
@@ -196,7 +196,7 @@ const PROPERTIES = [
     price: 'LKR 200 Mn',
     name: '606 The Address',
     location: 'Colombo 3',
-    beds: 3, baths: 3, sqft: '1608',
+    beds: 3, baths: 3, sqft: '1608', furnished: false,
     type: 'Apartment',
     featured: false,
     image: './Images/606-address-lower/1(1).jpeg',
@@ -236,7 +236,7 @@ const PROPERTIES = [
     price: 'LKR 72 Mn',
     name: 'Prime Residencies: Siebel Avenue',
     location: 'Colombo 6',
-    beds: 3, baths: 3, sqft: '1608',
+    beds: 3, baths: 3, sqft: '1608', furnished: false,
     type: 'Apartment',
     featured: true,
     image: './Images/prime-siebel/1.jpeg',
@@ -268,7 +268,7 @@ const PROPERTIES = [
     price: 'LKR 360K ',
     name: 'Trillium Havelock Residencies',
     location: 'Colombo 05',
-    beds: 2, baths: 2, sqft: '790',
+    beds: 2, baths: 2, sqft: '790', furnished: true,
     type: 'Apartment',
     featured: false,
     image: './Images/trillium/1.jpeg',
@@ -298,7 +298,7 @@ const PROPERTIES = [
     price: 'LKR 90 Mn',
     name: '606 The Address',
     location: 'Colombo 3',
-    beds: 2, baths: 2, sqft: '1055',
+    beds: 2, baths: 2, sqft: '1055', furnished: false,
     type: 'Apartment',
     featured: false,
     image: './Images/606-address-anupamma-small/1(2).jpeg',
@@ -325,7 +325,7 @@ const PROPERTIES = [
     price: 'LKR 195k ',
     name: 'The Grand Avenue',
     location: 'Sri Saranankara Place, Dehiwala',
-    beds: 3, baths: 2, sqft: '1399',
+    beds: 3, baths: 2, sqft: '1399', furnished: false,
     type: 'Apartment',
     featured: false,
     image: './Images/the-grand-avenue/1.jpeg',
@@ -351,7 +351,7 @@ const PROPERTIES = [
     price: 'LKR 95 Mn',
     name: '606 The Address',
     location: 'Colombo 3',
-    beds: 2, baths: 2, sqft: '1190',
+    beds: 2, baths: 2, sqft: '1190', furnished: false,
     type: 'Apartment',
     featured: false,
     image: './Images/606-address-anupamma-big/1(1).jpeg',
@@ -383,7 +383,7 @@ const PROPERTIES = [
     price: 'LKR 385 Mn',
     name: '3-Storey Bulding',
     location: 'Colombo 7',
-    beds: 9, baths: 13, sqft: '9885',
+    beds: 9, baths: 13, sqft: '9885', furnished: true,
     type: 'Building',
     featured: true,
     image: './Images/3storey-building/1.jpeg',
@@ -419,7 +419,7 @@ const PROPERTIES = [
     price: 'LKR 450k ',
     name: 'House Rent - Viharamahadevi Park',
     location: 'Colombo 7',
-    beds: 2, baths: 1, sqft: '1110',
+    beds: 2, baths: 1, sqft: '1110', furnished: true,
     type: 'House',
     featured: false,
     image: './Images/flat-cinnamon/1.jpg',
@@ -449,7 +449,7 @@ const PROPERTIES = [
     price: 'LKR 2.5M ',
     name: 'Commercial Space - Col 5',
     location: 'Colombo 7',
-    beds: 8, baths: 2, sqft: '4000',
+    beds: 8, baths: 2, sqft: '4000', furnished: true,
     type: 'Commercial',
     featured: false,
     image: './Images/col5-commercial/1.jpg',
@@ -488,7 +488,7 @@ const PROPERTIES = [
     price: 'USD 3.75 Mn ',
     name: 'Hotel Rent',
     location: 'Colombo 3',
-    beds: 12, baths: 12, sqft: '6100',
+    beds: 12, baths: 12, sqft: '6100', furnished: true,
     type: 'Apartment',
     featured: true,
     image: './Images/hotel-rent/1.jpeg',
@@ -528,8 +528,12 @@ function renderPropCard(p, rootPrefix = '') {
        <div class="prop-spec"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/></svg>${p.sqft} sqft</div>`
     : `<div class="prop-spec"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/></svg>${p.sqft}</div>`;
 
+  const furnishedSpec = typeof p.furnished === 'boolean'
+    ? `<div class="prop-spec"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20 9V6a2 2 0 00-2-2H6a2 2 0 00-2 2v3M4 9a2 2 0 00-2 2v4h20v-4a2 2 0 00-2-2M4 9h16M2 19h20M4 15v4M20 15v4"/></svg>${p.furnished ? 'Furnished' : 'Unfurnished'}</div>`
+    : '';
+
   return `<a href="${rootPrefix}property-${p.id}.html" class="prop-card">
-    <div class="prop-card-img">
+       <div class="prop-card-img">
       <img src="${p.image}" alt="${p.name}" loading="lazy">
       <span class="prop-badge ${p.badgeClass}">${p.status}</span>
     </div>
@@ -541,7 +545,7 @@ function renderPropCard(p, rootPrefix = '') {
         ${p.location}
       </div>
       <div class="prop-divider"></div>
-      <div class="prop-specs">${specs}</div>
+      <div class="prop-specs">${specs}${furnishedSpec}</div>
     </div>
   </a>`;
 }
