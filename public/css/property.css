@@ -442,6 +442,8 @@ body.lb-active .prop-sidebar {
   margin-bottom: 2rem;
   font-family: var(--font-body);
   font-weight: 400;
+  white-space: pre-line;   /* add this line */
+
 }
 .feat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem; }
 .feat-item {

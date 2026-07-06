@@ -26,7 +26,19 @@ const PROPERTIES = [
       './Images/606-address/8.jpeg',
       
     ],
-    description: 'A spacious 2,425 sq. ft. luxury 3-bedroom, 3-bathroom apartment at 606 The Address, Colombo 03, offering breathtaking panoramic ocean views stretching from Colpetty to Port City, complemented by a modern pantry, high-end bathroom fittings, and 2 dedicated parking spaces. Ideally situated in the heart of Colombo 03, the building features an in-house coffee shop and supermarket, with leading restaurants, essential amenities, and fuel stations just moments away — a rare opportunity to own a residence that perfectly combines stunning views, comfort, and convenience....',
+    description: `Luxury 3 Bedroom Apartment for Sale | 606 The Address | Colombo 03
+
+Enjoy breathtaking panoramic ocean views stretching from Colpetty to Port City from this spacious and elegantly appointed residence.
+
+• 3 Bedrooms | 3 Bathrooms
+• 2,425 sq. ft. of premium living space
+• Modern pantry and high-end bathroom fittings
+• 2 dedicated parking spaces
+
+Conveniently located in the heart of Colombo 03 with a coffee shop and supermarket within the building, while leading restaurants, essential amenities, and fuel stations are just moments away.
+
+A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.
+`,
     features: ["Pool", "Gym", "Parking", "Lift", "Play Area", "Clubhouse", "Backup Power", "Garden", "Restaurant", "Supermarket", "Pharmacy", "Community Hall", "Playground", "Balcony"],
     whatsapp: '+94777150066'
   },
@@ -64,7 +76,18 @@ const PROPERTIES = [
       './Images/altair/21.jpeg',
       './Images/altair/22.jpeg',
     ],
-    description: 'Spacious 3BR, 3-bath furnished apartment for rent in the prestigious Altair towers, Altair Avenue, Colombo 02. Offering 2,086 sq.ft. of elegant living space with access to a stunning pool, gym, and spa, this residence delivers refined city living in one of Colombos most coveted addresses.',
+    description: `Luxury 3 Bedroom Apartment for Rent | Altair Towers | Altair Avenue, Colombo 02
+
+Experience refined city living in one of Colombo's most coveted addresses, with this spacious, fully furnished residence offering elegant interiors and access to premium building amenities.
+
+- 3 Bedrooms | 3 Bathrooms
+- 2,086 sq. ft. of elegant living space
+- Fully furnished
+- Access to pool, gym, and spa
+
+Located in the heart of Colombo 02, Altair Towers offers a prestigious address combined with world-class facilities for effortless everyday living.
+
+A rare opportunity to rent a luxury apartment that perfectly combines comfort, style, and an unbeatable location.`,
     features: ["Pool", "Gym", "Parking", "Lift"],
     whatsapp: '+94777150066'
   },
@@ -100,7 +123,19 @@ const PROPERTIES = [
       './Images/the-grand-ward/20.jpg',
       './Images/the-grand-ward/21.jpg',
     ],
-    description: 'Description: This fully furnished 1,428 sq. ft. apartment (MRA29) is available for rent at The Grand, located on Ward Place, Colombo 07. The residence offers 3 bedrooms and 2 bathrooms, complemented by a stunning sea view and dedicated parking, with the maintenance fee borne by the owner.',
+    description: `Luxury 3 Bedroom Apartment for Rent | The Grand | Ward Place, Colombo 07
+
+Enjoy stunning sea views from this spacious and fully furnished residence, ideally located in the heart of Colombo 07.
+
+- 3 Bedrooms | 2 Bathrooms
+- 1,428 sq. ft. of elegant living space
+- Fully furnished
+- Dedicated parking space
+- Maintenance fee borne by the owner
+
+Situated on Ward Place, The Grand offers a prestigious address with easy access to Colombo's leading schools, restaurants, and essential amenities.
+
+A rare opportunity to rent a beautifully appointed apartment that combines comfort, convenience, and breathtaking views.`,
     features: ["Pool", "Gym", "Play Area", "Lift", "Parking", "Backup Power", "Garden", "Jacuzzi", "Party Hall", "Security", "Wifi", "Laundry", "Restaurant", "Children Play Area", "Balcony", "Jogging Track", "Rooftop Garden"],
     whatsapp: '+94777150066',
   },
@@ -127,7 +162,19 @@ const PROPERTIES = [
       './Images/trizen-02-dulith/10.jpg',
       
     ],
-    description: ' This fully furnished 750 sq. ft. apartment (MRA26) is available for rent at Trizen, located in Colombo 02. The residence offers 2 bedrooms and 2 bathrooms, complemented by 1 dedicated parking slot, along with access to a gym and swimming pool.',
+    description: `Modern 2 Bedroom Apartment for Rent | Trizen | Colombo 02
+
+A fully furnished and thoughtfully designed residence offering comfortable city living with access to premium building amenities.
+
+- 2 Bedrooms | 2 Bathrooms
+- 750 sq. ft. of living space
+- Fully furnished
+- 1 dedicated parking slot
+- Access to gym and swimming pool
+
+Ideally located in Colombo 02, Trizen places you close to the city's business hubs, restaurants, and everyday conveniences.
+
+A great opportunity to rent a stylish, well-appointed apartment in one of Colombo's most accessible neighborhoods.`,
     features: ["Gym", "Lift", "Play Area", "Parking", "Clubhouse", "Backup Power", "Garden", "Pool", "Security", "Wifi", "Laundry", "Restaurant", "Sports Facilities", "Jogging Track", "Rooftop Garden", "Children Play Area", "Community Hall"],
     whatsapp: '+94777150066'
   },
@@ -161,7 +208,18 @@ const PROPERTIES = [
       './Images/the-residence/15.jpeg',
       './Images/the-residence/16.jpeg',
     ],
-    description: 'This 823 sq.ft, 2-bedroom, 2-bathroom unfurnished apartment is available for sale at The Residencies Kotte by ICC (Ref- MRH01), listed at LKR 67 million. The unit comes with air conditioning, and residents have access to building amenities including a swimming pool, lift, generator, gym, and security.',
+    description: `2 Bedroom Apartment for Sale | The Residencies Kotte by ICC | Kotte
+
+An unfurnished residence offering a comfortable layout and access to a full range of building amenities, ideal for modern city living.
+
+- 2 Bedrooms | 2 Bathrooms
+- 823 sq. ft. of living space
+- Air conditioning
+- Price: LKR 67 million
+
+Residents enjoy access to a swimming pool, gym, lift, generator, and round-the-clock security within the building.
+
+A great opportunity to own a well-appointed apartment at The Residencies Kotte by ICC.`,
     features: ['Swimming Pool', 'Gym', 'Lift', 'Generator', 'AC', '1 Car Parking'],
     whatsapp: '+94777150066',
   },
@@ -185,7 +243,19 @@ const PROPERTIES = [
       './Images/trizen-01/7.jpeg',
       './Images/trizen-01/8.jpeg',
     ],
-    description: 'This fully furnished 2-bedroom, 2-bathroom apartment is available for rent at TRI-ZEN by John Keells Properties, located in Colombo 02 (Ref- MRA17). Spanning 775 sq.ft, the unit comes with air conditioning, and residents have access to building amenities including a swimming pool, lift, generator, gym, and security.A Refundable security deposit of 2 months and an advance rent of 4 months required.',
+    description: `Modern 2 Bedroom Apartment for Rent | TRI-ZEN by John Keells Properties | Colombo 02
+
+A fully furnished residence offering a comfortable layout and access to a full range of premium building amenities in the heart of Colombo 02.
+
+- 2 Bedrooms | 2 Bathrooms
+- 775 sq. ft. of living space
+- Fully furnished
+- Air conditioning
+- Access to swimming pool, gym, lift, generator, and security
+
+Payment terms: Refundable security deposit of 2 months and advance rent of 4 months required.
+
+A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by John Keells Properties.`,
     features: ["Gym", "Lift", "Play Area", "Parking", "Clubhouse", "Backup Power", "Garden", "Pool", "Security", "Wifi", "Laundry", "Restaurant", "Sports Facilities", "Jogging Track", "Rooftop Garden", "Children Play Area", "Community Hall"],
     whatsapp: '+94777150066',
   },
@@ -216,7 +286,18 @@ const PROPERTIES = [
       './Images/havelock-4br/14.jpeg',
       './Images/havelock-4br/15.jpeg',
     ],
-    description: 'This furnished 4-bedroom, 3-bathroom apartment is located in Havelock Park Tower, Colombo 05, offering residents a well-appointed living space paired with an exceptional range of amenities. The building features a swimming pool, gym, and squash courts, along with the convenience of an on-site launderette. Residents also enjoy direct access to Havelock City Malls dining and retail spaces, making everyday errands and leisure effortlessly close to home.',
+    description: `Spacious 4 Bedroom Apartment | Havelock Park Tower | Colombo 05
+
+A well-appointed, fully furnished residence offering comfortable living paired with an exceptional range of building amenities.
+
+- 4 Bedrooms | 3 Bathrooms
+- Fully furnished
+- Access to swimming pool, gym, and squash courts
+- On-site launderette
+
+Direct access to Havelock City Mall's dining and retail spaces makes everyday errands and leisure effortlessly close to home.
+
+A rare opportunity to enjoy refined living in one of Colombo 05's most convenient addresses.`,
     features: ["Pool", "Gym", "Lift", "Garden", "Security", "Parking", "Community Hall", "Supermarket"],
     whatsapp: '+94777150066',
   },
@@ -256,7 +337,18 @@ const PROPERTIES = [
       './Images/606-address-lower/23.jpg',
       './Images/606-address-lower/24.jpg',
     ],
-    description: 'A spacious 2,425 sq. ft. luxury 3-bedroom, 3-bathroom apartment at 606 The Address, Colombo 03, offering breathtaking panoramic ocean views stretching from Colpetty to Port City, complemented by a modern pantry, high-end bathroom fittings, and 2 dedicated parking spaces. Ideally situated in the heart of Colombo 03, the building features an in-house coffee shop and supermarket, with leading restaurants, essential amenities, and fuel stations just moments away — a rare opportunity to own a residence that perfectly combines stunning views, comfort, and convenience....',
+    description: `Luxury 3 Bedroom Apartment for Sale | 606 The Address | Colombo 03
+
+Enjoy breathtaking panoramic ocean views stretching from Colpetty to Port City from this spacious and elegantly appointed residence.
+
+• 3 Bedrooms | 3 Bathrooms
+• 1,608 sq. ft. of premium living space
+• Modern pantry and high-end bathroom fittings
+• 2 dedicated parking spaces
+
+Conveniently located in the heart of Colombo 03 with a coffee shop and supermarket within the building, while leading restaurants, essential amenities, and fuel stations are just moments away.
+
+A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.`,
     features: ["Pool", "Gym", "Parking", "Lift", "Play Area", "Clubhouse", "Backup Power", "Garden", "Restaurant", "Supermarket", "Pharmacy", "Community Hall", "Playground", "Balcony"],
     whatsapp: '+94777150066',
   },
@@ -288,7 +380,21 @@ const PROPERTIES = [
       './Images/prime-siebel/15.jpeg',
       './Images/prime-siebel/16.jpeg',
     ],
-    description: 'Located on the 1st floor of Prime Tower, this unit features a main hall with a balcony, a fully air-conditioned 72" living space, and a master bedroom with an attached bathroom, alongside 2 additional rooms sharing a common bathroom and a second hall with its own balcony. Practical conveniences include a kitchen with a dedicated back area for laundry, a servant room with an outside washroom, cabinet accessories throughout, heater facilities in all washrooms, and 1 dedicated parking slot',
+    description: `Spacious 3 Bedroom Apartment | Prime Tower
+
+Located on the 1st floor, this well-designed residence offers a comfortable layout with generous living spaces and thoughtful practical features throughout.
+
+- 3 Bedrooms | 2 Bathrooms (Master with attached bathroom)
+- Main hall with balcony
+- Fully air-conditioned living space
+- Second hall with its own balcony
+- Kitchen with dedicated laundry area
+- Servant room with outside washroom
+- Cabinet accessories throughout
+- Heater facilities in all washrooms
+- 1 dedicated parking slot
+
+A well-planned residence offering comfort, functionality, and everyday convenience at Prime Tower.`,
     features: ["1 Parking Slot", "Master Bedroom with Attached Bathroom", "Servant Room with Washroom", "Balcony", "Fully Air Conditioned", "Heater Facilities", "Cabinet Accessories"],
     whatsapp: '+94777150066',
   },
@@ -318,7 +424,17 @@ const PROPERTIES = [
       './Images/trillium/13.jpeg',
       './Images/trillium/14.jpeg',
     ],
-    description: 'This fully furnished 790 sq. ft. apartment (MRA31) is available for rent at Trillium Havelock Residences, located in Colombo 05. The residence offers 2 bedrooms and 2 bathrooms, complemented by dedicated parking, along with access to a swimming pool, gym, and round-the-clock security.',
+    description: `Modern 2 Bedroom Apartment for Rent | Trillium Havelock Residences | Colombo 05
+
+A fully furnished residence offering a comfortable layout and access to premium building amenities in a sought-after Colombo 05 location.
+
+- 2 Bedrooms | 2 Bathrooms
+- 790 sq. ft. of living space
+- Fully furnished
+- Dedicated parking
+- Access to swimming pool, gym, and round-the-clock security
+
+A great opportunity to rent a stylish, well-appointed apartment at Trillium Havelock Residences.`,
     features: ["Dedicated Parking", "Swimming Pool", "Gym", "24/7 Security"],
     whatsapp: '+94777150066',
   },
@@ -345,7 +461,18 @@ const PROPERTIES = [
       './Images/606-address-anupamma-small/9.jpeg',
       './Images/606-address-anupamma-small/10.jpeg',
     ],
-    description: 'A spacious 1,190 sq. ft. luxury 2-bedroom, 2-bathroom apartment at 606 The Address, Colombo 03, offering breathtaking panoramic ocean views stretching from Colpetty to Port City, complemented by a modern pantry, high-end bathroom fittings, and 1 dedicated parking spaces. Ideally situated in the heart of Colombo 03, the building features an in-house coffee shop and supermarket, with leading restaurants, essential amenities, and fuel stations just moments away — a rare opportunity to own a residence that perfectly combines stunning views, comfort, and convenience....',
+    description: `Luxury 2 Bedroom Apartment for Sale | 606 The Address | Colombo 03
+
+Enjoy breathtaking panoramic ocean views stretching from Colpetty to Port City from this spacious and elegantly appointed residence.
+
+• 2 Bedrooms | 2 Bathrooms
+• 1,055 sq. ft. of premium living space
+• Modern pantry and high-end bathroom fittings
+• 2 dedicated parking spaces
+
+Conveniently located in the heart of Colombo 03 with a coffee shop and supermarket within the building, while leading restaurants, essential amenities, and fuel stations are just moments away.
+
+A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.`,
     features: ["Pool", "Gym", "Parking", "Lift", "Play Area", "Clubhouse", "Backup Power", "Garden", "Restaurant", "Supermarket", "Pharmacy", "Community Hall", "Playground", "Balcony"],
     whatsapp: '+94777150066',
   },
@@ -371,7 +498,18 @@ const PROPERTIES = [
       './Images/the-grand-avenue/9.jpeg',
       './Images/the-grand-avenue/10.jpeg'
     ],
-    description: 'This 3-bedroom, 2-bathroom apartment is available for rent at The Grand Avenue, located at Sri Saranankara Place, Dehiwala. Spanning 1,399 sq ft, the unit includes a maids room with washroom and an open rooftop area, along with 24/7 security and a backup generator for uninterrupted power. It offers easy access to key locations.',
+    description: `Spacious 3 Bedroom Apartment for Rent | The Grand Avenue | Sri Saranankara Place, Dehiwala
+
+A well-appointed residence offering generous living space and practical features, ideally located with easy access to key locations.
+
+- 3 Bedrooms | 2 Bathrooms
+- 1,399 sq. ft. of living space
+- Maid's room with washroom
+- Open rooftop area
+- 24/7 security
+- Backup generator for uninterrupted power
+
+A great opportunity to rent a comfortable, well-located apartment at The Grand Avenue.`,
     features: ['Lift', 'Generator', '1-Vehicle Car Park', 'Full AC', 'Maids Room & Washroom'],
     whatsapp: '+94777150066',
   },
@@ -403,7 +541,18 @@ const PROPERTIES = [
       './Images/606-address-big/9.jpeg',
     
     ],
-    description: 'A spacious 1,190 sq. ft. luxury 2-bedroom, 2-bathroom apartment at 606 The Address, Colombo 03, offering breathtaking panoramic ocean views stretching from Colpetty to Port City, complemented by a modern pantry, high-end bathroom fittings, and 1 dedicated parking spaces. Ideally situated in the heart of Colombo 03, the building features an in-house coffee shop and supermarket, with leading restaurants, essential amenities, and fuel stations just moments away — a rare opportunity to own a residence that perfectly combines stunning views, comfort, and convenience....',
+    description: `Luxury 2 Bedroom Apartment for Sale | 606 The Address | Colombo 03
+
+Enjoy breathtaking panoramic ocean views stretching from Colpetty to Port City from this spacious and elegantly appointed residence.
+
+• 2 Bedrooms | 2 Bathrooms
+• 1,190 sq. ft. of premium living space
+• Modern pantry and high-end bathroom fittings
+• 2 dedicated parking spaces
+
+Conveniently located in the heart of Colombo 03 with a coffee shop and supermarket within the building, while leading restaurants, essential amenities, and fuel stations are just moments away.
+
+A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.`,
     features: ["Pool", "Gym", "Parking", "Lift", "Play Area", "Clubhouse", "Backup Power", "Garden", "Restaurant", "Supermarket", "Pharmacy", "Community Hall", "Playground", "Balcony"],
     whatsapp: '+94777150066',
   },
@@ -439,7 +588,22 @@ const PROPERTIES = [
       './Images/3storey-building/22.jpeg',
       './Images/3storey-building/23.jpeg',
     ],
-    description: 'This furnished property spans 9,885 sqft and offers 9 rooms (3 per floor) along with 13 bathrooms in total, comprising 4 main bathrooms plus a maids bathroom on each floor and a watchmans bathroom on the ground floor. It is fully air-conditioned except for the kitchen, and each bedroom features a built-in wardrobe. Additional amenities include a swimming pool, solar panel, lift, generator, and parking for 4 vehicles.',
+    description: `Spacious 9 Bedroom Furnished Property
+
+A grand, fully furnished residence spread across multiple floors, offering generous living spaces and an exceptional range of amenities throughout.
+
+- 9 Bedrooms (3 per floor) | 13 Bathrooms total
+  (4 main bathrooms, plus a maid's bathroom on each floor and a watchman's bathroom on the ground floor)
+- 9,885 sq. ft. of living space
+- Fully furnished
+- Fully air-conditioned (except kitchen)
+- Built-in wardrobes in every bedroom
+- Swimming pool
+- Solar panel system
+- Lift and generator
+- Parking for 4 vehicles
+
+A rare opportunity to own an expansive, well-equipped property offering comfort, luxury, and space for the whole family.`,
     features: ['Swimming Pool', 'Solar Panel', 'Lift', 'Generator', '4-Vehicle Car Park', 'Built-In Wardrobes', 'Full AC', 'Furnished'],
     whatsapp: '+94777150066',
   },
@@ -469,7 +633,20 @@ const PROPERTIES = [
       './Images/flat-cinnamon/13.jpg',
       './Images/flat-cinnamon/14.jpg',
     ],
-    description: ' This unfurnished 1,110 sq. ft. apartment/flat (MRA03) is available for rent or lease in Cinnamon Gardens, Colombo 07, near Viharamahadevi Park, making it ideal for either residential or commercial use. It features 2 rooms and 1 bathroom, along with a separate entrance, dedicated parking for 1 vehiclee, and a ground-floor reception area.',
+    description: `2 Room Apartment/Flat for Rent or Lease | Cinnamon Gardens, Colombo 07
+
+Ideally located near Viharamahadevi Park, this unfurnished unit offers a versatile layout suited for either residential or commercial use.
+
+- 2 Rooms | 1 Bathroom
+- 1,110 sq. ft. of space
+- Unfurnished
+- Separate entrance
+- Dedicated parking for 1 vehicle
+- Ground-floor reception area
+
+Conveniently situated in the heart of Cinnamon Gardens, close to key landmarks and everyday amenities.
+
+A versatile opportunity to rent or lease a well-located space in one of Colombo 07's most prestigious neighborhoods.`,
     features: ['1 Car Park'],
     whatsapp: '+94777150066',
   },
@@ -508,7 +685,25 @@ const PROPERTIES = [
       './Images/col5-commercial/22.jpg',
       
     ],
-    description: 'This spacious property comprises 5 bedrooms upstairs — 2 with connecting balconies, 1 with an individual balcony, and 2 without balconies — along with a common bathroom on the upper floor. The ground floor offers 3 additional rooms, a common kitchen, a common bathroom, a meeting room, and a main office space, making it a versatile layout suited for both residential and office use.',
+    description: `Spacious 8 Bedroom Property | Residential or Office Use
+
+A versatile, multi-level property offering a flexible layout suited for both residential and office purposes.
+
+Upper Floor:
+- 5 Bedrooms
+  - 2 bedrooms with connecting balconies
+  - 1 bedroom with an individual balcony
+  - 2 bedrooms without balconies
+- Common bathroom
+
+Ground Floor:
+- 3 Additional rooms
+- Common kitchen
+- Common bathroom
+- Meeting room
+- Main office space
+
+A rare opportunity to own or lease a versatile property offering ample space for both living and working needs.`,
     features: ["5 Bedrooms", "3 Additional Rooms", "Common Kitchen", "2 Common Bathrooms", "Meeting Room", "Main Office", "Balcony"],
     whatsapp: '+94777150066',
   },
@@ -543,7 +738,16 @@ const PROPERTIES = [
       './Images/hotel-rent/18.jpeg',
       './Images/hotel-rent/19.jpeg',
     ],
-    description: 'This furnished 12-room hotel property (MRH05) is available for rent at Kreation Hotel, located in Colombo 03, offering 12 bathrooms with all rooms equipped with air conditioning and hot water.',
+    description: `12 Room Hotel Property for Rent | Kreation Hotel | Colombo 03
+
+A fully furnished hotel property offering a well-equipped layout, ideal for hospitality operations in a prime Colombo 03 location.
+
+- 12 Rooms | 12 Bathrooms
+- Fully furnished
+- Air conditioning in all rooms
+- Hot water in all rooms
+
+A great opportunity to lease a ready-to-operate hotel property in one of Colombo's most sought-after commercial areas.`,
     features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
     whatsapp: '+94777150066',
   },
