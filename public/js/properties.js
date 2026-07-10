@@ -308,7 +308,7 @@ A rare opportunity to enjoy refined living in one of Colombo 05's most convenien
     price: 'LKR 200 Mn',
     name: '606 The Address',
     location: 'Colombo 3',
-    beds: 3, baths: 3, sqft: '1608', furnished: false,
+    beds: 3, baths: 3, sqft: '1608', furnished: true,
     type: 'Apartment',
     featured: false,
     image: './Images/606-address-lower/1(1).jpeg',
