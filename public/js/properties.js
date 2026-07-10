@@ -557,6 +557,45 @@ A rare opportunity to own a luxury apartment that perfectly combines stunning vi
     whatsapp: '+94777150066',
   },
   {
+    id: 'altair-01',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 149 Mn',
+    name: 'Altair Apartment',
+    location: 'Colombo 3',
+    beds: 3, baths: 2, sqft: '1627', furnished: false,
+    type: 'Apartment',
+    featured: false,
+    image: './Images/altair-01/1.jpeg',
+    gallery: [
+      './Images/altair-01/2.jpeg',
+      './Images/altair-01/3.jpeg',
+      './Images/altair-01/4.jpeg',
+      './Images/altair-01/5.jpeg',
+      './Images/altair-01/6.jpeg',
+      './Images/altair-01/7.jpeg',
+      './Images/altair-01/8.jpeg',
+      './Images/altair-01/9.jpeg',
+      './Images/altair-01/10.jpeg',
+      './Images/altair-01/11.jpeg',
+      './Images/altair-01/12.jpeg',
+    ],
+    description: `Luxury 3 Bedroom Apartment for Sale | Altair | Colombo 02
+
+Enjoy stunning city views from this spacious and elegantly appointed residence, ideally positioned on a mid floor of Altair's Vertical Tower along Sir James Pieris Mawatha.
+
+- 3 Bedrooms | 2 Bathrooms
+- 1,627 sq. ft. of unfurnished living space
+- Maid's room with attached bathroom
+- Access to swimming pool, gym, spa, and play area
+
+Conveniently located in the heart of Colombo 02, close to leading restaurants, shopping, and essential amenities, with easy access to the rest of the city.
+
+A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.`,
+    features: [ "3 Bedrooms", "2 Bathrooms", "Maid's Room with Bathroom", "Mid Floor", "1,627 Sq.ft.", "Unfurnished", "Vertical Tower - Type E", "Swimming Pool", "Gym", "Spa", "Play Area", "City View"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: '3storey-buildings',
     status: 'For Sale',
     badgeClass: 'badge-sale',
@@ -658,7 +697,7 @@ A versatile opportunity to rent or lease a well-located space in one of Colombo 
     name: 'Commercial Space - Col 5',
     location: 'Colombo 7',
     beds: 8, baths: 2, sqft: '4000', furnished: true,
-    type: 'Commercial',
+    type: 'commercial',
     featured: false,
     image: './Images/col5-commercial/1.jpg',
     gallery: [
