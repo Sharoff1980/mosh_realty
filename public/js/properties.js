@@ -578,7 +578,6 @@ A rare opportunity to own a luxury apartment that perfectly combines stunning vi
       './Images/altair-01/9.jpeg',
       './Images/altair-01/10.jpeg',
       './Images/altair-01/11.jpeg',
-      './Images/altair-01/12.jpeg',
     ],
     description: `Luxury 3 Bedroom Apartment for Sale | Altair | Colombo 02
 
