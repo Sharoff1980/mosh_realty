@@ -695,7 +695,7 @@ A versatile opportunity to rent or lease a well-located space in one of Colombo 
     name: 'Commercial Space - Col 5',
     location: 'Colombo 7',
     beds: 8, baths: 2, sqft: '4000', furnished: true,
-    type: 'commercial',
+    type: 'Commercial',
     featured: false,
     image: './Images/col5-commercial/1.jpg',
     gallery: [
