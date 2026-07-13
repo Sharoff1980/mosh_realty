@@ -752,7 +752,7 @@ A rare opportunity to own or lease a versatile property offering ample space for
     name: 'Hotel Rent',
     location: 'Colombo 3',
     beds: 12, baths: 12, sqft: '6100', furnished: true,
-    type: 'Apartment',
+    type: 'Villa',
     featured: true,
     image: './Images/hotel-rent/1.jpeg',
     gallery: [
