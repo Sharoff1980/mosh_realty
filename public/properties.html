@@ -366,6 +366,16 @@
                 <option value="4">4+</option>
               </select>
             </div>
+
+            <div class="filter-group">
+              <div class="filter-group-label">Furnishing</div>
+              <select class="filter-sel" id="furnishedSel" onchange="applyFilters()">
+                <option value="">Any</option>
+                <option value="yes">Furnished</option>
+                <option value="no">Unfurnished</option>
+              </select>
+            </div>
+
             <div class="filter-actions">
               <button class="clear-btn" onclick="clearFilters()">Clear</button>
               <button class="apply-btn" onclick="applyFilters()">Apply Filters</button>
@@ -448,6 +458,7 @@
         const minBed   = document.getElementById("bedsSel").value ? parseInt(document.getElementById("bedsSel").value) : null;
         const minBath  = document.getElementById("bathsSel").value ? parseInt(document.getElementById("bathsSel").value) : null;
         const q        = document.getElementById("searchInput").value.toLowerCase();
+        const furnished = document.getElementById("furnishedSel").value;
         const maxBudgetMn = window._urlBudget || null;
         const minBedsUrl  = window._urlBeds   || null;
 
@@ -460,7 +471,8 @@
           let budgetOk = true;
           if (maxBudgetMn) { const n = parseFloat((p.price||'').replace(/[^\d.]/g,'')); budgetOk = isNaN(n) || n <= maxBudgetMn; }
           const bedsOk = !minBedsUrl || p.beds == null || p.beds >= minBedsUrl;
-          return ms && mt && mb && mbath && mq && budgetOk && bedsOk;
+          const mf = !furnished || (furnished === "yes" ? p.furnished === true : p.furnished === false);
+          return ms && mt && mb && mbath && mq && budgetOk && bedsOk && mf;
         });
 
         if (document.getElementById("sortSel").value === "az")
@@ -474,6 +486,7 @@
         document.getElementById("bedsSel").value = "";
         document.getElementById("bathsSel").value = "";
         document.getElementById("searchInput").value = "";
+        document.getElementById("furnishedSel").value = "";
         window._urlBudget = null;
         window._urlBeds = null;
         current = [...PROPERTIES];
