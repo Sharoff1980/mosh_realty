@@ -293,9 +293,9 @@ A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by Jo
       './Images/park-residence/20.jpeg',
     ],
     description: `Spacious 4 Bedroom Apartment | Park Residencies | Colombo
-A generously sized 2200 sqft residence offering three air-conditioned rooms and a comfortable layout, ideal for families seeking space and convenience in the heart of Colombo.
+A generously sized 2390 sqft residence offering three air-conditioned rooms and a comfortable layout, ideal for families seeking space and convenience in the heart of Colombo.
 
-4 Bedrooms | 3 Bathrooms (3 AC)
+4 Bedrooms | 3 Bathrooms
 Unfurnished
 Parking slot available
 Access to swimming pool and gym facilities
