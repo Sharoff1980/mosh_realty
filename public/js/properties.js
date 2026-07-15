@@ -260,6 +260,52 @@ A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by Jo
     whatsapp: '+94777150066',
   },
   {
+    id: 'park-heights',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 180 Mn',
+    name: 'Havelock City',
+    location: 'Colombo 5',
+    beds: 4, baths: 3, sqft: '2200', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/park-residence/1(1).jpeg',
+    gallery: [
+      './Images/park-residence/1.jpeg',
+      './Images/park-residence/2.jpeg',
+      './Images/park-residence/3.jpeg',
+      './Images/park-residence/4.jpeg',
+      './Images/park-residence/5.jpeg',
+      './Images/park-residence/6.jpeg',
+      './Images/park-residence/7.jpeg',
+      './Images/park-residence/8.jpeg',
+      './Images/park-residence/9.jpeg',
+      './Images/park-residence/10.jpeg',
+      './Images/park-residence/11.jpeg',
+      './Images/park-residence/12.jpeg',
+      './Images/park-residence/13.jpeg',
+      './Images/park-residence/14.jpeg',
+      './Images/park-residence/15.jpeg',
+      './Images/park-residence/16.jpeg',
+      './Images/park-residence/17.jpeg',
+      './Images/park-residence/18.jpeg',
+      './Images/park-residence/19.jpeg',
+      './Images/park-residence/20.jpeg',
+    ],
+    description: `Spacious 4 Bedroom Apartment | Park Residencies | Colombo
+A generously sized 2200 sqft residence offering three air-conditioned rooms and a comfortable layout, ideal for families seeking space and convenience in the heart of Colombo.
+
+4 Bedrooms | 3 Bathrooms (3 AC)
+Unfurnished
+Parking slot available
+Access to swimming pool and gym facilities
+Modern kitchen with high-quality fittings
+
+Enjoy stunning Colombo city views from home, with schools, supermarkets, and public transport all just moments away.`,
+    features: ["Security", "Parking", "Gym Facilities", "Unfurnished"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'havelock-4br',
     status: 'For Rent',
     badgeClass: 'badge-rent',
