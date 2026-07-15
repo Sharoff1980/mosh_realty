@@ -264,7 +264,7 @@ A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by Jo
     status: 'For Sale',
     badgeClass: 'badge-sale',
     price: 'LKR 180 Mn',
-    name: 'Havelock City',
+    name: 'Park Heights',
     location: 'Colombo 5',
     beds: 4, baths: 3, sqft: '2200', furnished: true,
     type: 'Apartment',
