@@ -909,6 +909,7 @@
 </div>
 
 <!-- ── BUDGET FILTER ── -->
+<!--
 <section class="budget-section">
   <div class="container">
     <div class="budget-wrap">
@@ -986,8 +987,7 @@
     </div>
   </div>
 </section>
-
-<!-- ── FEATURED PROPERTIES ── -->
+-->
 <section class="section props-section">
   <div class="container">
     <div class="section-head">
@@ -1250,7 +1250,7 @@ function doHeroSearch() {
 }
 document.getElementById('heroSearchInput').addEventListener('keydown', e => { if (e.key === 'Enter') doHeroSearch(); });
 function filterGo(q) { location.href = `properties.html?q=${encodeURIComponent(q)}`; }
-
+/*
 // Budget slider
 const slider = document.getElementById('budgetSlider');
 const display = document.getElementById('budgetDisplay');
@@ -1284,6 +1284,7 @@ function applyBudgetFilter() {
   const qs = params.toString();
   location.href = qs ? `properties.html?${qs}` : 'properties.html';
 }
+*/
 
 // Hero slider
 const slides = document.querySelectorAll('.hero-slide');
