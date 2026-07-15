@@ -266,7 +266,7 @@ A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by Jo
     price: 'LKR 175 Mn',
     name: 'Park Heights',
     location: 'Colombo 5',
-    beds: 4, baths: 3, sqft: '2390', furnished: true,
+    beds: 4, baths: 3, sqft: '2390', furnished: false,
     type: 'Apartment',
     featured: true,
     image: './Images/park-residence/1(1).jpeg',
