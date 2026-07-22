@@ -140,45 +140,6 @@ A rare opportunity to rent a beautifully appointed apartment that combines comfo
     whatsapp: '+94777150066',
   },
   {
-    id: 'trizen-02-dulith',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'USD 1800',
-    name: 'The Tri-zen by John Keells Properties.',
-    location: 'Colombo 2',
-    beds: 2, baths: 2, sqft: '750', furnished: true,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/trizen-02-dulith/1.jpg',
-    gallery: [
-      './Images/trizen-02-dulith/2.jpg',
-      './Images/trizen-02-dulith/3.jpg',
-      './Images/trizen-02-dulith/4.jpg',
-      './Images/trizen-02-dulith/5.jpg',
-      './Images/trizen-02-dulith/6.jpg',
-      './Images/trizen-02-dulith/7.jpg',
-      './Images/trizen-02-dulith/8.jpg',
-      './Images/trizen-02-dulith/9.jpg',
-      './Images/trizen-02-dulith/10.jpg',
-      
-    ],
-    description: `Modern 2 Bedroom Apartment for Rent | Trizen | Colombo 02
-
-A fully furnished and thoughtfully designed residence offering comfortable city living with access to premium building amenities.
-
-- 2 Bedrooms | 2 Bathrooms
-- 750 sq. ft. of living space
-- Fully furnished
-- 1 dedicated parking slot
-- Access to gym and swimming pool
-
-Ideally located in Colombo 02, Trizen places you close to the city's business hubs, restaurants, and everyday conveniences.
-
-A great opportunity to rent a stylish, well-appointed apartment in one of Colombo's most accessible neighborhoods.`,
-    features: ["Gym", "Lift", "Play Area", "Parking", "Clubhouse", "Backup Power", "Garden", "Pool", "Security", "Wifi", "Laundry", "Restaurant", "Sports Facilities", "Jogging Track", "Rooftop Garden", "Children Play Area", "Community Hall"],
-    whatsapp: '+94777150066'
-  },
-  {
     id: 'kotte-apartment-residence',
     status: 'For Sale',
     badgeClass: 'badge-sale',
