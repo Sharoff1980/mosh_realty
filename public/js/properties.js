@@ -755,7 +755,7 @@ A rare opportunity to own or lease a versatile property offering ample space for
     id: 'hotel-rent',
     status: 'For Rent',
     badgeClass: 'badge-rent',
-    price: 'USD 3.75 Mn ',
+    price: 'LKR 3.75 Mn ',
     name: 'Hotel Rent',
     location: 'Colombo 3',
     beds: 12, baths: 12, sqft: '6100', furnished: true,
