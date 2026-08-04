@@ -289,7 +289,7 @@ document.getElementById('detailDesc').textContent = prop.description;
 // Badge
 const badge = document.getElementById('mainBadge');
 badge.textContent = prop.status;
-badge.className = 'prop-badge ' + (prop.status === 'For Sale' ? 'sale' : prop.status === 'For Rent' ? 'rent' : prop.status === 'Commercial' ? 'commercial' : 'land');
+badge.className = 'prop-badge ' + badgeClassFor(prop.status);
 
 // ══════════════════════════════════
 // GALLERY — Airbnb-style mosaic

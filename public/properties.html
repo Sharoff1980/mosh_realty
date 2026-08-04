@@ -450,7 +450,7 @@
     <script src="js/properties.js"></script>
     <script src="js/main.js"></script>
     <script>
-      let current = [...PROPERTIES];
+      let current = getActiveProperties();
 
       function applyFilters() {
         const status   = document.getElementById("statusSel").value;
@@ -489,7 +489,7 @@
         document.getElementById("furnishedSel").value = "";
         window._urlBudget = null;
         window._urlBeds = null;
-        current = [...PROPERTIES];
+        current = getActiveProperties();
         render();
       }
 

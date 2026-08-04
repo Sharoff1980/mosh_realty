@@ -92,54 +92,6 @@ A rare opportunity to rent a luxury apartment that perfectly combines comfort, s
     whatsapp: '+94777150066'
   },
   {
-    id: 'the-grand-ward',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'USD 2250',
-    name: 'The Grand Ward Place',
-    location: 'Colombo 7',
-    beds: 3, baths: 2, sqft: '1428', furnished: true,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/the-grand-ward/1.jpg',
-    gallery: [
-      './Images/the-grand-ward/2.jpg',
-      './Images/the-grand-ward/3.jpg',
-      './Images/the-grand-ward/4.jpg',
-      './Images/the-grand-ward/5.jpg',
-      './Images/the-grand-ward/6.jpg',
-      './Images/the-grand-ward/7.jpg',
-      './Images/the-grand-ward/9.jpg',
-      './Images/the-grand-ward/10.jpg',
-      './Images/the-grand-ward/7.jpg',
-      './Images/the-grand-ward/11.jpg',
-      './Images/the-grand-ward/12.jpg',
-      './Images/the-grand-ward/13.jpg',
-      './Images/the-grand-ward/14.jpg',
-      './Images/the-grand-ward/15.jpg',
-      './Images/the-grand-ward/16.jpg',
-      './Images/the-grand-ward/17.jpg',
-      './Images/the-grand-ward/18.jpg',
-      './Images/the-grand-ward/20.jpg',
-      './Images/the-grand-ward/21.jpg',
-    ],
-    description: `Luxury 3 Bedroom Apartment for Rent | The Grand | Ward Place, Colombo 07
-
-Enjoy stunning sea views from this spacious and fully furnished residence, ideally located in the heart of Colombo 07.
-
-- 3 Bedrooms | 2 Bathrooms
-- 1,428 sq. ft. of elegant living space
-- Fully furnished
-- Dedicated parking space
-- Maintenance fee borne by the owner
-
-Situated on Ward Place, The Grand offers a prestigious address with easy access to Colombo's leading schools, restaurants, and essential amenities.
-
-A rare opportunity to rent a beautifully appointed apartment that combines comfort, convenience, and breathtaking views.`,
-    features: ["Pool", "Gym", "Play Area", "Lift", "Parking", "Backup Power", "Garden", "Jacuzzi", "Party Hall", "Security", "Wifi", "Laundry", "Restaurant", "Children Play Area", "Balcony", "Jogging Track", "Rooftop Garden"],
-    whatsapp: '+94777150066',
-  },
-  {
     id: 'kotte-apartment-residence',
     status: 'For Sale',
     badgeClass: 'badge-sale',
@@ -267,48 +219,6 @@ Enjoy stunning Colombo city views from home, with schools, supermarkets, and pub
     whatsapp: '+94777150066',
   },
   {
-    id: 'havelock-4br',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'LKR 700k',
-    name: 'Havelock City',
-    location: 'Colombo 2',
-    beds: 4, baths: 3, sqft: '2200', furnished: true,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/havelock-4br/1.jpeg',
-    gallery: [
-      './Images/havelock-4br/2.jpeg',
-      './Images/havelock-4br/3.jpeg',
-      './Images/havelock-4br/4.jpeg',
-      './Images/havelock-4br/5.jpeg',
-      './Images/havelock-4br/6.jpeg',
-      './Images/havelock-4br/7.jpeg',
-      './Images/havelock-4br/8.jpeg',
-      './Images/havelock-4br/9.jpeg',
-      './Images/havelock-4br/10.jpeg',
-      './Images/havelock-4br/11.jpeg',
-      './Images/havelock-4br/12.jpeg',
-      './Images/havelock-4br/13.jpeg',
-      './Images/havelock-4br/14.jpeg',
-      './Images/havelock-4br/15.jpeg',
-    ],
-    description: `Spacious 4 Bedroom Apartment | Havelock Park Tower | Colombo 05
-
-A well-appointed, fully furnished residence offering comfortable living paired with an exceptional range of building amenities.
-
-- 4 Bedrooms | 3 Bathrooms
-- Fully furnished
-- Access to swimming pool, gym, and squash courts
-- On-site launderette
-
-Direct access to Havelock City Mall's dining and retail spaces makes everyday errands and leisure effortlessly close to home.
-
-A rare opportunity to enjoy refined living in one of Colombo 05's most convenient addresses.`,
-    features: ["Pool", "Gym", "Lift", "Garden", "Security", "Parking", "Community Hall", "Supermarket"],
-    whatsapp: '+94777150066',
-  },
-  {
     id: '606-address-2',
     status: 'For Sale',
     badgeClass: 'badge-sale',
@@ -403,46 +313,6 @@ Located on the 1st floor, this well-designed residence offers a comfortable layo
 
 A well-planned residence offering comfort, functionality, and everyday convenience at Prime Tower.`,
     features: ["1 Parking Slot", "Master Bedroom with Attached Bathroom", "Servant Room with Washroom", "Balcony", "Fully Air Conditioned", "Heater Facilities", "Cabinet Accessories"],
-    whatsapp: '+94777150066',
-  },
-  {
-    id: 'trillium-col5',
-    status: 'Rented',
-    badgeClass: 'badge-rent',
-    price: 'LKR 360K ',
-    name: 'Trillium Havelock Residencies',
-    location: 'Colombo 05',
-    beds: 2, baths: 2, sqft: '790', furnished: true,
-    type: 'Apartment',
-    featured: false,
-    image: './Images/trillium/1.jpeg',
-    gallery: [
-      './Images/trillium/2.jpeg',
-      './Images/trillium/3.jpeg',
-      './Images/trillium/4.jpeg',
-      './Images/trillium/5.jpeg',
-      './Images/trillium/6.jpeg',
-      './Images/trillium/7.jpeg',
-      './Images/trillium/8.jpeg',
-      './Images/trillium/9.jpeg',
-      './Images/trillium/10.jpeg',
-      './Images/trillium/11.jpeg',
-      './Images/trillium/12.jpeg',
-      './Images/trillium/13.jpeg',
-      './Images/trillium/14.jpeg',
-    ],
-    description: `Modern 2 Bedroom Apartment for Rent | Trillium Havelock Residences | Colombo 05
-
-A fully furnished residence offering a comfortable layout and access to premium building amenities in a sought-after Colombo 05 location.
-
-- 2 Bedrooms | 2 Bathrooms
-- 790 sq. ft. of living space
-- Fully furnished
-- Dedicated parking
-- Access to swimming pool, gym, and round-the-clock security
-
-A great opportunity to rent a stylish, well-appointed apartment at Trillium Havelock Residences.`,
-    features: ["Dedicated Parking", "Swimming Pool", "Gym", "24/7 Security"],
     whatsapp: '+94777150066',
   },
   {
@@ -795,10 +665,165 @@ A great opportunity to lease a ready-to-operate hotel property in one of Colombo
     features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
     whatsapp: '+94777150066',
   },
+  {
+    id: 'the-grand-ward',
+    status: 'Rented',
+    badgeClass: 'badge-rent',
+    price: 'USD 2250',
+    name: 'The Grand Ward Place',
+    location: 'Colombo 7',
+    beds: 3, baths: 2, sqft: '1428', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/the-grand-ward/1.jpg',
+    gallery: [
+      './Images/the-grand-ward/2.jpg',
+      './Images/the-grand-ward/3.jpg',
+      './Images/the-grand-ward/4.jpg',
+      './Images/the-grand-ward/5.jpg',
+      './Images/the-grand-ward/6.jpg',
+      './Images/the-grand-ward/7.jpg',
+      './Images/the-grand-ward/9.jpg',
+      './Images/the-grand-ward/10.jpg',
+      './Images/the-grand-ward/7.jpg',
+      './Images/the-grand-ward/11.jpg',
+      './Images/the-grand-ward/12.jpg',
+      './Images/the-grand-ward/13.jpg',
+      './Images/the-grand-ward/14.jpg',
+      './Images/the-grand-ward/15.jpg',
+      './Images/the-grand-ward/16.jpg',
+      './Images/the-grand-ward/17.jpg',
+      './Images/the-grand-ward/18.jpg',
+      './Images/the-grand-ward/20.jpg',
+      './Images/the-grand-ward/21.jpg',
+    ],
+    description: `Luxury 3 Bedroom Apartment for Rent | The Grand | Ward Place, Colombo 07
+
+Enjoy stunning sea views from this spacious and fully furnished residence, ideally located in the heart of Colombo 07.
+
+- 3 Bedrooms | 2 Bathrooms
+- 1,428 sq. ft. of elegant living space
+- Fully furnished
+- Dedicated parking space
+- Maintenance fee borne by the owner
+
+Situated on Ward Place, The Grand offers a prestigious address with easy access to Colombo's leading schools, restaurants, and essential amenities.
+
+A rare opportunity to rent a beautifully appointed apartment that combines comfort, convenience, and breathtaking views.`,
+    features: ["Pool", "Gym", "Play Area", "Lift", "Parking", "Backup Power", "Garden", "Jacuzzi", "Party Hall", "Security", "Wifi", "Laundry", "Restaurant", "Children Play Area", "Balcony", "Jogging Track", "Rooftop Garden"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'havelock-4br',
+    status: 'Rented',
+    badgeClass: 'badge-rent',
+    price: 'LKR 700k',
+    name: 'Havelock City',
+    location: 'Colombo 2',
+    beds: 4, baths: 3, sqft: '2200', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/havelock-4br/1.jpeg',
+    gallery: [
+      './Images/havelock-4br/2.jpeg',
+      './Images/havelock-4br/3.jpeg',
+      './Images/havelock-4br/4.jpeg',
+      './Images/havelock-4br/5.jpeg',
+      './Images/havelock-4br/6.jpeg',
+      './Images/havelock-4br/7.jpeg',
+      './Images/havelock-4br/8.jpeg',
+      './Images/havelock-4br/9.jpeg',
+      './Images/havelock-4br/10.jpeg',
+      './Images/havelock-4br/11.jpeg',
+      './Images/havelock-4br/12.jpeg',
+      './Images/havelock-4br/13.jpeg',
+      './Images/havelock-4br/14.jpeg',
+      './Images/havelock-4br/15.jpeg',
+    ],
+    description: `Spacious 4 Bedroom Apartment | Havelock Park Tower | Colombo 05
+
+A well-appointed, fully furnished residence offering comfortable living paired with an exceptional range of building amenities.
+
+- 4 Bedrooms | 3 Bathrooms
+- Fully furnished
+- Access to swimming pool, gym, and squash courts
+- On-site launderette
+
+Direct access to Havelock City Mall's dining and retail spaces makes everyday errands and leisure effortlessly close to home.
+
+A rare opportunity to enjoy refined living in one of Colombo 05's most convenient addresses.`,
+    features: ["Pool", "Gym", "Lift", "Garden", "Security", "Parking", "Community Hall", "Supermarket"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'trillium-col5',
+    status: 'Rented',
+    badgeClass: 'badge-rent',
+    price: 'LKR 360K ',
+    name: 'Trillium Havelock Residencies',
+    location: 'Colombo 05',
+    beds: 2, baths: 2, sqft: '790', furnished: true,
+    type: 'Apartment',
+    featured: false,
+    image: './Images/trillium/1.jpeg',
+    gallery: [
+      './Images/trillium/2.jpeg',
+      './Images/trillium/3.jpeg',
+      './Images/trillium/4.jpeg',
+      './Images/trillium/5.jpeg',
+      './Images/trillium/6.jpeg',
+      './Images/trillium/7.jpeg',
+      './Images/trillium/8.jpeg',
+      './Images/trillium/9.jpeg',
+      './Images/trillium/10.jpeg',
+      './Images/trillium/11.jpeg',
+      './Images/trillium/12.jpeg',
+      './Images/trillium/13.jpeg',
+      './Images/trillium/14.jpeg',
+    ],
+    description: `Modern 2 Bedroom Apartment for Rent | Trillium Havelock Residences | Colombo 05
+
+A fully furnished residence offering a comfortable layout and access to premium building amenities in a sought-after Colombo 05 location.
+
+- 2 Bedrooms | 2 Bathrooms
+- 790 sq. ft. of living space
+- Fully furnished
+- Dedicated parking
+- Access to swimming pool, gym, and round-the-clock security
+
+A great opportunity to rent a stylish, well-appointed apartment at Trillium Havelock Residences.`,
+    features: ["Dedicated Parking", "Swimming Pool", "Gym", "24/7 Security"],
+    whatsapp: '+94777150066',
+  },
 ];
 
 window.PROPERTIES = PROPERTIES;
 
+window.PROPERTIES = PROPERTIES;
+
+window.PROPERTIES = PROPERTIES;
+
+const STATUS_BADGE_MAP = {
+  'For Sale': 'sale',
+  'For Rent': 'rent',
+  'Rented': 'rented',
+  'Sold': 'sold',
+  'Land': 'land',
+  'Commercial': 'commercial',
+};
+function badgeClassFor(status) {
+  return STATUS_BADGE_MAP[status] || 'land';
+}
+window.badgeClassFor = badgeClassFor;
+
+function isOffMarket(p) {
+  return p.status === 'Rented' || p.status === 'Sold';
+}
+
+function getActiveProperties() {
+  return PROPERTIES.filter(p => !isOffMarket(p));
+}
+window.getActiveProperties = getActiveProperties;
 // Helper: render a property card
 function renderPropCard(p, rootPrefix = '') {
   const specs = p.beds
@@ -811,10 +836,10 @@ function renderPropCard(p, rootPrefix = '') {
     ? `<div class="prop-spec"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20 9V6a2 2 0 00-2-2H6a2 2 0 00-2 2v3M4 9a2 2 0 00-2 2v4h20v-4a2 2 0 00-2-2M4 9h16M2 19h20M4 15v4M20 15v4"/></svg>${p.furnished ? 'Furnished' : 'Unfurnished'}</div>`
     : '';
 
-  return `<a href="${rootPrefix}property-${p.id}.html" class="prop-card">
-       <div class="prop-card-img">
-      <img src="${p.image}" alt="${p.name}" loading="lazy">
-      <span class="prop-badge ${p.badgeClass}">${p.status}</span>
+  return `<a href="${rootPrefix}property-${p.id}.html" class="prop-card${isOffMarket(p) ? ' is-off-market' : ''}">
+     <div class="prop-card-img">
+    <img src="${p.image}" alt="${p.name}" loading="lazy">
+    <span class="prop-badge ${badgeClassFor(p.status)}">${p.status}</span>
     </div>
     <div class="prop-card-body">
       <div class="prop-price">${p.price}</div>

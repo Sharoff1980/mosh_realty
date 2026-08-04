@@ -487,6 +487,7 @@
     .prop-badge.rent { background: rgba(255,255,255,0.92); color: var(--navy-bar); border: 1px solid rgba(14,19,56,0.2); }
     .prop-badge.land { background: rgba(72,160,80,0.28); backdrop-filter: blur(8px); color: #8df0a4; border: 1px solid rgba(126,232,150,0.25); }
     .prop-badge.commercial { background: rgba(140,130,255,0.25); backdrop-filter: blur(8px); color: #c2bbff; border: 1px solid rgba(180,172,255,0.3); }
+    .prop-badge.rented, .prop-badge.sold { background: rgba(20,20,24,0.88); color: #fff; border: 1px solid rgba(255,255,255,0.25); }
 
     .prop-fav {
       position: absolute; top: 1rem; right: 1rem; z-index: 2;
@@ -1164,13 +1165,6 @@
 // PROPERTIES comes from js/properties.js — the same catalog used by every
 // other page on the site, so cards here link to real, matching property pages.
 
-function badgeClassFor(status) {
-  if (status === 'For Sale') return 'sale';
-  if (status === 'For Rent') return 'rent';
-  if (status === 'Commercial') return 'commercial';
-  return 'land';
-}
-
 function renderPropCard(p, i) {
   const specs = [];
   if (p.beds) specs.push(`<span class="prop-spec"><span class="prop-spec-icon"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>${p.beds} Beds</span>`);
@@ -1217,8 +1211,8 @@ const grid = document.getElementById('propsGrid');
 
 function renderGrid() {
   const list = activeFilter === 'all'
-    ? PROPERTIES.slice(0, 6)
-    : PROPERTIES.filter(p => p.status === activeFilter).slice(0, 6);
+  ? getActiveProperties().slice(0, 6)
+  : getActiveProperties().filter(p => p.status === activeFilter).slice(0, 6);
   grid.innerHTML = list.length
     ? list.map((p, i) => renderPropCard(p, i)).join('')
     : '<p style="color:var(--text-muted);padding:2rem 0;">No properties match this filter.</p>';
