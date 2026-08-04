@@ -667,7 +667,7 @@ A great opportunity to lease a ready-to-operate hotel property in one of Colombo
   },
   {
     id: 'the-grand-ward',
-    status: 'Rented',
+    status: 'for-rent',
     badgeClass: 'badge-rent',
     price: 'USD 2250',
     name: 'The Grand Ward Place',
@@ -715,7 +715,7 @@ A rare opportunity to rent a beautifully appointed apartment that combines comfo
   },
   {
     id: 'havelock-4br',
-    status: 'Rented',
+    status: 'for-rent',
     badgeClass: 'badge-rent',
     price: 'LKR 700k',
     name: 'Havelock City',
@@ -757,7 +757,7 @@ A rare opportunity to enjoy refined living in one of Colombo 05's most convenien
   },
   {
     id: 'trillium-col5',
-    status: 'Rented',
+    status: 'for-rent',
     badgeClass: 'badge-rent',
     price: 'LKR 360K ',
     name: 'Trillium Havelock Residencies',
