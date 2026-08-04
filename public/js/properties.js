@@ -407,7 +407,7 @@ A well-planned residence offering comfort, functionality, and everyday convenien
   },
   {
     id: 'trillium-col5',
-    status: 'For Rent',
+    status: 'Rented',
     badgeClass: 'badge-rent',
     price: 'LKR 360K ',
     name: 'Trillium Havelock Residencies',
