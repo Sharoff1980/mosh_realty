@@ -354,6 +354,52 @@ A rare opportunity to own a luxury apartment that perfectly combines stunning vi
     whatsapp: '+94777150066',
   },
   {
+    id: 'barrington-tower',
+    status: 'for-sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 56 Mn',
+    name: 'Barrington Towers',
+    location: 'Dehiwala',
+    beds: 3, baths: 2, sqft: '1370', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/barrington-tower/head.jpeg',
+    gallery: [
+      './Images/barrington-tower/1.jpg',
+      './Images/barrington-tower/2.jpg',
+      './Images/barrington-tower/3.jpg',
+      './Images/barrington-tower/4.jpg',
+      './Images/barrington-tower/5.jpg',
+      './Images/barrington-tower/6.jpg',
+      './Images/barrington-tower/7.jpg',
+      './Images/barrington-tower/8.jpg',
+      './Images/barrington-tower/9.jpg',
+      './Images/barrington-tower/10.jpg',
+      './Images/barrington-tower/11.jpg',
+      './Images/barrington-tower/12.jpg',
+      './Images/barrington-tower/13.jpg',
+      './Images/barrington-tower/14.jpg',
+    ],
+    description: `Spacious 3 Bedroom Apartment for Sale | Barrington Towers | Dehiwala
+
+A well-appointed residence offering generous living space and premium amenities, ideally located in the heart of Dehiwala.
+
+3 Bedrooms | 2 Bathrooms
+1,370 sq. ft. of living space
+Unfurnished
+Swimming pool & fully equipped gym
+Rooftop area & clubhouse
+Children's play area
+24/7 security
+Backup generator for uninterrupted power
+
+Price: Rs. 56 Million
+
+A great opportunity to own a comfortable, well-located apartment at Barrington Towers.`,
+    features: ["3 Bedrooms","2 Bathrooms","1,370 sq. ft. living space","Unfurnished","Swimming pool","Fully equipped gym","Rooftop area","Club house","Children's play area","24/7 security", "Backup generator"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'the-grand-avenue',
     status: 'For Rent',
     badgeClass: 'badge-rent',
