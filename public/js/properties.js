@@ -316,6 +316,48 @@ A well-planned residence offering comfort, functionality, and everyday convenien
     whatsapp: '+94777150066',
   },
   {
+    id: 'iconic-galaxy-19th',
+    status: 'for-sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 67 Mn',
+    name: 'Iconic Galaxy',
+    location: 'Rajagiriya',
+    beds: 2, baths: 2, sqft: '1200', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/iconic-galaxy-9th/head.jpeg',
+    gallery: [
+      './Images/iconic-galaxy-9th/1.jpg',
+      './Images/iconic-galaxy-9th/2.jpg',
+      './Images/iconic-galaxy-9th/3.jpg',
+      './Images/iconic-galaxy-9th/4.jpg',
+      './Images/iconic-galaxy-9th/5.jpg',
+      './Images/iconic-galaxy-9th/6.jpg',
+      './Images/iconic-galaxy-9th/7.jpg',
+      './Images/iconic-galaxy-9th/8.jpg',
+      './Images/iconic-galaxy-9th/9.jpg',
+      './Images/iconic-galaxy-9th/10.jpg',
+    ],
+    description: `Spacious 2 Bedroom Apartment for Sale | Iconic Galaxy | Rajagiriya
+
+A beautifully furnished residence set within one of Rajagiriya's most prestigious addresses, offering an unmatched range of lifestyle amenities right at your doorstep.
+
+2 Bedrooms | 2 Bathrooms
+1,200 sq. ft. of living space
+Fully furnished
+Swimming pool & fully equipped gym
+Mini-theatre & sports courts
+Private supermarket & on-site salon
+Car wash facility
+Landscaped rooftop gardens
+
+Price: Rs. 67 Million
+
+A great opportunity to own a comfortable, well-located apartment at Iconic Galaxy.`,
+    features: ["2 Bedrooms","2 Bathrooms","1,200 sq. ft. living space","Fully furnished","Swimming pool","Fully equipped gym","Mini-theatre","Sports courts","Private supermarket","On-site salon","Car wash facility","Landscaped rooftop gardens"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: '606-address-anupamma-small',
     status: 'For Sale',
     badgeClass: 'badge-sale',
