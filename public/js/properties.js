@@ -316,6 +316,44 @@ A well-planned residence offering comfort, functionality, and everyday convenien
     whatsapp: '+94777150066',
   },
   {
+    id: 'trizen-02-dulith',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 540k',
+    name: 'The Tri-zen by John Keells Properties.',
+    location: 'Colombo 2',
+    beds: 2, baths: 2, sqft: '775', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/trizen-02-dulith/1.jpg',
+    gallery: [
+      './Images/trizen-02-dulith/2.jpg',
+      './Images/trizen-02-dulith/3.jpg',
+      './Images/trizen-02-dulith/4.jpg',
+      './Images/trizen-02-dulith/5.jpg',
+      './Images/trizen-02-dulith/6.jpg',
+      './Images/trizen-02-dulith/7.jpg',
+      './Images/trizen-02-dulith/8.jpg',
+      './Images/trizen-02-dulith/9.jpg',
+      './Images/trizen-02-dulith/10.jpg',
+    ],
+    description: `Modern 2 Bedroom Apartment for Rent | TRI-ZEN by John Keells Properties | Colombo 02
+
+A fully furnished residence offering a comfortable layout and access to a full range of premium building amenities in the heart of Colombo 02.
+
+- 2 Bedrooms | 2 Bathrooms
+- 775 sq. ft. of living space
+- Fully furnished
+- Air conditioning
+- Access to swimming pool, gym, lift, generator, and security
+
+Payment terms: Refundable security deposit of 03 months and advance rent of 03 months required.
+
+A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by John Keells Properties.`,
+    features: ["Gym", "Lift", "Play Area", "Parking", "Clubhouse", "Backup Power", "Garden", "Pool", "Security", "Wifi", "Laundry", "Restaurant", "Sports Facilities", "Jogging Track", "Rooftop Garden", "Children Play Area", "Community Hall"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'iconic-galaxy-19th',
     status: 'for-sale',
     badgeClass: 'badge-sale',
