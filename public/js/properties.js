@@ -355,7 +355,7 @@ A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by Jo
   },
   {
     id: 'iconic-galaxy-19th',
-    status: 'for-sale',
+    status: 'For-Sale',
     badgeClass: 'badge-sale',
     price: 'LKR 67 Mn',
     name: 'Iconic Galaxy',
