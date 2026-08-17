@@ -921,6 +921,47 @@ A great opportunity to rent a stylish, well-appointed apartment at Trillium Have
     features: ["Dedicated Parking", "Swimming Pool", "Gym", "24/7 Security"],
     whatsapp: '+94777150066',
   },
+  {
+    id: 'the-emperor',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'USD 2800',
+    name: 'The Emperor Residencies',
+    location: 'Colombo 3',
+    beds: 3, baths: 2, sqft: '1,850', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/emperor/head.jpeg',
+    gallery: [
+      './Images/emperor/1.jpeg',
+      './Images/emperor/2.jpeg',
+      './Images/emperor/3.jpeg',
+      './Images/emperor/4.jpeg',
+      './Images/emperor/5.jpeg',
+      './Images/emperor/6.jpeg',
+      './Images/emperor/7.jpeg',
+      './Images/emperor/8.jpeg',
+      './Images/emperor/9.jpeg',
+      './Images/emperor/10.jpeg',
+      './Images/emperor/11.jpeg',
+      './Images/emperor/12.jpeg',
+      './Images/emperor/13.jpeg',
+    ],
+    description: `For Rent | The Emperor Residencies | Colombo 03 
+
+(Ref – MRA53) 
+
+📍 Colombo 03 
+
+• Bedrooms : 3 (Air-conditioned + Balcony Access) 
+• Bathrooms : 2 + Maid's Room & Bath •Sq ft area : 1,850 sq.ft 
+• Furnishing : Fully Furnished 
+• Features: Wrap-around balcony, 1 parking space, pool, gym, jacuzzi, sauna & 24/7   security. 
+
+#apartmentforrent #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms (Air-conditioned)",  "Balcony access",  "2 Bathrooms",  "Maid's room & bath",  "1,850 sq. ft. living space",  "Fully furnished", "Wrap-around balcony",  "1 parking space",  "Swimming pool",  "Gym" , "Jacuzzi", "Sauna" , "24/7 security"],
+    whatsapp: '+94777150066'
+  },
 ];
 
 window.PROPERTIES = PROPERTIES;
