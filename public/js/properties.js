@@ -962,6 +962,153 @@ A great opportunity to rent a stylish, well-appointed apartment at Trillium Have
     features: ["Dedicated Parking", "Swimming Pool", "Gym", "24/7 Security"],
     whatsapp: '+94777150066',
   },
+  {
+    id: 'iceland-residencies',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 48.8Mn',
+    name: 'Iceland Residencies',
+    location: 'Colombo 4',
+    beds: 4, baths: 4, sqft: '2,500', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/iceland-residencies/head.jpg',
+    gallery: [
+      './Images/iceland-residencies/1.jpg',
+      './Images/iceland-residencies/2.jpg',
+      './Images/iceland-residencies/3.jpg',
+      './Images/iceland-residencies/4.jpg',
+      './Images/iceland-residencies/5.jpg',
+      './Images/iceland-residencies/6.jpg',
+      './Images/iceland-residencies/7.jpg',
+      './Images/iceland-residencies/8.jpg',
+      './Images/iceland-residencies/9.jpg',
+      './Images/iceland-residencies/10.jpg',
+      './Images/iceland-residencies/11.jpg',
+      './Images/iceland-residencies/12.jpg',
+      './Images/iceland-residencies/13.jpg',
+    ],
+    description: `For Sale | Iceland Residences | colombo 03
+(Ref - MRA59)
+
+📍 Colombo 03 
+
+ - Bedrooms: 4
+ - Bathrooms: 4
+ - Sq ft area: 2,500 sqft
+ - Furnishing: Fully Furnished
+ - Features: 2 Car Parks, Swimming Pool, Gym, 2 Squash Courts, Mini Store, Meeting Room, Cafe, 100% Generator Backup, In-house Maintenance Team, 24/7 Security
+ - View: Galle Face Green & Sea
+ - Tenancy: USD Paying Tenant | Embassy Area
+
+Service Charges - Approx. LKR 55,000 per month
+
+Expected Price - LKR 240 million
+
+📞 Get in touch to schedule a viewing: 0777150066
+
+#apartmentforsale #galleface #luxuryapartment #colomborealestate #moshrealty`,
+    features: ["4 Bedrooms", "4 Bathrooms", "2,500 sq. ft. living space", "Fully furnished", "2 car parks", "Swimming pool", "Gym", "2 squash courts", "Mini store", "Meeting room", "Cafe", "100% generator backup", "In-house maintenance team", "24/7 security", "View of Galle Face Green & Sea", "USD paying tenant, Embassy area"],
+    whatsapp: '+94777150066'
+  },
+  {
+    id: 'kingsview',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 350K',
+    name: 'Kings View Residencies',
+    location: 'Kotte',
+    beds: 3, baths: 2, sqft: '1,121', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/kingsview/head.jpg',
+    gallery: [
+      './Images/kingsview/1.jpg',
+      './Images/kingsview/2.jpg',
+      './Images/kingsview/3.jpg',
+      './Images/kingsview/4.jpg',
+      './Images/kingsview/5.jpg',
+      './Images/kingsview/6.jpg',
+      './Images/kingsview/7.jpg',
+      './Images/kingsview/8.jpg',
+      './Images/kingsview/9.jpg',
+      './Images/kingsview/10.jpg',
+    ],
+    description: `For Rent | Kings View Residencies | Kotte
+(Ref – MRA52)
+
+📍 Kotte
+
+ - Bedrooms: 3 (1 currently used as Office Room)
+ - Bathrooms: 2 with Hot Water + Maid’s Washroom
+ - Sq ft area: 1,121 sqft
+ - Furnishing: Fully Furnished
+ - Features: Fully Air-conditioned, Spacious Balcony, Dedicated Parking for 1 Vehicle
+
+Common Facilities: Fully Equipped Gym, Swimming Pool with Jacuzzi, Lobby Area, Function Hall, Business Center
+
+Monthly Rent - LKR 350,000
+Terms: 3 Months Security Deposit + 1 Month Rent Advance
+
+📞 Get in touch to schedule a viewing: 0777150066
+
+#apartmentforrent #kotte #luxuryapartment #colomboliving #moshrealty`,
+    features: ["3 Bedrooms (1 used as Office Room)", "2 Bathrooms with Hot Water", "Maid's washroom", "1,121 sq. ft. living space", "Fully furnished", "Fully air-conditioned", "Spacious balcony", "Dedicated parking for 1 vehicle", "Fully equipped gym", "Swimming pool with Jacuzzi", "Lobby area", "Function hall", "Business center"],
+    whatsapp: '+94777150066'
+  },
+  {
+    id: 'cinnamon-life-sale',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 250 Mn',
+    name: 'Cinnamon Life Residencies',
+    location: 'Colombo 2',
+    beds: 3, baths: 3, sqft: '1,800', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/cinnamon-life/head.jpg',
+    gallery: [
+      './Images/cinnamon-life/1.jpg',
+      './Images/cinnamon-life/2.jpg',
+      './Images/cinnamon-life/3.jpg',
+      './Images/cinnamon-life/4.jpg',
+      './Images/cinnamon-life/5.jpg',
+      './Images/cinnamon-life/6.jpg',
+      './Images/cinnamon-life/7.jpg',
+      './Images/cinnamon-life/8.jpg',
+      './Images/cinnamon-life/9.jpg',
+      './Images/cinnamon-life/10.jpg',
+      './Images/cinnamon-life/11.jpg',
+      './Images/cinnamon-life/12.jpg',
+      './Images/cinnamon-life/13.jpg',
+      './Images/cinnamon-life/14.jpg',
+      './Images/cinnamon-life/15.jpg',
+      './Images/cinnamon-life/16.jpg',
+      './Images/cinnamon-life/17.jpg',
+      './Images/cinnamon-life/18.jpg',
+      './Images/cinnamon-life/19.jpg',
+      './Images/cinnamon-life/20.jpg',
+      './Images/cinnamon-life/21.jpg', 
+    ],
+    description: `For Sale | Cinnamon Life City of Dreams | Colombo 02
+(Ref – MRH16)
+
+📍 Colombo 02
+
+ - Bedrooms: 3
+ - Bathrooms: 3
+ - Sq ft area: 1,800 sqft
+ - Furnishing: Unfurnished
+ - Features: Infinity Swimming Pool, Fitness Center, Spa, Shopping Area, Nightclub, Restaurant
+
+Expected Price - LKR 275 million
+
+📞 Get in touch to schedule a viewing: 0777150066
+
+#apartmentforsale #cinnamonlife #colombo #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "3 Bathrooms", "1,800 sq. ft. living space", "Unfurnished", "Infinity swimming pool", "Fitness center", "Spa", "Shopping area", "Nightclub", "Restaurant"],
+    whatsapp: '+94777150066'
+  },
 ];
 
 window.PROPERTIES = PROPERTIES;
