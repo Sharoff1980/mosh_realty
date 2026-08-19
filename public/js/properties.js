@@ -219,6 +219,55 @@ Enjoy stunning Colombo city views from home, with schools, supermarkets, and pub
     whatsapp: '+94777150066',
   },
   {
+    id: 'iceland-residencies',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 48.8Mn',
+    name: 'Iceland Residencies',
+    location: 'Colombo 4',
+    beds: 4, baths: 4, sqft: '2,500', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/iceland-residencies/head.jpg',
+    gallery: [
+      './Images/iceland-residencies/1.jpg',
+      './Images/iceland-residencies/2.jpg',
+      './Images/iceland-residencies/3.jpg',
+      './Images/iceland-residencies/4.jpg',
+      './Images/iceland-residencies/5.jpg',
+      './Images/iceland-residencies/6.jpg',
+      './Images/iceland-residencies/7.jpg',
+      './Images/iceland-residencies/8.jpg',
+      './Images/iceland-residencies/9.jpg',
+      './Images/iceland-residencies/10.jpg',
+      './Images/iceland-residencies/11.jpg',
+      './Images/iceland-residencies/12.jpg',
+      './Images/iceland-residencies/13.jpg',
+    ],
+    description: `For Sale | Iceland Residences | colombo 03
+(Ref - MRA59)
+
+📍 Colombo 03 
+
+ - Bedrooms: 4
+ - Bathrooms: 4
+ - Sq ft area: 2,500 sqft
+ - Furnishing: Fully Furnished
+ - Features: 2 Car Parks, Swimming Pool, Gym, 2 Squash Courts, Mini Store, Meeting Room, Cafe, 100% Generator Backup, In-house Maintenance Team, 24/7 Security
+ - View: Galle Face Green & Sea
+ - Tenancy: USD Paying Tenant | Embassy Area
+
+Service Charges - Approx. LKR 55,000 per month
+
+Expected Price - LKR 240 million
+
+📞 Get in touch to schedule a viewing: 0777150066
+
+#apartmentforsale #galleface #luxuryapartment #colomborealestate #moshrealty`,
+    features: ["4 Bedrooms", "4 Bathrooms", "2,500 sq. ft. living space", "Fully furnished", "2 car parks", "Swimming pool", "Gym", "2 squash courts", "Mini store", "Meeting room", "Cafe", "100% generator backup", "In-house maintenance team", "24/7 security", "View of Galle Face Green & Sea", "USD paying tenant, Embassy area"],
+    whatsapp: '+94777150066'
+  },
+  {
     id: 'the-emperor',
     status: 'For Rent',
     badgeClass: 'badge-rent',
@@ -308,90 +357,6 @@ Conveniently located in the heart of Colombo 03 with a coffee shop and supermark
 
 A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.`,
     features: ["Pool", "Gym", "Parking", "Lift", "Play Area", "Clubhouse", "Backup Power", "Garden", "Restaurant", "Supermarket", "Pharmacy", "Community Hall", "Playground", "Balcony"],
-    whatsapp: '+94777150066',
-  },
-  {
-    id: 'siebel-avenue',
-    status: 'For Sale',
-    badgeClass: 'badge-sale',
-    price: 'LKR 72 Mn',
-    name: 'Prime Residencies: Siebel Avenue',
-    location: 'Colombo 6',
-    beds: 3, baths: 3, sqft: '1608', furnished: false,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/prime-siebel/1.jpeg',
-    gallery: [
-      './Images/prime-siebel/2.jpeg',
-      './Images/prime-siebel/3.jpeg',
-      './Images/prime-siebel/4.jpeg',
-      './Images/prime-siebel/5.jpeg',
-      './Images/prime-siebel/6.jpeg',
-      './Images/prime-siebel/7.jpeg',
-      './Images/prime-siebel/8.jpeg',
-      './Images/prime-siebel/9.jpeg',
-      './Images/prime-siebel/10.jpeg',
-      './Images/prime-siebel/11.jpeg',
-      './Images/prime-siebel/12.jpeg',
-      './Images/prime-siebel/13.jpeg',
-      './Images/prime-siebel/14.jpeg',
-      './Images/prime-siebel/15.jpeg',
-      './Images/prime-siebel/16.jpeg',
-    ],
-    description: `Spacious 3 Bedroom Apartment | Prime Tower
-
-Located on the 1st floor, this well-designed residence offers a comfortable layout with generous living spaces and thoughtful practical features throughout.
-
-- 3 Bedrooms | 2 Bathrooms (Master with attached bathroom)
-- Main hall with balcony
-- Fully air-conditioned living space
-- Second hall with its own balcony
-- Kitchen with dedicated laundry area
-- Servant room with outside washroom
-- Cabinet accessories throughout
-- Heater facilities in all washrooms
-- 1 dedicated parking slot
-
-A well-planned residence offering comfort, functionality, and everyday convenience at Prime Tower.`,
-    features: ["1 Parking Slot", "Master Bedroom with Attached Bathroom", "Servant Room with Washroom", "Balcony", "Fully Air Conditioned", "Heater Facilities", "Cabinet Accessories"],
-    whatsapp: '+94777150066',
-  },
-  {
-    id: 'trizen-02-dulith',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'LKR 540k',
-    name: 'The Tri-zen by John Keells Properties.',
-    location: 'Colombo 2',
-    beds: 2, baths: 2, sqft: '775', furnished: true,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/trizen-02-dulith/1.jpg',
-    gallery: [
-      './Images/trizen-02-dulith/2.jpg',
-      './Images/trizen-02-dulith/3.jpg',
-      './Images/trizen-02-dulith/4.jpg',
-      './Images/trizen-02-dulith/5.jpg',
-      './Images/trizen-02-dulith/6.jpg',
-      './Images/trizen-02-dulith/7.jpg',
-      './Images/trizen-02-dulith/8.jpg',
-      './Images/trizen-02-dulith/9.jpg',
-      './Images/trizen-02-dulith/10.jpg',
-    ],
-    description: `Modern 2 Bedroom Apartment for Rent | TRI-ZEN by John Keells Properties | Colombo 02
-
-A fully furnished residence offering a comfortable layout and access to a full range of premium building amenities in the heart of Colombo 02.
-
-- 2 Bedrooms | 2 Bathrooms
-- 775 sq. ft. of living space
-- Fully furnished
-- Air conditioning
-- Access to swimming pool, gym, lift, generator, and security
-
-Payment terms: Refundable security deposit of 03 months and advance rent of 03 months required.
-
-A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by John Keells Properties.`,
-    features: ["Gym", "Lift", "Play Area", "Parking", "Clubhouse", "Backup Power", "Garden", "Pool", "Security", "Wifi", "Laundry", "Restaurant", "Sports Facilities", "Jogging Track", "Rooftop Garden", "Children Play Area", "Community Hall"],
     whatsapp: '+94777150066',
   },
   {
@@ -556,6 +521,104 @@ A well-appointed residence offering generous living space and practical features
 A great opportunity to rent a comfortable, well-located apartment at The Grand Avenue.`,
     features: ['Lift', 'Generator', '1-Vehicle Car Park', 'Full AC', 'Maids Room & Washroom'],
     whatsapp: '+94777150066',
+  },
+  {
+    id: 'cinnamon-life-sale',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 250 Mn',
+    name: 'Cinnamon Life Residencies',
+    location: 'Colombo 2',
+    beds: 3, baths: 3, sqft: '1,800', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/cinnamon-life/head.jpg',
+    gallery: [
+      './Images/cinnamon-life/1.jpg',
+      './Images/cinnamon-life/2.jpg',
+      './Images/cinnamon-life/3.jpg',
+      './Images/cinnamon-life/4.jpg',
+      './Images/cinnamon-life/5.jpg',
+      './Images/cinnamon-life/6.jpg',
+      './Images/cinnamon-life/7.jpg',
+      './Images/cinnamon-life/8.jpg',
+      './Images/cinnamon-life/9.jpg',
+      './Images/cinnamon-life/10.jpg',
+      './Images/cinnamon-life/11.jpg',
+      './Images/cinnamon-life/12.jpg',
+      './Images/cinnamon-life/13.jpg',
+      './Images/cinnamon-life/14.jpg',
+      './Images/cinnamon-life/15.jpg',
+      './Images/cinnamon-life/16.jpg',
+      './Images/cinnamon-life/17.jpg',
+      './Images/cinnamon-life/18.jpg',
+      './Images/cinnamon-life/19.jpg',
+      './Images/cinnamon-life/20.jpg',
+      './Images/cinnamon-life/21.jpg', 
+    ],
+    description: `For Sale | Cinnamon Life City of Dreams | Colombo 02
+(Ref – MRH16)
+
+📍 Colombo 02
+
+ - Bedrooms: 3
+ - Bathrooms: 3
+ - Sq ft area: 1,800 sqft
+ - Furnishing: Unfurnished
+ - Features: Infinity Swimming Pool, Fitness Center, Spa, Shopping Area, Nightclub, Restaurant
+
+Expected Price - LKR 275 million
+
+📞 Get in touch to schedule a viewing: 0777150066
+
+#apartmentforsale #cinnamonlife #colombo #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "3 Bathrooms", "1,800 sq. ft. living space", "Unfurnished", "Infinity swimming pool", "Fitness center", "Spa", "Shopping area", "Nightclub", "Restaurant"],
+    whatsapp: '+94777150066'
+  },
+  {
+    id: 'kingsview',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 350K',
+    name: 'Kings View Residencies',
+    location: 'Kotte',
+    beds: 3, baths: 2, sqft: '1,121', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/kingsview/head.jpg',
+    gallery: [
+      './Images/kingsview/1.jpg',
+      './Images/kingsview/2.jpg',
+      './Images/kingsview/3.jpg',
+      './Images/kingsview/4.jpg',
+      './Images/kingsview/5.jpg',
+      './Images/kingsview/6.jpg',
+      './Images/kingsview/7.jpg',
+      './Images/kingsview/8.jpg',
+      './Images/kingsview/9.jpg',
+      './Images/kingsview/10.jpg',
+    ],
+    description: `For Rent | Kings View Residencies | Kotte
+(Ref – MRA52)
+
+📍 Kotte
+
+ - Bedrooms: 3 (1 currently used as Office Room)
+ - Bathrooms: 2 with Hot Water + Maid’s Washroom
+ - Sq ft area: 1,121 sqft
+ - Furnishing: Fully Furnished
+ - Features: Fully Air-conditioned, Spacious Balcony, Dedicated Parking for 1 Vehicle
+
+Common Facilities: Fully Equipped Gym, Swimming Pool with Jacuzzi, Lobby Area, Function Hall, Business Center
+
+Monthly Rent - LKR 350,000
+Terms: 3 Months Security Deposit + 1 Month Rent Advance
+
+📞 Get in touch to schedule a viewing: 0777150066
+
+#apartmentforrent #kotte #luxuryapartment #colomboliving #moshrealty`,
+    features: ["3 Bedrooms (1 used as Office Room)", "2 Bathrooms with Hot Water", "Maid's washroom", "1,121 sq. ft. living space", "Fully furnished", "Fully air-conditioned", "Spacious balcony", "Dedicated parking for 1 vehicle", "Fully equipped gym", "Swimming pool with Jacuzzi", "Lobby area", "Function hall", "Business center"],
+    whatsapp: '+94777150066'
   },
   {
     id: '606-address-anupamma-big',
@@ -789,52 +852,8 @@ A rare opportunity to own or lease a versatile property offering ample space for
     whatsapp: '+94777150066',
   },
   {
-    id: 'hotel-rent',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'LKR 3.75 Mn ',
-    name: 'Hotel Rent',
-    location: 'Colombo 3',
-    beds: 12, baths: 12, sqft: '6100', furnished: true,
-    type: 'Villa',
-    featured: true,
-    image: './Images/hotel-rent/1.jpeg',
-    gallery: [
-      './Images/hotel-rent/2.jpeg',
-      './Images/hotel-rent/3.jpeg',
-      './Images/hotel-rent/4.jpeg',
-      './Images/hotel-rent/5.jpeg',
-      './Images/hotel-rent/6.jpeg',
-      './Images/hotel-rent/7.jpeg',
-      './Images/hotel-rent/8.jpeg',
-      './Images/hotel-rent/9.jpeg',
-      './Images/hotel-rent/10.jpeg',
-      './Images/hotel-rent/11.jpeg',
-      './Images/hotel-rent/12.jpeg',
-      './Images/hotel-rent/13.jpeg',
-      './Images/hotel-rent/14.jpeg',
-      './Images/hotel-rent/15.jpeg',
-      './Images/hotel-rent/16.jpeg',
-      './Images/hotel-rent/17.jpeg',
-      './Images/hotel-rent/18.jpeg',
-      './Images/hotel-rent/19.jpeg',
-    ],
-    description: `12 Room Hotel Property for Rent | Kreation Hotel | Colombo 03
-
-A fully furnished hotel property offering a well-equipped layout, ideal for hospitality operations in a prime Colombo 03 location.
-
-- 12 Rooms | 12 Bathrooms
-- Fully furnished
-- Air conditioning in all rooms
-- Hot water in all rooms
-
-A great opportunity to lease a ready-to-operate hotel property in one of Colombo's most sought-after commercial areas.`,
-    features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
-    whatsapp: '+94777150066',
-  },
-  {
     id: 'the-grand-ward',
-    status: 'For Rent',
+    status: 'Rented',
     badgeClass: 'badge-rent',
     price: 'USD 2250',
     name: 'The Grand Ward Place',
@@ -882,7 +901,7 @@ A rare opportunity to rent a beautifully appointed apartment that combines comfo
   },
   {
     id: 'havelock-4br',
-    status: 'For Rent',
+    status: 'Rented',
     badgeClass: 'badge-rent',
     price: 'LKR 700k',
     name: 'Havelock City',
@@ -924,7 +943,7 @@ A rare opportunity to enjoy refined living in one of Colombo 05's most convenien
   },
   {
     id: 'trillium-col5',
-    status: 'For Rent',
+    status: 'Rented',
     badgeClass: 'badge-rent',
     price: 'LKR 360K ',
     name: 'Trillium Havelock Residencies',
@@ -963,151 +982,132 @@ A great opportunity to rent a stylish, well-appointed apartment at Trillium Have
     whatsapp: '+94777150066',
   },
   {
-    id: 'iceland-residencies',
-    status: 'For Sale',
+    id: 'siebel-avenue',
+    status: 'Sold',
     badgeClass: 'badge-sale',
-    price: 'LKR 48.8Mn',
-    name: 'Iceland Residencies',
-    location: 'Colombo 4',
-    beds: 4, baths: 4, sqft: '2,500', furnished: true,
+    price: 'LKR 72 Mn',
+    name: 'Prime Residencies: Siebel Avenue',
+    location: 'Colombo 6',
+    beds: 3, baths: 3, sqft: '1608', furnished: false,
     type: 'Apartment',
     featured: true,
-    image: './Images/iceland-residencies/head.jpg',
+    image: './Images/prime-siebel/1.jpeg',
     gallery: [
-      './Images/iceland-residencies/1.jpg',
-      './Images/iceland-residencies/2.jpg',
-      './Images/iceland-residencies/3.jpg',
-      './Images/iceland-residencies/4.jpg',
-      './Images/iceland-residencies/5.jpg',
-      './Images/iceland-residencies/6.jpg',
-      './Images/iceland-residencies/7.jpg',
-      './Images/iceland-residencies/8.jpg',
-      './Images/iceland-residencies/9.jpg',
-      './Images/iceland-residencies/10.jpg',
-      './Images/iceland-residencies/11.jpg',
-      './Images/iceland-residencies/12.jpg',
-      './Images/iceland-residencies/13.jpg',
+      './Images/prime-siebel/2.jpeg',
+      './Images/prime-siebel/3.jpeg',
+      './Images/prime-siebel/4.jpeg',
+      './Images/prime-siebel/5.jpeg',
+      './Images/prime-siebel/6.jpeg',
+      './Images/prime-siebel/7.jpeg',
+      './Images/prime-siebel/8.jpeg',
+      './Images/prime-siebel/9.jpeg',
+      './Images/prime-siebel/10.jpeg',
+      './Images/prime-siebel/11.jpeg',
+      './Images/prime-siebel/12.jpeg',
+      './Images/prime-siebel/13.jpeg',
+      './Images/prime-siebel/14.jpeg',
+      './Images/prime-siebel/15.jpeg',
+      './Images/prime-siebel/16.jpeg',
     ],
-    description: `For Sale | Iceland Residences | colombo 03
-(Ref - MRA59)
+    description: `Spacious 3 Bedroom Apartment | Prime Tower
 
-📍 Colombo 03 
+Located on the 1st floor, this well-designed residence offers a comfortable layout with generous living spaces and thoughtful practical features throughout.
 
- - Bedrooms: 4
- - Bathrooms: 4
- - Sq ft area: 2,500 sqft
- - Furnishing: Fully Furnished
- - Features: 2 Car Parks, Swimming Pool, Gym, 2 Squash Courts, Mini Store, Meeting Room, Cafe, 100% Generator Backup, In-house Maintenance Team, 24/7 Security
- - View: Galle Face Green & Sea
- - Tenancy: USD Paying Tenant | Embassy Area
+- 3 Bedrooms | 2 Bathrooms (Master with attached bathroom)
+- Main hall with balcony
+- Fully air-conditioned living space
+- Second hall with its own balcony
+- Kitchen with dedicated laundry area
+- Servant room with outside washroom
+- Cabinet accessories throughout
+- Heater facilities in all washrooms
+- 1 dedicated parking slot
 
-Service Charges - Approx. LKR 55,000 per month
-
-Expected Price - LKR 240 million
-
-📞 Get in touch to schedule a viewing: 0777150066
-
-#apartmentforsale #galleface #luxuryapartment #colomborealestate #moshrealty`,
-    features: ["4 Bedrooms", "4 Bathrooms", "2,500 sq. ft. living space", "Fully furnished", "2 car parks", "Swimming pool", "Gym", "2 squash courts", "Mini store", "Meeting room", "Cafe", "100% generator backup", "In-house maintenance team", "24/7 security", "View of Galle Face Green & Sea", "USD paying tenant, Embassy area"],
-    whatsapp: '+94777150066'
+A well-planned residence offering comfort, functionality, and everyday convenience at Prime Tower.`,
+    features: ["1 Parking Slot", "Master Bedroom with Attached Bathroom", "Servant Room with Washroom", "Balcony", "Fully Air Conditioned", "Heater Facilities", "Cabinet Accessories"],
+    whatsapp: '+94777150066',
   },
   {
-    id: 'kingsview',
-    status: 'For Rent',
+    id: 'hotel-rent',
+    status: 'Rented',
     badgeClass: 'badge-rent',
-    price: 'LKR 350K',
-    name: 'Kings View Residencies',
-    location: 'Kotte',
-    beds: 3, baths: 2, sqft: '1,121', furnished: true,
-    type: 'Apartment',
+    price: 'LKR 3.75 Mn ',
+    name: 'Hotel Rent',
+    location: 'Colombo 3',
+    beds: 12, baths: 12, sqft: '6100', furnished: true,
+    type: 'Villa',
     featured: true,
-    image: './Images/kingsview/head.jpg',
+    image: './Images/hotel-rent/1.jpeg',
     gallery: [
-      './Images/kingsview/1.jpg',
-      './Images/kingsview/2.jpg',
-      './Images/kingsview/3.jpg',
-      './Images/kingsview/4.jpg',
-      './Images/kingsview/5.jpg',
-      './Images/kingsview/6.jpg',
-      './Images/kingsview/7.jpg',
-      './Images/kingsview/8.jpg',
-      './Images/kingsview/9.jpg',
-      './Images/kingsview/10.jpg',
+      './Images/hotel-rent/2.jpeg',
+      './Images/hotel-rent/3.jpeg',
+      './Images/hotel-rent/4.jpeg',
+      './Images/hotel-rent/5.jpeg',
+      './Images/hotel-rent/6.jpeg',
+      './Images/hotel-rent/7.jpeg',
+      './Images/hotel-rent/8.jpeg',
+      './Images/hotel-rent/9.jpeg',
+      './Images/hotel-rent/10.jpeg',
+      './Images/hotel-rent/11.jpeg',
+      './Images/hotel-rent/12.jpeg',
+      './Images/hotel-rent/13.jpeg',
+      './Images/hotel-rent/14.jpeg',
+      './Images/hotel-rent/15.jpeg',
+      './Images/hotel-rent/16.jpeg',
+      './Images/hotel-rent/17.jpeg',
+      './Images/hotel-rent/18.jpeg',
+      './Images/hotel-rent/19.jpeg',
     ],
-    description: `For Rent | Kings View Residencies | Kotte
-(Ref – MRA52)
+    description: `12 Room Hotel Property for Rent | Kreation Hotel | Colombo 03
 
-📍 Kotte
+A fully furnished hotel property offering a well-equipped layout, ideal for hospitality operations in a prime Colombo 03 location.
 
- - Bedrooms: 3 (1 currently used as Office Room)
- - Bathrooms: 2 with Hot Water + Maid’s Washroom
- - Sq ft area: 1,121 sqft
- - Furnishing: Fully Furnished
- - Features: Fully Air-conditioned, Spacious Balcony, Dedicated Parking for 1 Vehicle
+- 12 Rooms | 12 Bathrooms
+- Fully furnished
+- Air conditioning in all rooms
+- Hot water in all rooms
 
-Common Facilities: Fully Equipped Gym, Swimming Pool with Jacuzzi, Lobby Area, Function Hall, Business Center
-
-Monthly Rent - LKR 350,000
-Terms: 3 Months Security Deposit + 1 Month Rent Advance
-
-📞 Get in touch to schedule a viewing: 0777150066
-
-#apartmentforrent #kotte #luxuryapartment #colomboliving #moshrealty`,
-    features: ["3 Bedrooms (1 used as Office Room)", "2 Bathrooms with Hot Water", "Maid's washroom", "1,121 sq. ft. living space", "Fully furnished", "Fully air-conditioned", "Spacious balcony", "Dedicated parking for 1 vehicle", "Fully equipped gym", "Swimming pool with Jacuzzi", "Lobby area", "Function hall", "Business center"],
-    whatsapp: '+94777150066'
+A great opportunity to lease a ready-to-operate hotel property in one of Colombo's most sought-after commercial areas.`,
+    features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
+    whatsapp: '+94777150066',
   },
   {
-    id: 'cinnamon-life-sale',
-    status: 'For Sale',
-    badgeClass: 'badge-sale',
-    price: 'LKR 250 Mn',
-    name: 'Cinnamon Life Residencies',
+    id: 'trizen-02-dulith',
+    status: 'Rented',
+    badgeClass: 'badge-rent',
+    price: 'LKR 540k',
+    name: 'The Tri-zen by John Keells Properties.',
     location: 'Colombo 2',
-    beds: 3, baths: 3, sqft: '1,800', furnished: false,
+    beds: 2, baths: 2, sqft: '775', furnished: true,
     type: 'Apartment',
     featured: true,
-    image: './Images/cinnamon-life/head.jpg',
+    image: './Images/trizen-02-dulith/1.jpg',
     gallery: [
-      './Images/cinnamon-life/1.jpg',
-      './Images/cinnamon-life/2.jpg',
-      './Images/cinnamon-life/3.jpg',
-      './Images/cinnamon-life/4.jpg',
-      './Images/cinnamon-life/5.jpg',
-      './Images/cinnamon-life/6.jpg',
-      './Images/cinnamon-life/7.jpg',
-      './Images/cinnamon-life/8.jpg',
-      './Images/cinnamon-life/9.jpg',
-      './Images/cinnamon-life/10.jpg',
-      './Images/cinnamon-life/11.jpg',
-      './Images/cinnamon-life/12.jpg',
-      './Images/cinnamon-life/13.jpg',
-      './Images/cinnamon-life/14.jpg',
-      './Images/cinnamon-life/15.jpg',
-      './Images/cinnamon-life/16.jpg',
-      './Images/cinnamon-life/17.jpg',
-      './Images/cinnamon-life/18.jpg',
-      './Images/cinnamon-life/19.jpg',
-      './Images/cinnamon-life/20.jpg',
-      './Images/cinnamon-life/21.jpg', 
+      './Images/trizen-02-dulith/2.jpg',
+      './Images/trizen-02-dulith/3.jpg',
+      './Images/trizen-02-dulith/4.jpg',
+      './Images/trizen-02-dulith/5.jpg',
+      './Images/trizen-02-dulith/6.jpg',
+      './Images/trizen-02-dulith/7.jpg',
+      './Images/trizen-02-dulith/8.jpg',
+      './Images/trizen-02-dulith/9.jpg',
+      './Images/trizen-02-dulith/10.jpg',
     ],
-    description: `For Sale | Cinnamon Life City of Dreams | Colombo 02
-(Ref – MRH16)
+    description: `Modern 2 Bedroom Apartment for Rent | TRI-ZEN by John Keells Properties | Colombo 02
 
-📍 Colombo 02
+A fully furnished residence offering a comfortable layout and access to a full range of premium building amenities in the heart of Colombo 02.
 
- - Bedrooms: 3
- - Bathrooms: 3
- - Sq ft area: 1,800 sqft
- - Furnishing: Unfurnished
- - Features: Infinity Swimming Pool, Fitness Center, Spa, Shopping Area, Nightclub, Restaurant
+- 2 Bedrooms | 2 Bathrooms
+- 775 sq. ft. of living space
+- Fully furnished
+- Air conditioning
+- Access to swimming pool, gym, lift, generator, and security
 
-Expected Price - LKR 275 million
+Payment terms: Refundable security deposit of 03 months and advance rent of 03 months required.
 
-📞 Get in touch to schedule a viewing: 0777150066
-
-#apartmentforsale #cinnamonlife #colombo #luxuryapartment #moshrealty`,
-    features: ["3 Bedrooms", "3 Bathrooms", "1,800 sq. ft. living space", "Unfurnished", "Infinity swimming pool", "Fitness center", "Spa", "Shopping area", "Nightclub", "Restaurant"],
-    whatsapp: '+94777150066'
+A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by John Keells Properties.`,
+    features: ["Gym", "Lift", "Play Area", "Parking", "Clubhouse", "Backup Power", "Garden", "Pool", "Security", "Wifi", "Laundry", "Restaurant", "Sports Facilities", "Jogging Track", "Rooftop Garden", "Children Play Area", "Community Hall"],
+    whatsapp: '+94777150066',
   },
 ];
 
