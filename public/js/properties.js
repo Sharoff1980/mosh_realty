@@ -526,7 +526,7 @@ A great opportunity to rent a comfortable, well-located apartment at The Grand A
     id: 'cinnamon-life-sale',
     status: 'For Sale',
     badgeClass: 'badge-sale',
-    price: 'LKR 250 Mn',
+    price: 'LKR 275 Mn',
     name: 'Cinnamon Life Residencies',
     location: 'Colombo 2',
     beds: 3, baths: 3, sqft: '1,800', furnished: false,
