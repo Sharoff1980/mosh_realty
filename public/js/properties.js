@@ -576,51 +576,6 @@ Expected Price - LKR 275 million
     whatsapp: '+94777150066'
   },
   {
-    id: 'kingsview',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'LKR 350K',
-    name: 'Kings View Residencies',
-    location: 'Kotte',
-    beds: 3, baths: 2, sqft: '1,121', furnished: true,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/kingsview/head.jpg',
-    gallery: [
-      './Images/kingsview/1.jpg',
-      './Images/kingsview/2.jpg',
-      './Images/kingsview/3.jpg',
-      './Images/kingsview/4.jpg',
-      './Images/kingsview/5.jpg',
-      './Images/kingsview/6.jpg',
-      './Images/kingsview/7.jpg',
-      './Images/kingsview/8.jpg',
-      './Images/kingsview/9.jpg',
-      './Images/kingsview/10.jpg',
-    ],
-    description: `For Rent | Kings View Residencies | Kotte
-(Ref – MRA52)
-
-📍 Kotte
-
- - Bedrooms: 3 (1 currently used as Office Room)
- - Bathrooms: 2 with Hot Water + Maid’s Washroom
- - Sq ft area: 1,121 sqft
- - Furnishing: Fully Furnished
- - Features: Fully Air-conditioned, Spacious Balcony, Dedicated Parking for 1 Vehicle
-
-Common Facilities: Fully Equipped Gym, Swimming Pool with Jacuzzi, Lobby Area, Function Hall, Business Center
-
-Monthly Rent - LKR 350,000
-Terms: 3 Months Security Deposit + 1 Month Rent Advance
-
-📞 Get in touch to schedule a viewing: 0777150066
-
-#apartmentforrent #kotte #luxuryapartment #colomboliving #moshrealty`,
-    features: ["3 Bedrooms (1 used as Office Room)", "2 Bathrooms with Hot Water", "Maid's washroom", "1,121 sq. ft. living space", "Fully furnished", "Fully air-conditioned", "Spacious balcony", "Dedicated parking for 1 vehicle", "Fully equipped gym", "Swimming pool with Jacuzzi", "Lobby area", "Function hall", "Business center"],
-    whatsapp: '+94777150066'
-  },
-  {
     id: '606-address-anupamma-big',
     status: 'For Sale',
     badgeClass: 'badge-sale',
@@ -898,6 +853,51 @@ Situated on Ward Place, The Grand offers a prestigious address with easy access 
 A rare opportunity to rent a beautifully appointed apartment that combines comfort, convenience, and breathtaking views.`,
     features: ["Pool", "Gym", "Play Area", "Lift", "Parking", "Backup Power", "Garden", "Jacuzzi", "Party Hall", "Security", "Wifi", "Laundry", "Restaurant", "Children Play Area", "Balcony", "Jogging Track", "Rooftop Garden"],
     whatsapp: '+94777150066',
+  },
+  {
+    id: 'kingsview',
+    status: 'Rented',
+    badgeClass: 'badge-rent',
+    price: 'LKR 350K',
+    name: 'Kings View Residencies',
+    location: 'Kotte',
+    beds: 3, baths: 2, sqft: '1,121', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/kingsview/head.jpg',
+    gallery: [
+      './Images/kingsview/1.jpg',
+      './Images/kingsview/2.jpg',
+      './Images/kingsview/3.jpg',
+      './Images/kingsview/4.jpg',
+      './Images/kingsview/5.jpg',
+      './Images/kingsview/6.jpg',
+      './Images/kingsview/7.jpg',
+      './Images/kingsview/8.jpg',
+      './Images/kingsview/9.jpg',
+      './Images/kingsview/10.jpg',
+    ],
+    description: `For Rent | Kings View Residencies | Kotte
+(Ref – MRA52)
+
+📍 Kotte
+
+ - Bedrooms: 3 (1 currently used as Office Room)
+ - Bathrooms: 2 with Hot Water + Maid’s Washroom
+ - Sq ft area: 1,121 sqft
+ - Furnishing: Fully Furnished
+ - Features: Fully Air-conditioned, Spacious Balcony, Dedicated Parking for 1 Vehicle
+
+Common Facilities: Fully Equipped Gym, Swimming Pool with Jacuzzi, Lobby Area, Function Hall, Business Center
+
+Monthly Rent - LKR 350,000
+Terms: 3 Months Security Deposit + 1 Month Rent Advance
+
+📞 Get in touch to schedule a viewing: 0777150066
+
+#apartmentforrent #kotte #luxuryapartment #colomboliving #moshrealty`,
+    features: ["3 Bedrooms (1 used as Office Room)", "2 Bathrooms with Hot Water", "Maid's washroom", "1,121 sq. ft. living space", "Fully furnished", "Fully air-conditioned", "Spacious balcony", "Dedicated parking for 1 vehicle", "Fully equipped gym", "Swimming pool with Jacuzzi", "Lobby area", "Function hall", "Business center"],
+    whatsapp: '+94777150066'
   },
   {
     id: 'havelock-4br',
