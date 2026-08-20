@@ -1201,7 +1201,7 @@ A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by Jo
   },
   {
     id: 'capitol-elite',
-    status: 'Rented',
+    status: 'For Rent',
     badgeClass: 'badge-rent',
     price: 'LKR 425K',
     name: 'Capitol Elite Apartments',
