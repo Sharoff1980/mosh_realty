@@ -43,6 +43,96 @@ A rare opportunity to own a luxury apartment that perfectly combines stunning vi
     whatsapp: '+94777150066'
   },
   {
+    id: 'cinnammon-sale',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 245 Mn',
+    name: 'Cinnamon Life Residencies',
+    location: 'Colombo 2',
+    beds: 3, baths: 2, sqft: '1649', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/cinnammon-sale/head.jpg',
+    gallery: [
+      './Images/cinnammon-sale/1.jpg',
+      './Images/cinnammon-sale/2.jpg',
+      './Images/cinnammon-sale/4.jpg',
+      './Images/cinnammon-sale/3.jpg',
+      './Images/cinnammon-sale/5.jpg',
+      './Images/cinnammon-sale/6.jpg',
+      './Images/cinnammon-sale/7.jpg',
+      './Images/cinnammon-sale/8.jpg',
+      './Images/cinnammon-sale/9.jpg',
+    ],
+    description: `For Sale | Cinnamon Life | Colombo 02
+
+(Ref –MRA63)
+
+📍 Colombo 02
+
+ - Bedrooms: 3
+ - Bathrooms: 3 + Utility Room
+ - Sq ft area: 1,649 sqft
+ - Furnishing: Fully Furnished with Appliances
+-Features : Swimming Pool, State-of-the-Art Gym, Steam/Sauna Rooms, Resident Lounges, 24/7 Security, 100% Generator Backup
+
+Location: Steps from City of Dreams Mall & Hotel, Minutes to One Galle Face, Supermarkets, Dining & CBD
+
+Expected Price - LKR 245 million 
+
+📞 Get in touch to schedule a private viewing: 0777150066
+
+#apartmentforsale #cinnamonlife #colombo02 #luxuryapartment #moshrealty`,
+    features: ["Fully furnished with appliances", "Swimming pool", "State-of-the-art gym", "Steam/Sauna rooms", "Resident lounges", "24/7 security", "100% generator backup", "Steps from City of Dreams Mall & Hotel", "Minutes to One Galle Face, supermarkets, dining & CBD"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'trizen-rent',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 375k',
+    name: 'The Tri-zen by John Keells Properties.',
+    location: 'Colombo 2',
+    beds: 1, baths: 1, sqft: '503', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/trizen-rental/head.jpeg',
+    gallery: [
+      './Images/trizen-rental/1.jpg',
+      './Images/trizen-rental/2.jpg',
+      './Images/trizen-rental/3.jpg',
+      './Images/trizen-rental/4.jpg',
+      './Images/trizen-rental/5.jpg',
+      './Images/trizen-rental/6.jpg',
+      './Images/trizen-rental/7.jpg',
+      './Images/trizen-rental/8.jpg',
+      './Images/trizen-rental/9.jpg',
+      './Images/trizen-rental/10.jpg',
+    ],
+    description: `For Rent | Trizen | Colombo
+
+(Ref –MRA62)
+
+📍 Colombo
+
+ - Bedrooms: 1
+ - Bathrooms: 1
+ - Sq ft area: 503 sqft
+ - Furnishing: Fully Furnished
+ - Features: City View
+
+Common Facilities: Swimming Pool, Gym
+
+Expected Price - LKR 375,000 / Month ($1,118)
+
+📞 Get in touch to schedule a viewing: 0777150066
+
+#apartmentforrent #trizen #colombo #furnishedapartment #moshrealty
+`,
+    features: ["1 Bedroom", "1 Bathroom", "503 sq. ft. living space", "Fully furnished", "City view", "Swimming pool", "Gym"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'altair-rent',
     status: 'For Rent',
     badgeClass: 'badge-rent',
