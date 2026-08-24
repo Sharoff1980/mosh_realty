@@ -182,6 +182,46 @@ A rare opportunity to rent a luxury apartment that perfectly combines comfort, s
     whatsapp: '+94777150066'
   },
   {
+    id: 'capitol-elite',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 425K',
+    name: 'Capitol Elite Apartments',
+    location: 'Colombo 7',
+    beds: 2, baths: 2, sqft: '1000', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/capitol-elite/head.jpg',
+    gallery: [
+      './Images/capitol-elite/1.jpg',
+      './Images/capitol-elite/2.jpg',
+      './Images/capitol-elite/3.jpg',
+      './Images/capitol-elite/4.jpg',
+      './Images/capitol-elite/5.jpg',
+      './Images/capitol-elite/6.jpg',
+      './Images/capitol-elite/7.jpg',
+      './Images/capitol-elite/8.jpg',
+    ],
+    description: `For Rent | Capitol Elite | Colombo 07
+(Ref - MRH26)
+
+📍 Colombo 07
+
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 1000 sqft
+ - Furnishing: Fully Furnished
+ - Features: Swimming Pool, Gym, Rooftop Garden, Security, Parking, Backup Generator
+
+Expected Price - LKR 425,000 / Month
+
+📞 To set up a viewing: 0777150066
+
+#apartmentforrent #capitolelite #colombo07 #fullyfurnished #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,000 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Rooftop garden", "24/7 security", "Parking", "Backup generator"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'kotte-apartment-residence',
     status: 'For Sale',
     badgeClass: 'badge-sale',
@@ -1197,46 +1237,6 @@ Payment terms: Refundable security deposit of 03 months and advance rent of 03 m
 
 A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by John Keells Properties.`,
     features: ["Gym", "Lift", "Play Area", "Parking", "Clubhouse", "Backup Power", "Garden", "Pool", "Security", "Wifi", "Laundry", "Restaurant", "Sports Facilities", "Jogging Track", "Rooftop Garden", "Children Play Area", "Community Hall"],
-    whatsapp: '+94777150066',
-  },
-  {
-    id: 'capitol-elite',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'LKR 425K',
-    name: 'Capitol Elite Apartments',
-    location: 'Colombo 7',
-    beds: 2, baths: 2, sqft: '1000', furnished: true,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/capitol-elite/head.jpg',
-    gallery: [
-      './Images/capitol-elite/1.jpg',
-      './Images/capitol-elite/2.jpg',
-      './Images/capitol-elite/3.jpg',
-      './Images/capitol-elite/4.jpg',
-      './Images/capitol-elite/5.jpg',
-      './Images/capitol-elite/6.jpg',
-      './Images/capitol-elite/7.jpg',
-      './Images/capitol-elite/8.jpg',
-    ],
-    description: `For Rent | Capitol Elite | Colombo 07
-(Ref - MRH26)
-
-📍 Colombo 07
-
- - Bedrooms: 2
- - Bathrooms: 2
- - Sq ft area: 1000 sqft
- - Furnishing: Fully Furnished
- - Features: Swimming Pool, Gym, Rooftop Garden, Security, Parking, Backup Generator
-
-Expected Price - LKR 425,000 / Month
-
-📞 To set up a viewing: 0777150066
-
-#apartmentforrent #capitolelite #colombo07 #fullyfurnished #luxuryapartment #moshrealty`,
-    features: ["2 Bedrooms", "2 Bathrooms", "1,000 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Rooftop garden", "24/7 security", "Parking", "Backup generator"],
     whatsapp: '+94777150066',
   },
 ];
