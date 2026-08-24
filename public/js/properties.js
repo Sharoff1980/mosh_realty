@@ -182,46 +182,6 @@ A rare opportunity to rent a luxury apartment that perfectly combines comfort, s
     whatsapp: '+94777150066'
   },
   {
-    id: 'capitol-elite',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'LKR 425K',
-    name: 'Capitol Elite Apartments',
-    location: 'Colombo 7',
-    beds: 2, baths: 2, sqft: '1000', furnished: true,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/capitol-elite/head.jpg',
-    gallery: [
-      './Images/capitol-elite/1.jpg',
-      './Images/capitol-elite/2.jpg',
-      './Images/capitol-elite/3.jpg',
-      './Images/capitol-elite/4.jpg',
-      './Images/capitol-elite/5.jpg',
-      './Images/capitol-elite/6.jpg',
-      './Images/capitol-elite/7.jpg',
-      './Images/capitol-elite/8.jpg',
-    ],
-    description: `For Rent | Capitol Elite | Colombo 07
-(Ref - MRH26)
-
-📍 Colombo 07
-
- - Bedrooms: 2
- - Bathrooms: 2
- - Sq ft area: 1000 sqft
- - Furnishing: Fully Furnished
- - Features: Swimming Pool, Gym, Rooftop Garden, Security, Parking, Backup Generator
-
-Expected Price - LKR 425,000 / Month
-
-📞 To set up a viewing: 0777150066
-
-#apartmentforrent #capitolelite #colombo07 #fullyfurnished #luxuryapartment #moshrealty`,
-    features: ["2 Bedrooms", "2 Bathrooms", "1,000 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Rooftop garden", "24/7 security", "Parking", "Backup generator"],
-    whatsapp: '+94777150066',
-  },
-  {
     id: 'kotte-apartment-residence',
     status: 'For Sale',
     badgeClass: 'badge-sale',
@@ -1237,6 +1197,47 @@ Payment terms: Refundable security deposit of 03 months and advance rent of 03 m
 
 A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by John Keells Properties.`,
     features: ["Gym", "Lift", "Play Area", "Parking", "Clubhouse", "Backup Power", "Garden", "Pool", "Security", "Wifi", "Laundry", "Restaurant", "Sports Facilities", "Jogging Track", "Rooftop Garden", "Children Play Area", "Community Hall"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'aquaria-apartment',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 250K',
+    name: 'Aquaria Apartments',
+    location: 'Colombo 5',
+    beds: 2, baths: 2, sqft: '750', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/capitol-elite/head.jpg',
+    gallery: [
+      './Images/aquaria/1.jpg',
+      './Images/aquaria/2.jpg',
+      './Images/aquaria/3.jpg',
+      './Images/aquaria/4.jpg',
+      './Images/aquaria/5.jpg',
+      './Images/aquaria/6.jpg',
+      './Images/aquaria/7.jpg',
+    ],
+    description: `For Rent | Aquaria Apartments |Colombo 05
+(Ref - MRA58)
+
+📍 Colombo 05
+
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 750 sqft
+ - Furnishing: Unfurnished (Can be Furnished)
+
+Deposit: 3 Months Security + Advance (Negotiable)
+
+Expected Price - LKR 250,000 / Month
+
+📞 To set up a viewing: 0777150066
+
+#apartmentforrent #aquariaapartments #colombo05 #unfurnished #moshrealty
+`,
+    features: ["2 Bedrooms", "2 Bathrooms", "750 sq. ft. living space", "Unfurnished (can be furnished)", "3 months security deposit + advance (negotiable)"],
     whatsapp: '+94777150066',
   },
 ];
