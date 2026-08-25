@@ -617,6 +617,48 @@ A great opportunity to own a comfortable, well-located apartment at Barrington T
     whatsapp: '+94777150066',
   },
   {
+    id: 'span-tower',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 48.8 Mn',
+    name: 'Span Tower 5',
+    location: 'Colombo 4',
+    beds: 3, baths: 2, sqft: '1064', furnished: true,
+    type: 'Apartment',
+    featured: false,
+    image: './Images/span-tower/head.jpeg',
+    gallery: [
+      './Images/span-tower/2.jpg',
+      './Images/span-tower/3.jpg',
+      './Images/span-tower/4.jpg',
+      './Images/span-tower/5.jpg',
+      './Images/span-tower/6.jpg',
+      './Images/span-tower/7.jpg',
+      './Images/span-tower/8.jpg',
+      './Images/span-tower/9.jpg',
+      './Images/span-tower/10.jpg',
+    ],
+    description: `*For Sale | Span Tower | Colombo 04*
+
+(Ref – MRH09)
+
+📍 Colombo 04
+
+ - Bedrooms: 3
+ - Bathrooms: 2
+ - Sq ft area: 1,064 
+ - Furnishing: Furnished
+ - Features: Rooftop terrace, gymnasium, elevator, 24-hour security, designated parking
+
+Expected Price - LKR 48.8 million
+
+📞 Get in touch to schedule a viewing: 0777150066
+
+#apartmentforsale #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,064 sq. ft. living space", "Furnished", "Rooftop terrace", "Gymnasium", "Elevator", "24-hour security", "Designated parking"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'the-grand-avenue',
     status: 'For Rent',
     badgeClass: 'badge-rent',
@@ -753,7 +795,7 @@ A rare opportunity to own a luxury apartment that perfectly combines stunning vi
     id: 'altair-01',
     status: 'For Sale',
     badgeClass: 'badge-sale',
-    price: 'LKR 149 Mn',
+    price: 'LKR 140 Mn',
     name: 'Altair Apartment',
     location: 'Colombo 3',
     beds: 3, baths: 2, sqft: '1627', furnished: false,
