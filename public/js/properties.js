@@ -187,7 +187,7 @@ A rare opportunity to rent a luxury apartment that perfectly combines comfort, s
     badgeClass: 'badge-sale',
     price: 'LKR 67 Mn',
     name: 'The Residencies by Kotte ICC',
-    location: '27 Thalapathpitiya Rd, Nugegoda',
+    location: 'Nugegoda',
     beds: 2, baths: 2, sqft: '823', furnished: false,
     type: 'Apartment',
     featured: true,
