@@ -6,41 +6,49 @@
 
 const PROPERTIES = [
   {
-    id: '606-address',
+    id: '606-2br',
     status: 'For Sale',
     badgeClass: 'badge-sale',
-    price: 'LKR 220 Mn',
+    price: 'LKR 135 Mn',
     name: '606 The Address',
     location: 'Colombo 3',
-    beds: 3, baths: 3, sqft: '2,425', furnished: false,
+    beds: 2, baths: 2, sqft: '1480', furnished: true,
     type: 'Apartment',
     featured: true,
-    image: './Images/606-address/1.jpeg',
+    image: './Images/606-zul/head.jpg',
     gallery: [
-      './Images/606-address/2.jpeg',
-      './Images/606-address/3.jpeg',
-      './Images/606-address/4.jpeg',
-      './Images/606-address/5.jpeg',
-      './Images/606-address/6.jpeg',
-      './Images/606-address/7.jpeg',
-      './Images/606-address/8.jpeg',
-      
+      './Images/606-zul/1.jpg',
+      './Images/606-zul/2.jpg',
+      './Images/606-zul/3.jpg',
+      './Images/606-zul/4.jpg',
+      './Images/606-zul/5.jpg',
+      './Images/606-zul/6.jpg',
+      './Images/606-zul/7.jpg',
+      './Images/606-zul/8.jpg',
+      './Images/606-zul/9.jpg',
+      './Images/606-zul/10.jpg',
+      './Images/606-zul/11.jpg',
+      './Images/606-zul/12.jpg',
+      './Images/606-zul/13.jpg',
     ],
-    description: `Luxury 3 Bedroom Apartment for Sale | 606 The Address | Colombo 03
+    description: `For Sale | The Address 606 | colombo 02
 
-Enjoy breathtaking panoramic ocean views stretching from Colpetty to Port City from this spacious and elegantly appointed residence.
+ 📍 Colombo 2  
 
-• 3 Bedrooms | 3 Bathrooms
-• 2,425 sq. ft. of premium living space
-• Modern pantry and high-end bathroom fittings
-• 2 dedicated parking spaces
+- ⁠Bedrooms: 2 
+- ⁠Bathrooms: 2 
+- ⁠Sq ft area: 1,480 sqft 
+- Furnishing: Semi-Furnished 
+- ⁠ Features: Air Conditioning, City & Beach View, Fridge & Washing Machine, Maid's Quarters, Swimming Pool, Gym, Parking, Lift, Play Area, Clubhouse, Security, Garden, Restaurant, Supermarket  
 
-Conveniently located in the heart of Colombo 03 with a coffee shop and supermarket within the building, while leading restaurants, essential amenities, and fuel stations are just moments away.
+Expected price - 135 million 
 
-A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.
-`,
-    features: ["Pool", "Gym", "Parking", "Lift", "Play Area", "Clubhouse", "Backup Power", "Garden", "Restaurant", "Supermarket", "Pharmacy", "Community Hall", "Playground", "Balcony"],
-    whatsapp: '+94777150066'
+📞 To set up a viewing : 0777150066
+  
+
+#apartmentforsale #theaddress #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,480 sq. ft. living space", "Furnished (Basic)", "Air conditioning", "City and beach view", "Balconies", "Fridge & washing machine", "Maid's quarters", "Swimming pool", "Gym", "Parking", "Lift", "Play area", "Clubhouse", "Security", "Garden", "Restaurant", "Supermarket"],
+    whatsapp: '+94777150066',
   },
   {
     id: 'cinnammon-sale',
@@ -90,7 +98,7 @@ Expected Price - LKR 245 million
     id: 'trizen-rent',
     status: 'For Rent',
     badgeClass: 'badge-rent',
-    price: 'LKR 375k',
+    price: 'LKR 375K',
     name: 'The Tri-zen by John Keells Properties.',
     location: 'Colombo 2',
     beds: 1, baths: 1, sqft: '503', furnished: true,
@@ -179,6 +187,43 @@ Located in the heart of Colombo 02, Altair Towers offers a prestigious address c
 
 A rare opportunity to rent a luxury apartment that perfectly combines comfort, style, and an unbeatable location.`,
     features: ["Pool", "Gym", "Parking", "Lift"],
+    whatsapp: '+94777150066'
+  },
+  {
+    id: '606-address',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 220 Mn',
+    name: '606 The Address',
+    location: 'Colombo 3',
+    beds: 3, baths: 3, sqft: '2,425', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/606-address/1.jpeg',
+    gallery: [
+      './Images/606-address/2.jpeg',
+      './Images/606-address/3.jpeg',
+      './Images/606-address/4.jpeg',
+      './Images/606-address/5.jpeg',
+      './Images/606-address/6.jpeg',
+      './Images/606-address/7.jpeg',
+      './Images/606-address/8.jpeg',
+      
+    ],
+    description: `Luxury 3 Bedroom Apartment for Sale | 606 The Address | Colombo 03
+
+Enjoy breathtaking panoramic ocean views stretching from Colpetty to Port City from this spacious and elegantly appointed residence.
+
+• 3 Bedrooms | 3 Bathrooms
+• 2,425 sq. ft. of premium living space
+• Modern pantry and high-end bathroom fittings
+• 2 dedicated parking spaces
+
+Conveniently located in the heart of Colombo 03 with a coffee shop and supermarket within the building, while leading restaurants, essential amenities, and fuel stations are just moments away.
+
+A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.
+`,
+    features: ["Pool", "Gym", "Parking", "Lift", "Play Area", "Clubhouse", "Backup Power", "Garden", "Restaurant", "Supermarket", "Pharmacy", "Community Hall", "Playground", "Balcony"],
     whatsapp: '+94777150066'
   },
   {
@@ -309,10 +354,409 @@ Enjoy stunning Colombo city views from home, with schools, supermarkets, and pub
     whatsapp: '+94777150066',
   },
   {
+    id: 'edmonton-tower',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 320K',
+    name: 'Havelock City | Edmonton Tower',
+    location: 'Colombo 5',
+    beds: 1, baths: 1, sqft: '753', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/edmonton-tower/head.jpg',
+    gallery: [
+      './Images/edmonton-tower/1.jpg',
+      './Images/edmonton-tower/2.jpg',
+      './Images/edmonton-tower/3.jpg',
+      './Images/edmonton-tower/4.jpg',
+      './Images/edmonton-tower/5.jpg',
+      './Images/edmonton-tower/6.jpg',
+      './Images/edmonton-tower/7.jpg',
+    ],
+    description: `For Rent | Havelock City, Edmonton Tower | Colombo 05
+(Ref - MRH29)
+
+📍 Colombo 05
+
+ - Bedrooms: 1
+ - Bathrooms: 1
+ - Sq ft area: 753 sqft
+ - Furnishing: Fully Furnished
+ - Features: Swimming Pool, Jacuzzi, Kids' Pool, Gymnasium, Squash Court, Badminton Court, Basketball Court, Jogging Track, Children's Play Areas, Mini Cinema, Three Banquet Halls, Mini-Supermarket, Hair and Beauty Salon, Launderette, Direct Mall Access, 24/7 Security, Backup Generators, Private Parking
+
+Rent - LKR 320,000 / Month
+
+📞 To set up a viewing: 0777150066
+
+#apartmentforrent #havelockcity #colombo05 #fullyfurnished #luxuryapartment #moshrealty`,
+    features: ["1 Bedroom", "1 Bathroom", "753 sq. ft. living space", "Fully furnished", "Swimming pool", "Jacuzzi", "Kids' pool", "Gymnasium", "Squash court", "Badminton court", "Basketball court", "Jogging track", "Children's play areas", "Mini cinema", "Three banquet halls", "Mini-supermarket", "Hair and beauty salon", "Launderette", "Direct mall access", "24/7 security", "Backup generators", "Private parking"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'alexandria-homes',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 495K',
+    name: 'Alexandria Homes',
+    location: 'Colombo 6',
+    beds: 4, baths: 3, sqft: '1375', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/alexandria-homes/head.jpg',
+    gallery: [
+      './Images/alexandria-homes/1.jpg',
+      './Images/alexandria-homes/2.jpg',
+      './Images/alexandria-homes/3.jpg',
+      './Images/alexandria-homes/4.jpg',
+      './Images/alexandria-homes/5.jpg',
+      './Images/alexandria-homes/6.jpg',
+      './Images/alexandria-homes/7.jpg',
+      './Images/alexandria-homes/8.jpg',
+      './Images/alexandria-homes/9.jpg',
+    ],
+    description: `For Rent | Alexandria Homes | Colombo 06
+(Ref - MRH30)
+
+📍 Colombo 06
+
+ - Bedrooms: 4
+ - Bathrooms: 3
+ - Sq ft area: 1375 sqft
+ - Furnishing: Fully Furnished
+ - Features: Swimming Pool, Rooftop Gymnasium, Rooftop Terrace with City and Ocean Views, Twin Elevators, 24/7 Security with CCTV Monitoring, Standby Backup Generator, Dedicated Covered Parking, Central Garbage Removal
+
+Rent - LKR 495,000 / Month
+
+📞 To set up a viewing: 0777150066
+
+#apartmentforrent #alexandriahomes #colombo06 #fullyfurnished #luxuryapartment #moshrealty`,
+    features: ["4 Bedrooms", "3 Bathrooms", "1,375 sq. ft. living space", "Fully furnished", "Swimming pool", "Rooftop gymnasium", "Rooftop terrace with city and ocean views", "Twin elevators", "24/7 security with CCTV monitoring", "Standby backup generator", "Dedicated covered parking", "Central garbage removal"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'capitol-elite',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 425K',
+    name: 'Capitol Elite',
+    location: 'Colombo 7',
+    beds: 2, baths: 2, sqft: '1000', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/capitol-elite/head.jpg',
+    gallery: [
+      './Images/capitol-elite/1.jpg',
+      './Images/capitol-elite/2.jpg',
+      './Images/capitol-elite/3.jpg',
+      './Images/capitol-elite/4.jpg',
+      './Images/capitol-elite/5.jpg',
+      './Images/capitol-elite/6.jpg',
+      './Images/capitol-elite/7.jpg',
+      './Images/capitol-elite/8.jpg',
+    ],
+    description: `For Rent | Capitol Elite | Colombo 07
+(Ref - MRH26)
+
+📍 Colombo 07
+
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 1000 sqft
+ - Furnishing: Fully Furnished
+ - Features: Swimming Pool, Gym, Rooftop Garden, Security, Parking, Backup Generator
+
+Expected Price - LKR 425,000 / Month
+
+📞 To set up a viewing: 0777150066
+
+#apartmentforrent #capitolelite #colombo07 #fullyfurnished #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,000 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Rooftop garden", "Security", "Parking", "Backup generator"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'ru-resi',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 300K',
+    name: 'Ru Residencies',
+    location: 'Kotte',
+    beds: 3, baths: 2, sqft: '1100', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/ru-resi/head.jpg',
+    gallery: [
+      './Images/ru-resi/1.jpg',
+      './Images/ru-resi/2.jpg',
+      './Images/ru-resi/3.jpg',
+      './Images/ru-resi/4.jpg',
+      './Images/ru-resi/5.jpg',
+      './Images/ru-resi/6.jpg',
+      './Images/ru-resi/7.jpg',
+      './Images/ru-resi/8.jpg',
+    ],
+    description: `For Rent | Ru Residencies | Kotte
+(Ref – MRH31)
+📍 Kotte
+
+- Bedrooms: 3
+- Bathrooms: 2
+- Sq ft area: 1,100 sqft
+- Furnishing: Fully Furnished
+- Features: Swimming Pool, Gymnasium, Twin Elevators, 24/7 Security with CCTV Monitoring, Standby Backup Generator, Dedicated Covered Parking, Central Gas System, Rooftop
+
+- Rent - LKR 300,000 / Month
+
+📞 To set up a viewing: 0777150066
+#apartmentforrent #ruresidencies #kotte #fullyfurnished #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,100 sq. ft. living space", "Fully furnished", "Swimming pool", "Gymnasium", "Twin elevators", "24/7 security with CCTV monitoring", "Standby backup generator", "Dedicated covered parking", "Central gas system", "Rooftop"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: '146-resi',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 99 Mn',
+    name: '146 Residencies',
+    location: 'Colombo 6',
+    beds: 4, baths: 4, sqft: '1950', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/146-residencies/head.jpg',
+    gallery: [
+      './Images/146-residencies/1.jpg',
+      './Images/146-residencies/2.jpg',
+      './Images/146-residencies/3.jpg',
+      './Images/146-residencies/4.jpg',
+      './Images/146-residencies/5.jpg',
+      './Images/146-residencies/6.jpg',
+      './Images/146-residencies/7.jpg',
+      './Images/146-residencies/8.jpg',
+      './Images/146-residencies/9.jpg',
+      './Images/146-residencies/10.jpg',
+      './Images/146-residencies/11.jpg',
+    ],
+    description: `For Sale | 146 Residencies | Colombo 06
+(Ref – MRH28)
+📍 Colombo 06
+
+- Bedrooms: 4
+- Bathrooms: 4
+- Sq ft area: 1,950 sqft
+- Furnishing: Unfurnished
+- Features: Swimming Pool, Gym, Rooftop Lounge Area, Clubhouse, Children's Play Area, Elevators, Parking Facilities, Backup Generator, BBQ Area
+
+- Expected Price - LKR 99 Million
+
+📞 To set up a viewing: 0777150066
+#apartmentforsale #146residencies #colombo06 #luxuryapartment #moshrealty`,
+    features: ["4 Bedrooms", "4 Bathrooms", "1,950 sq. ft. living space", "Unfurnished", "Swimming pool", "Gym", "Rooftop lounge area", "Clubhouse", "Children's play area", "Elevators", "Parking facilities", "Backup generator", "BBQ area"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'grand-dehi',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 450K',
+    name: 'The Grand Residencies',
+    location: 'Dehiwala',
+    beds: 3, baths: 2, sqft: '1470', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/grand-dehiwala/head.jpg',
+    gallery: [
+      './Images/grand-dehiwala/1.jpg',
+      './Images/grand-dehiwala/2.jpg',
+      './Images/grand-dehiwala/3.jpg',
+      './Images/grand-dehiwala/4.jpg',
+      './Images/grand-dehiwala/5.jpg',
+      './Images/grand-dehiwala/6.jpg',
+      './Images/grand-dehiwala/7.jpg',
+      './Images/grand-dehiwala/8.jpg',
+      './Images/grand-dehiwala/9.jpg',
+      './Images/grand-dehiwala/10.jpg',
+    ],
+    description: `For Rent | The Grand Residencies | Dehiwala
+(Ref – MRH25)
+📍 Dehiwala
+
+- Bedrooms: 3
+- Bathrooms: 2
+- Sq ft area: 1,470 sqft
+- Furnishing: Fully Furnished
+- Features: Elevator, Backup Generator, Security, Parking Facilities
+
+- Rent - LKR 450,000 / Month
+
+📞 To set up a viewing: 0777150066
+#apartmentforrent #thegrandresidencies #dehiwala #fullyfurnished #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,470 sq. ft. living space", "Fully furnished", "Elevator", "Backup generator", "Security", "Parking facilities"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'fingate-resi',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 35 Mn',
+    name: 'Fingate Residencies',
+    location: 'Boralesgamuwa',
+    beds: 4, baths: 3, sqft: '1700', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/fingate-resi/head.jpg',
+    gallery: [
+      './Images/fingate-resi/1.jpg',
+      './Images/fingate-resi/2.jpg',
+      './Images/fingate-resi/3.jpg',
+      './Images/fingate-resi/4.jpg',
+      './Images/fingate-resi/5.jpg',
+      './Images/fingate-resi/6.jpg',
+      './Images/fingate-resi/7.jpg',
+      './Images/fingate-resi/8.jpg',
+      './Images/fingate-resi/9.jpg',
+      './Images/fingate-resi/10.jpg',
+      './Images/fingate-resi/11.jpg',
+    ],
+    description: `For Sale | Fingate Residencies | Boralesgamuwa
+(Ref – MRH22)
+📍 Boralesgamuwa
+
+- Bedrooms: 4
+- Bathrooms: 3
+- Sq ft area: 1,700 sqft
+- Furnishing: Unfurnished
+
+- Expected Price - LKR 35 Million
+
+📞 To set up a viewing: 0777150066
+#apartmentforsale #fingateresidencies #boralesgamuwa #moshrealty`,
+    features: ["4 Bedrooms", "3 Bathrooms", "1,700 sq. ft. living space", "Unfurnished"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'itc-rent',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 1.8 Mn',
+    name: 'Sapphire Residences By ITC',
+    location: 'Colombo 1',
+    beds: 3, baths: 3, sqft: '3150', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/itc-resi/head.jpg',
+    gallery: [
+      './Images/itc-resi/1.jpg',
+      './Images/itc-resi/2.jpg',
+      './Images/itc-resi/3.jpg',
+      './Images/itc-resi/4.jpg',
+      './Images/itc-resi/5.jpg',
+      './Images/itc-resi/6 (1).jpg',
+      './Images/itc-resi/6 (2).jpg',
+      './Images/itc-resi/6.jpg',
+      './Images/itc-resi/7.jpg',
+      './Images/itc-resi/8.jpg',
+      './Images/itc-resi/9.jpg',
+      './Images/itc-resi/10.jpg',
+      './Images/itc-resi/11.jpg',
+      './Images/itc-resi/12.jpg',
+      './Images/itc-resi/13.jpg',
+      './Images/itc-resi/14.jpg',
+      './Images/itc-resi/15.jpg',
+      './Images/itc-resi/16.jpg',
+      './Images/itc-resi/17.jpg',
+      './Images/itc-resi/18.jpg',
+      './Images/itc-resi/19.jpg',
+      './Images/itc-resi/20.jpg',
+      './Images/itc-resi/21.jpg',
+      './Images/itc-resi/22.jpg',
+      './Images/itc-resi/23.jpg',
+      './Images/itc-resi/24.jpg',
+      './Images/itc-resi/25.jpg',
+      './Images/itc-resi/26.jpg',
+    
+    ],
+    description: `For Rent | ITC | Colombo 01
+(Ref – MRH19)
+📍 Colombo 01
+
+- Bedrooms: 3
+- Bathrooms: 3
+- Sq ft area: 3,150 sqft
+- Furnishing: Unfurnished
+- Features: 20-metre Swimming Pool, Kids' & Toddlers' Pool, Sun Deck, BBQ Terrace, Fully Equipped Gym, Spin Studio, Yoga Pavilion, Indoor Squash Court, Table Tennis, Indoor Multi-Purpose Sports Court (Badminton, Futsal, Basketball), Spa Facilities, Private Cinema with 4K Screen & Surround Sound, Kids' & Teens' Social and Active Lounges, Creativity Studio, Kids' Outdoor Lawn, Residents' Club / Club Lounge, Bars & Cafes
+
+- Rent - LKR 1.8 Million / Month
+
+📞 To set up a viewing: 0777150066
+#apartmentforrent #itc #colombo01 #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "3 Bathrooms", "3,150 sq. ft. living space", "Residents' Club / Club Lounge", "20-metre swimming pool", "Kids' pool", "Toddlers' pool", "Sun deck", "BBQ terrace", "Fully equipped gym", "Spin studio", "Yoga pavilion", "Indoor squash court", "Table tennis", "Indoor multi-purpose sports court", "Badminton court", "Futsal court", "Basketball court", "Spa facilities", "Private cinema / media room", "4K screen with surround sound", "Kids' social lounge", "Kids' active lounge", "Teens' social lounge", "Teens' active lounge", "Creativity studio", "Kids' outdoor lawn", "Bars", "Cafes"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'mansion-batt',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 255 Mn',
+    name: 'Luxury Modern Mansion',
+    location: 'Battaramulla',
+    beds: 4, baths: 4, sqft: '6000', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/mansion-batt/head.jpg',
+    gallery: [
+      './Images/mansion-batt/1.jpg',
+      './Images/mansion-batt/2.jpg',
+      './Images/mansion-batt/3.jpg',
+      './Images/mansion-batt/4 (1).jpg',
+      './Images/mansion-batt/4 (2).jpg',
+      './Images/mansion-batt/4 (3).jpg',
+      './Images/mansion-batt/5.jpg',
+      './Images/mansion-batt/6.jpg',
+      './Images/mansion-batt/7.jpg',
+      './Images/mansion-batt/8.jpg',
+      './Images/mansion-batt/9.jpg',
+      './Images/mansion-batt/10.jpg',
+      './Images/mansion-batt/11.jpg',
+      './Images/mansion-batt/12.jpg',
+      './Images/mansion-batt/13.jpg',
+      './Images/mansion-batt/14.jpg',
+      './Images/mansion-batt/15.jpg',
+      './Images/mansion-batt/16.jpg',
+      './Images/mansion-batt/17.jpg',
+      './Images/mansion-batt/18 (1).jpg',
+      './Images/mansion-batt/18.jpg',
+      './Images/mansion-batt/19.jpg',
+      './Images/mansion-batt/20.jpg',
+      './Images/mansion-batt/21.jpg',
+      './Images/mansion-batt/22.jpg',
+      './Images/mansion-batt/23.jpg',
+      './Images/mansion-batt/24.jpg',
+      './Images/mansion-batt/25.jpg',
+      './Images/mansion-batt/26.jpg',
+      './Images/mansion-batt/27.jpg',
+    ],
+    description: `For Sale | 4-Story House | Battaramulla
+(Ref – MRH14)
+📍Battaramulla
+
+- Bedrooms: 4
+- Bathrooms: 4
+- Sq ft area: 6,000 sqft
+- Land extent: 13 Perches
+- Furnishing: Furnished
+- Features: Swimming Pool, Gym, Rooftop, Lift, Roller Gate, Parking for 5 Vehicles, CCTV Security System
+
+- Expected Price - LKR 255 Million
+
+📞 To set up a viewing: 0777150066
+#houseforsale #battaramulla #luxuryhome #moshrealty`,
+    features: ["4 Bedrooms", "4 Bathrooms", "6,000 sq. ft. living space", "13 Perches", "Furnished", "Swimming pool", "Gym", "Rooftop", "Lift", "Roller gate", "Parking for 5 vehicles", "CCTV security system"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'iceland-residencies',
     status: 'For Sale',
     badgeClass: 'badge-sale',
-    price: 'LKR 48.8Mn',
+    price: 'LKR 48.8 Mn',
     name: 'Iceland Residencies',
     location: 'Colombo 4',
     beds: 4, baths: 4, sqft: '2,500', furnished: true,
@@ -367,7 +811,7 @@ Expected Price - LKR 240 million
     beds: 2, baths: 2, sqft: '750', furnished: false,
     type: 'Apartment',
     featured: true,
-    image: './Images/capitol-elite/head.jpg',
+    image: './Images/aquaria/head.jpg',
     gallery: [
       './Images/aquaria/1.jpg',
       './Images/aquaria/2.jpg',
@@ -533,44 +977,6 @@ A great opportunity to own a comfortable, well-located apartment at Iconic Galax
     whatsapp: '+94777150066',
   },
   {
-    id: '606-address-anupamma-small',
-    status: 'For Sale',
-    badgeClass: 'badge-sale',
-    price: 'LKR 90 Mn',
-    name: '606 The Address',
-    location: 'Colombo 3',
-    beds: 2, baths: 2, sqft: '1055', furnished: false,
-    type: 'Apartment',
-    featured: false,
-    image: './Images/606-address-anupamma-small/1(2).jpeg',
-    gallery: [
-      './Images/606-address-anupamma-small/1.jpeg',
-      './Images/606-address-anupamma-small/2.jpeg',
-      './Images/606-address-anupamma-small/3.jpeg',
-      './Images/606-address-anupamma-small/4.jpeg',
-      './Images/606-address-anupamma-small/5.jpeg',
-      './Images/606-address-anupamma-small/6.jpeg',
-      './Images/606-address-anupamma-small/7.jpeg',
-      './Images/606-address-anupamma-small/8.jpeg',
-      './Images/606-address-anupamma-small/9.jpeg',
-      './Images/606-address-anupamma-small/10.jpeg',
-    ],
-    description: `Luxury 2 Bedroom Apartment for Sale | 606 The Address | Colombo 03
-
-Enjoy breathtaking panoramic ocean views stretching from Colpetty to Port City from this spacious and elegantly appointed residence.
-
-• 2 Bedrooms | 2 Bathrooms
-• 1,055 sq. ft. of premium living space
-• Modern pantry and high-end bathroom fittings
-• 2 dedicated parking spaces
-
-Conveniently located in the heart of Colombo 03 with a coffee shop and supermarket within the building, while leading restaurants, essential amenities, and fuel stations are just moments away.
-
-A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.`,
-    features: ["Pool", "Gym", "Parking", "Lift", "Play Area", "Clubhouse", "Backup Power", "Garden", "Restaurant", "Supermarket", "Pharmacy", "Community Hall", "Playground", "Balcony"],
-    whatsapp: '+94777150066',
-  },
-  {
     id: 'barrington-tower',
     status: 'For Sale',
     badgeClass: 'badge-sale',
@@ -662,7 +1068,7 @@ Expected Price - LKR 48.8 million
     id: 'the-grand-avenue',
     status: 'For Rent',
     badgeClass: 'badge-rent',
-    price: 'LKR 195k ',
+    price: 'LKR 195K ',
     name: 'The Grand Avenue',
     location: 'Sri Saranankara Place, Dehiwala',
     beds: 3, baths: 2, sqft: '1399', furnished: false,
@@ -883,7 +1289,7 @@ A rare opportunity to own an expansive, well-equipped property offering comfort,
     id: 'house-rent-col7',
     status: 'For Rent',
     badgeClass: 'badge-rent',
-    price: 'LKR 450k ',
+    price: 'LKR 450K',
     name: 'House Rent - Viharamahadevi Park',
     location: 'Colombo 7',
     beds: 2, baths: 1, sqft: '1110', furnished: false,
@@ -1076,7 +1482,7 @@ Terms: 3 Months Security Deposit + 1 Month Rent Advance
     id: 'havelock-4br',
     status: 'Rented',
     badgeClass: 'badge-rent',
-    price: 'LKR 700k',
+    price: 'LKR 700K',
     name: 'Havelock City',
     location: 'Colombo 2',
     beds: 4, baths: 3, sqft: '2200', furnished: true,
@@ -1201,6 +1607,82 @@ A well-planned residence offering comfort, functionality, and everyday convenien
     whatsapp: '+94777150066',
   },
   {
+    id: '606-address-anupamma-small',
+    status: 'Sold',
+    badgeClass: 'badge-sale',
+    price: 'LKR 90 Mn',
+    name: '606 The Address',
+    location: 'Colombo 3',
+    beds: 2, baths: 2, sqft: '1055', furnished: false,
+    type: 'Apartment',
+    featured: false,
+    image: './Images/606-address-anupamma-small/1(2).jpeg',
+    gallery: [
+      './Images/606-address-anupamma-small/1.jpeg',
+      './Images/606-address-anupamma-small/2.jpeg',
+      './Images/606-address-anupamma-small/3.jpeg',
+      './Images/606-address-anupamma-small/4.jpeg',
+      './Images/606-address-anupamma-small/5.jpeg',
+      './Images/606-address-anupamma-small/6.jpeg',
+      './Images/606-address-anupamma-small/7.jpeg',
+      './Images/606-address-anupamma-small/8.jpeg',
+      './Images/606-address-anupamma-small/9.jpeg',
+      './Images/606-address-anupamma-small/10.jpeg',
+    ],
+    description: `Luxury 2 Bedroom Apartment for Sale | 606 The Address | Colombo 03
+
+Enjoy breathtaking panoramic ocean views stretching from Colpetty to Port City from this spacious and elegantly appointed residence.
+
+• 2 Bedrooms | 2 Bathrooms
+• 1,055 sq. ft. of premium living space
+• Modern pantry and high-end bathroom fittings
+• 2 dedicated parking spaces
+
+Conveniently located in the heart of Colombo 03 with a coffee shop and supermarket within the building, while leading restaurants, essential amenities, and fuel stations are just moments away.
+
+A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.`,
+    features: ["Pool", "Gym", "Parking", "Lift", "Play Area", "Clubhouse", "Backup Power", "Garden", "Restaurant", "Supermarket", "Pharmacy", "Community Hall", "Playground", "Balcony"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'trizen-02-dulith',
+    status: 'Rented',
+    badgeClass: 'badge-rent',
+    price: 'LKR 540K',
+    name: 'The Tri-zen by John Keells Properties.',
+    location: 'Colombo 2',
+    beds: 2, baths: 2, sqft: '775', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/trizen-02-dulith/1.jpg',
+    gallery: [
+      './Images/trizen-02-dulith/2.jpg',
+      './Images/trizen-02-dulith/3.jpg',
+      './Images/trizen-02-dulith/4.jpg',
+      './Images/trizen-02-dulith/5.jpg',
+      './Images/trizen-02-dulith/6.jpg',
+      './Images/trizen-02-dulith/7.jpg',
+      './Images/trizen-02-dulith/8.jpg',
+      './Images/trizen-02-dulith/9.jpg',
+      './Images/trizen-02-dulith/10.jpg',
+    ],
+    description: `Modern 2 Bedroom Apartment for Rent | TRI-ZEN by John Keells Properties | Colombo 02
+
+A fully furnished residence offering a comfortable layout and access to a full range of premium building amenities in the heart of Colombo 02.
+
+- 2 Bedrooms | 2 Bathrooms
+- 775 sq. ft. of living space
+- Fully furnished
+- Air conditioning
+- Access to swimming pool, gym, lift, generator, and security
+
+Payment terms: Refundable security deposit of 03 months and advance rent of 03 months required.
+
+A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by John Keells Properties.`,
+    features: ["Gym", "Lift", "Play Area", "Parking", "Clubhouse", "Backup Power", "Garden", "Pool", "Security", "Wifi", "Laundry", "Restaurant", "Sports Facilities", "Jogging Track", "Rooftop Garden", "Children Play Area", "Community Hall"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'hotel-rent',
     status: 'Rented',
     badgeClass: 'badge-rent',
@@ -1242,44 +1724,6 @@ A fully furnished hotel property offering a well-equipped layout, ideal for hosp
 
 A great opportunity to lease a ready-to-operate hotel property in one of Colombo's most sought-after commercial areas.`,
     features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
-    whatsapp: '+94777150066',
-  },
-  {
-    id: 'trizen-02-dulith',
-    status: 'Rented',
-    badgeClass: 'badge-rent',
-    price: 'LKR 540k',
-    name: 'The Tri-zen by John Keells Properties.',
-    location: 'Colombo 2',
-    beds: 2, baths: 2, sqft: '775', furnished: true,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/trizen-02-dulith/1.jpg',
-    gallery: [
-      './Images/trizen-02-dulith/2.jpg',
-      './Images/trizen-02-dulith/3.jpg',
-      './Images/trizen-02-dulith/4.jpg',
-      './Images/trizen-02-dulith/5.jpg',
-      './Images/trizen-02-dulith/6.jpg',
-      './Images/trizen-02-dulith/7.jpg',
-      './Images/trizen-02-dulith/8.jpg',
-      './Images/trizen-02-dulith/9.jpg',
-      './Images/trizen-02-dulith/10.jpg',
-    ],
-    description: `Modern 2 Bedroom Apartment for Rent | TRI-ZEN by John Keells Properties | Colombo 02
-
-A fully furnished residence offering a comfortable layout and access to a full range of premium building amenities in the heart of Colombo 02.
-
-- 2 Bedrooms | 2 Bathrooms
-- 775 sq. ft. of living space
-- Fully furnished
-- Air conditioning
-- Access to swimming pool, gym, lift, generator, and security
-
-Payment terms: Refundable security deposit of 03 months and advance rent of 03 months required.
-
-A great opportunity to rent a stylish, well-appointed apartment at TRI-ZEN by John Keells Properties.`,
-    features: ["Gym", "Lift", "Play Area", "Parking", "Clubhouse", "Backup Power", "Garden", "Pool", "Security", "Wifi", "Laundry", "Restaurant", "Sports Facilities", "Jogging Track", "Rooftop Garden", "Children Play Area", "Community Hall"],
     whatsapp: '+94777150066',
   },
 ];
