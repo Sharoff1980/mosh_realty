@@ -323,7 +323,7 @@ A rare opportunity to own a luxury apartment that perfectly combines stunning vi
     badgeClass: 'badge-sale',
     price: 'LKR 67 Mn',
     name: 'The Residencies by Kotte ICC',
-    location: 'Nugegoda',
+    location: 'Kotte',
     beds: 2, baths: 2, sqft: '823', furnished: false,
     type: 'Apartment',
     featured: true,
