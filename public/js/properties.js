@@ -1127,7 +1127,7 @@ A great opportunity to own a comfortable, well-located apartment at Iconic Galax
       './Images/residencies-780/6.jpg',
       './Images/residencies-780/7.jpg',
     ],
-    description: `For Rent | The Residence | Kotte
+    description: `For Rent | The Residencies Kotte by ICC | Kotte
 (Ref - MRH07)
 
 - Bedrooms: 2
