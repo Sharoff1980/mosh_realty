@@ -33,7 +33,7 @@ const PROPERTIES = [
     ],
     description: `For Sale | The Address 606 | colombo 02
 
- 📍 Colombo 2  
+ 📍 Colombo 3 
 
 - ⁠Bedrooms: 2 
 - ⁠Bathrooms: 2 
@@ -92,6 +92,53 @@ Expected Price - LKR 245 million
 
 #apartmentforsale #cinnamonlife #colombo02 #luxuryapartment #moshrealty`,
     features: ["Fully furnished with appliances", "Swimming pool", "State-of-the-art gym", "Steam/Sauna rooms", "Resident lounges", "24/7 security", "100% generator backup", "Steps from City of Dreams Mall & Hotel", "Minutes to One Galle Face, supermarkets, dining & CBD"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'maison-sale',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 135 Mn ',
+    name: 'The Maison Apartments',
+    location: 'Colombo 3',
+    beds: 3, baths: 3, sqft: '1980', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/maison/head.jpg',
+    gallery: [
+      './Images/maison/1.jpg',
+      './Images/maison/2.jpg',
+      './Images/maison/3.jpg',
+      './Images/maison/4.jpg',
+      './Images/maison/5.jpg',
+      './Images/maison/6.jpg',
+      './Images/maison/7.jpg',
+      './Images/maison/8.jpg',
+      './Images/maison/9.jpg',
+      './Images/maison/10.jpg',
+      './Images/maison/11.jpg',
+      './Images/maison/12.jpg',
+      './Images/maison/13.jpg',
+      './Images/maison/14.jpg',
+      './Images/maison/15.jpg',
+      './Images/maison/16.jpg',
+    ],
+    description: `For Sale | Maison Apartment | Colombo 03
+
+📍 Colombo 03
+
+• Bedrooms: 3
+• Bathrooms: 3
+• Sq ft area: 1980 sqft
+• Furnishing: Unfurnished
+• Features: Air Conditioning (all rooms), Swimming Pool, Gym, Maid Quarters.
+
+Expected Price - 135 million 
+
+📞 To set up a viewing: 0777150066
+
+#apartmentforsale #maisonapartment #colombo03 #luxuryapartment #moshrealty #colomborealestate #propertyforsale`,
+    features: ["3 Bedrooms", "3 Bathrooms", "1,980 sq. ft. living space", "Unfurnished", "Air conditioning (all rooms)", "Swimming pool", "Gym", "Maid's quarters"],
     whatsapp: '+94777150066',
   },
   {
