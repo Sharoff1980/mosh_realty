@@ -195,7 +195,7 @@ Expected Price - LKR 375,000 / Month ($1,118)
     name: 'Altair Apartments',
     location: 'Colombo 2',
     beds: 3, baths: 3, sqft: '2086', furnished: true,
-    type: 'Apartment',
+    type: 'Penthouse',
     featured: true,
     image: './Images/altair/1.jpeg',
     gallery: [
@@ -235,6 +235,50 @@ Located in the heart of Colombo 02, Altair Towers offers a prestigious address c
 A rare opportunity to rent a luxury apartment that perfectly combines comfort, style, and an unbeatable location.`,
     features: ["Pool", "Gym", "Parking", "Lift"],
     whatsapp: '+94777150066'
+  },
+  {
+    id: 'residencies-824-sale',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 68.5 Mn ',
+    name: 'The Residencies by Kotte ICC',
+    location: 'Kotte',
+    beds: 2, baths: 2, sqft: '824', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/residencies-824/head.jpg',
+    gallery: [
+      './Images/residencies-824/1.jpg',
+      './Images/residencies-824/2.jpg',
+      './Images/residencies-824/3.jpg',
+      './Images/residencies-824/4.jpg',
+      './Images/residencies-824/5.jpg',
+      './Images/residencies-824/6.jpg',
+      './Images/residencies-824/7.jpg',
+      './Images/residencies-824/8.jpg',
+      './Images/residencies-824/9.jpg',
+      './Images/residencies-824/10.jpg',
+      './Images/residencies-824/11.jpg',
+      './Images/residencies-824/12.jpg',
+    ],
+    description: `For Sale | The Residencies by Kotte ICC 
+
+    📍 Kotte
+    (Ref - MRH21)
+
+- Bedrooms: 2
+- Bathrooms: 2
+- Sq ft area: 824 sqft
+- Furnishing: Unfurnished
+- Features: Swimming Pool, Gym, Jogging Track, Badminton and Basketball Court, Indoor Gaming Room
+
+Price - LKR 68.5 Million
+
+📞 To set up a viewing: 0777150066
+
+#apartmentforsale #icc #kotte #unfurnished #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "824 sq. ft. living space", "Unfurnished", "Swimming pool", "Gym", "Jogging track", "Badminton court", "Basketball court", "Indoor gaming room"],
+    whatsapp: '+94777150066',
   },
   {
     id: '606-address',
@@ -398,6 +442,46 @@ Modern kitchen with high-quality fittings
 
 Enjoy stunning Colombo city views from home, with schools, supermarkets, and public transport all just moments away.`,
     features: ["Security", "Parking", "Gym Facilities", "Unfurnished"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'residencies-824-rent',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 290K',
+    name: 'The Residencies by Kotte ICC',
+    location: 'Kotte',
+    beds: 2, baths: 2, sqft: '824', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/residencies-824-rent/head.jpg',
+    gallery: [
+      './Images/residencies-824-rent/1.jpg',
+      './Images/residencies-824-rent/2.jpg',
+      './Images/residencies-824-rent/3.jpg',
+      './Images/residencies-824-rent/4.jpg',
+      './Images/residencies-824-rent/5.jpg',
+      './Images/residencies-824-rent/6.jpg',
+      './Images/residencies-824-rent/7.jpg',
+    ],
+    description: `For Rent | The Residencies by Kotte ICC 
+
+  📍  Kotte
+
+  (Ref - MRH20)
+
+- Bedrooms: 2
+- Bathrooms: 2
+- Sq ft area: 824 sqft
+- Furnishing: Fully Furnished
+- Features: Swimming Pool, Gym, Jogging Track, Badminton and Basketball Court, Indoor Gaming Room
+
+Rent - LKR 290,000 / Month
+
+📞 To set up a viewing: 0777150066
+
+#apartmentforrent #icc #kotte #fullyfurnished #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "824 sq. ft. living space", "Furnished", "Swimming pool", "Gym", "Jogging track", "Badminton court", "Basketball court", "Indoor gaming room"],
     whatsapp: '+94777150066',
   },
   {
@@ -746,7 +830,7 @@ Expected Price - LKR 425,000 / Month
     name: 'Luxury Modern Mansion',
     location: 'Battaramulla',
     beds: 4, baths: 4, sqft: '6000', furnished: true,
-    type: 'Apartment',
+    type: 'Villa',
     featured: true,
     image: './Images/mansion-batt/head.jpg',
     gallery: [
@@ -1021,6 +1105,44 @@ Price: Rs. 67 Million
 
 A great opportunity to own a comfortable, well-located apartment at Iconic Galaxy.`,
     features: ["2 Bedrooms","2 Bathrooms","1,200 sq. ft. living space","Fully furnished","Swimming pool","Fully equipped gym","Mini-theatre","Sports courts","Private supermarket","On-site salon","Car wash facility","Landscaped rooftop gardens"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'residencies-780-rent',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 360K',
+    name: 'The Residencies by Kotte ICC',
+    location: 'Kotte',
+    beds: 2, baths: 2, sqft: '780', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/residencies-780/head.jpg',
+    gallery: [
+      './Images/residencies-780/1.jpg',
+      './Images/residencies-780/2.jpg',
+      './Images/residencies-780/3.jpg',
+      './Images/residencies-780/4.jpg',
+      './Images/residencies-780/5.jpg',
+      './Images/residencies-780/6.jpg',
+      './Images/residencies-780/7.jpg',
+    ],
+    description: `For Rent | The Residence | Kotte
+(Ref - MRH07)
+
+- Bedrooms: 2
+- Bathrooms: 2
+- Sq ft area: 780 sqft
+- Furnishing: Furnished
+- Features: AC, Swimming Pool, 01 Parking Slot, Lift, Generator, Gym, Security
+
+Rent - LKR 360,000 / Month
+Deposit - 3 Months
+
+📞 To set up a viewing: 0777150066
+
+#apartmentforrent #theresidence #kotte #furnished #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "824 sq. ft. living space", "Furnished", "Swimming pool", "Gym", "Jogging track", "Badminton court", "Basketball court", "Indoor gaming room"],
     whatsapp: '+94777150066',
   },
   {
