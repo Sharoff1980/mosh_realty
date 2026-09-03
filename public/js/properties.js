@@ -142,6 +142,45 @@ Expected Price - 135 million
     whatsapp: '+94777150066',
   },
   {
+    id: 'the-grand-sale',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 125 Mn',
+    name: 'The Grand, Ward Place',
+    location: 'Colombo 7',
+    beds: 2, baths: 2, sqft: '1165', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/the-grand-sale/head.jpg',
+    gallery: [
+      './Images/the-grand-sale/1.jpg',
+      './Images/the-grand-sale/2.jpg',
+      './Images/the-grand-sale/3.jpg',
+      './Images/the-grand-sale/4.jpg',
+      './Images/the-grand-sale/5.jpg',
+      './Images/the-grand-sale/6.jpg',
+      './Images/the-grand-sale/7.jpg',
+    ],
+    description: `For Sale | The Grand, Ward Place | 
+    📍Colombo 07
+(Ref -MRA67)
+
+
+•Bedrooms: 2
+•Bathrooms: 2 + Maid's Bathroom
+•Sq ft area: 1165 sqft
+•Furnishing: Fully Furnished
+•Features: 2 Private Balconies, Master Bedroom With En-Suite, Separate Maid's Room, Living & Dining Area, Fully Air-Conditioned, Centralized Gas System, Infinity Pool, Regular Swimming Pool, Gym, Badminton Court, Rooftop Jogging Track, Café, Banquet & Event Area, Meeting Room, Children's Play Area, 24-Hour Security, Multiple High-Speed Elevators, Stunning City Views
+
+Price: 125 million 
+
+📞To set up a viewing: 0777150066
+
+#apartmentforsale #primegrand #colombo07 #fullyfurnished #moshrealty`,
+    features: ["Pool", "Gym", "Play Area", "Lift", "Parking", "Backup Power", "Garden", "Jacuzzi", "Party Hall", "Security", "Wifi", "Laundry", "Restaurant", "Children Play Area", "Balcony", "Jogging Track", "Rooftop Garden"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'trizen-rent',
     status: 'For Rent',
     badgeClass: 'badge-rent',
