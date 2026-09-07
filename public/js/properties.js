@@ -926,7 +926,7 @@ Expected Price - LKR 425,000 / Month
     id: 'iceland-residencies',
     status: 'For Sale',
     badgeClass: 'badge-sale',
-    price: 'LKR 48.8 Mn',
+    price: 'LKR 240 Mn',
     name: 'Iceland Residencies',
     location: 'Colombo 4',
     beds: 4, baths: 4, sqft: '2,500', furnished: true,
