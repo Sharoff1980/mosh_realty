@@ -31,7 +31,7 @@ const PROPERTIES = [
       './Images/606-zul/12.jpg',
       './Images/606-zul/13.jpg',
     ],
-    description: `For Sale | The Address 606 | colombo 02
+    description: `For Sale | 606 The Address 
 
  📍 Colombo 3 
 
@@ -57,7 +57,7 @@ Expected price - 135 million
     price: 'LKR 245 Mn',
     name: 'Cinnamon Life Residencies',
     location: 'Colombo 2',
-    beds: 3, baths: 2, sqft: '1649', furnished: true,
+    beds: 3, baths: 3, sqft: '1649', furnished: true,
     type: 'Apartment',
     featured: true,
     image: './Images/cinnammon-sale/head.jpg',
@@ -928,7 +928,7 @@ Expected Price - LKR 425,000 / Month
     badgeClass: 'badge-sale',
     price: 'LKR 240 Mn',
     name: 'Iceland Residencies',
-    location: 'Colombo 4',
+    location: 'Colombo 3',
     beds: 4, baths: 4, sqft: '2,500', furnished: true,
     type: 'Apartment',
     featured: true,
@@ -948,7 +948,7 @@ Expected Price - LKR 425,000 / Month
       './Images/iceland-residencies/12.jpg',
       './Images/iceland-residencies/13.jpg',
     ],
-    description: `For Sale | Iceland Residences | colombo 03
+    description: `For Sale | Iceland Residences
 (Ref - MRA59)
 
 📍 Colombo 03 
@@ -1413,7 +1413,7 @@ A rare opportunity to own a luxury apartment that perfectly combines stunning vi
     badgeClass: 'badge-sale',
     price: 'LKR 140 Mn',
     name: 'Altair Apartment',
-    location: 'Colombo 3',
+    location: 'Colombo 2',
     beds: 3, baths: 2, sqft: '1627', furnished: false,
     type: 'Apartment',
     featured: false,
@@ -1499,7 +1499,7 @@ A rare opportunity to own an expansive, well-equipped property offering comfort,
     id: 'house-rent-col7',
     status: 'For Rent',
     badgeClass: 'badge-rent',
-    price: 'LKR 450K',
+    price: 'LKR 500K',
     name: 'House Rent - Viharamahadevi Park',
     location: 'Colombo 7',
     beds: 2, baths: 1, sqft: '1110', furnished: false,
@@ -1600,7 +1600,7 @@ A rare opportunity to own or lease a versatile property offering ample space for
     status: 'Rented',
     badgeClass: 'badge-rent',
     price: 'USD 2250',
-    name: 'The Grand Ward Place',
+    name: 'The Grand, Ward Place',
     location: 'Colombo 7',
     beds: 3, baths: 2, sqft: '1428', furnished: true,
     type: 'Apartment',
@@ -1694,7 +1694,7 @@ Terms: 3 Months Security Deposit + 1 Month Rent Advance
     badgeClass: 'badge-rent',
     price: 'LKR 700K',
     name: 'Havelock City',
-    location: 'Colombo 2',
+    location: 'Colombo 5',
     beds: 4, baths: 3, sqft: '2200', furnished: true,
     type: 'Apartment',
     featured: true,
@@ -1777,7 +1777,7 @@ A great opportunity to rent a stylish, well-appointed apartment at Trillium Have
     price: 'LKR 72 Mn',
     name: 'Prime Residencies: Siebel Avenue',
     location: 'Colombo 6',
-    beds: 3, baths: 3, sqft: '1608', furnished: false,
+    beds: 3, baths: 2, sqft: '1608', furnished: false,
     type: 'Apartment',
     featured: true,
     image: './Images/prime-siebel/1.jpeg',
