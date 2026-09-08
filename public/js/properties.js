@@ -123,7 +123,7 @@ Expected Price - LKR 245 million
       './Images/maison/15.jpg',
       './Images/maison/16.jpg',
     ],
-    description: `For Sale | Maison Apartment | Colombo 03
+    description: `For Sale | Maison Apartment
 
 📍 Colombo 03
 
