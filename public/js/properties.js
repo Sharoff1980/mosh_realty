@@ -165,7 +165,6 @@ Expected Price - 135 million
     📍Colombo 07
 (Ref -MRA67)
 
-
 •Bedrooms: 2
 •Bathrooms: 2 + Maid's Bathroom
 •Sq ft area: 1165 sqft
@@ -178,52 +177,6 @@ Price: 125 million
 
 #apartmentforsale #primegrand #colombo07 #fullyfurnished #moshrealty`,
     features: ["Pool", "Gym", "Play Area", "Lift", "Parking", "Backup Power", "Garden", "Jacuzzi", "Party Hall", "Security", "Wifi", "Laundry", "Restaurant", "Children Play Area", "Balcony", "Jogging Track", "Rooftop Garden"],
-    whatsapp: '+94777150066',
-  },
-  {
-    id: 'trizen-rent',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'LKR 375K',
-    name: 'The Tri-zen by John Keells Properties.',
-    location: 'Colombo 2',
-    beds: 1, baths: 1, sqft: '503', furnished: true,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/trizen-rental/head.jpeg',
-    gallery: [
-      './Images/trizen-rental/1.jpg',
-      './Images/trizen-rental/2.jpg',
-      './Images/trizen-rental/3.jpg',
-      './Images/trizen-rental/4.jpg',
-      './Images/trizen-rental/5.jpg',
-      './Images/trizen-rental/6.jpg',
-      './Images/trizen-rental/7.jpg',
-      './Images/trizen-rental/8.jpg',
-      './Images/trizen-rental/9.jpg',
-      './Images/trizen-rental/10.jpg',
-    ],
-    description: `For Rent | Trizen | Colombo
-
-(Ref –MRA62)
-
-📍 Colombo
-
- - Bedrooms: 1
- - Bathrooms: 1
- - Sq ft area: 503 sqft
- - Furnishing: Fully Furnished
- - Features: City View
-
-Common Facilities: Swimming Pool, Gym
-
-Expected Price - LKR 375,000 / Month ($1,118)
-
-📞 Get in touch to schedule a viewing: 0777150066
-
-#apartmentforrent #trizen #colombo #furnishedapartment #moshrealty
-`,
-    features: ["1 Bedroom", "1 Bathroom", "503 sq. ft. living space", "Fully furnished", "City view", "Swimming pool", "Gym"],
     whatsapp: '+94777150066',
   },
   {
@@ -705,7 +658,7 @@ Expected Price - LKR 425,000 / Month
       './Images/146-residencies/10.jpg',
       './Images/146-residencies/11.jpg',
     ],
-    description: `For Sale | 146 Residencies | Colombo 06
+    description: `For Sale | 146 Residencies
 (Ref – MRH28)
 📍 Colombo 06
 
@@ -1038,7 +991,7 @@ Expected Price - LKR 250,000 / Month
       './Images/emperor/12.jpeg',
       './Images/emperor/13.jpeg',
     ],
-    description: `For Rent | The Emperor Residencies | Colombo 03 
+    description: `For Rent | The Emperor Residencies  
 
 (Ref – MRA53) 
 
@@ -1559,7 +1512,6 @@ A versatile opportunity to rent or lease a well-located space in one of Colombo 
       './Images/col5-commercial/8.jpg',
       './Images/col5-commercial/9.jpg',
       './Images/col5-commercial/10.jpg',
-      './Images/col5-commercial/11.jpg',
       './Images/col5-commercial/12.jpg',
       './Images/col5-commercial/13.jpg',
       './Images/col5-commercial/14.jpg',
@@ -1593,6 +1545,52 @@ Ground Floor:
 
 A rare opportunity to own or lease a versatile property offering ample space for both living and working needs.`,
     features: ["5 Bedrooms", "3 Additional Rooms", "Common Kitchen", "2 Common Bathrooms", "Meeting Room", "Main Office", "Balcony"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'trizen-rent',
+    status: 'Rented',
+    badgeClass: 'badge-rent',
+    price: 'LKR 375K',
+    name: 'The Tri-zen by John Keells Properties.',
+    location: 'Colombo 2',
+    beds: 1, baths: 1, sqft: '503', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/trizen-rental/head.jpeg',
+    gallery: [
+      './Images/trizen-rental/1.jpg',
+      './Images/trizen-rental/2.jpg',
+      './Images/trizen-rental/3.jpg',
+      './Images/trizen-rental/4.jpg',
+      './Images/trizen-rental/5.jpg',
+      './Images/trizen-rental/6.jpg',
+      './Images/trizen-rental/7.jpg',
+      './Images/trizen-rental/8.jpg',
+      './Images/trizen-rental/9.jpg',
+      './Images/trizen-rental/10.jpg',
+    ],
+    description: `For Rent | Trizen | Colombo
+
+(Ref –MRA62)
+
+📍 Colombo
+
+ - Bedrooms: 1
+ - Bathrooms: 1
+ - Sq ft area: 503 sqft
+ - Furnishing: Fully Furnished
+ - Features: City View
+
+Common Facilities: Swimming Pool, Gym
+
+Expected Price - LKR 375,000 / Month ($1,118)
+
+📞 Get in touch to schedule a viewing: 0777150066
+
+#apartmentforrent #trizen #colombo #furnishedapartment #moshrealty
+`,
+    features: ["1 Bedroom", "1 Bathroom", "503 sq. ft. living space", "Fully furnished", "City view", "Swimming pool", "Gym"],
     whatsapp: '+94777150066',
   },
   {
