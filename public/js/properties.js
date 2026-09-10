@@ -496,6 +496,43 @@ Enjoy stunning Colombo city views from home, with schools, supermarkets, and pub
     whatsapp: '+94777150066',
   },
   {
+    id: 'paragon-complex',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 78.3 Mn',
+    name: 'Paragon Complex',
+    location: 'Colombo 4',
+    beds: 3, baths: 3, sqft: '1250', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/paragon-complex/head.jpg',
+    gallery: [
+      './Images/paragon-complex/1.jpg',
+      './Images/paragon-complex/2.jpg',
+      './Images/paragon-complex/3.jpg',
+      './Images/paragon-complex/4.jpg',
+      './Images/paragon-complex/5.jpg',
+      './Images/paragon-complex/6.jpg',
+      './Images/paragon-complex/7.jpg',
+    ],
+    description: `For Sale | Paragon Complex | Colombo 04
+(Ref – MRA71)
+📍 Colombo 04
+
+Bedrooms: 3
+Bathrooms: 3
+Sq ft area: 1,250 sqft
+Furnishing: Fully Furnished
+Features: Rooftop Swimming Pool, Fully Equipped Gymnasium, 24/7 Security, Dedicated Parking
+
+Price - LKR 78.3 Million
+
+📞 To set up a viewing: 0777150066
+#apartmentforsale #paragoncomplex #colombo04 #fullyfurnished #investmentproperty #moshrealty #luxuryapartment`,
+    features: ["3 Bedrooms", "3 Bathrooms", "1,250 sq. ft. living space", "Fully furnished", "Rooftop swimming pool", "Fully equipped gymnasium", "24/7 security", "Dedicated parking"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'residencies-824-rent',
     status: 'For Rent',
     badgeClass: 'badge-rent',
