@@ -581,7 +581,7 @@ Rent - LKR 320,000 / Month
     price: 'LKR 43 Mn',
     name: 'Castle Regency',
     location: 'Ethul Kotte',
-    beds: 2, baths: 1, sqft: '1050', furnished: true,
+    beds: 2, baths: 1, sqft: '1050', furnished: false,
     type: 'Apartment',
     featured: true,
     image: './Images/castle-regency/head.jpeg',
@@ -600,14 +600,14 @@ Rent - LKR 320,000 / Month
 Bedrooms: 2
 Bathrooms: 1
 Sq ft area: 1,050 sqft
-Furnishing: Furnished
+Furnishing: Unfurnished
 Features: Open Modern Pantry with Equipment, 3 Balconies, Fully Air Conditioned, Elegant Laminated Flooring & Tiles, Hot Water, 3-Phase Electricity, Standby Generator, SLT Fibre Optic Internet, Secure Gated Car Parking, 24-Hour Security, Rooftop Garden, Infinity Swimming Pool
 
 Price - LKR 43 Million
 
 📞 To set up a viewing: 0777150066
 #apartmentforsale #castleregency #ethulkotte #kotte #furnished #moshrealty`,
-    features: ["2 Bedrooms", "1 Bathroom", "1,050 sq. ft. living space", "Furnished", "Open modern pantry with equipment", "3 balconies", "Fully air conditioned", "Laminated flooring & tiles", "Hot water", "3-phase electricity", "Standby generator", "SLT fibre optic internet", "Secure gated car parking", "24-hour security", "Rooftop garden", "Infinity swimming pool"],
+    features: ["2 Bedrooms", "1 Bathroom", "1,050 sq. ft. living space", "Unfurnished", "Open modern pantry with equipment", "3 balconies", "Fully air conditioned", "Laminated flooring & tiles", "Hot water", "3-phase electricity", "Standby generator", "SLT fibre optic internet", "Secure gated car parking", "24-hour security", "Rooftop garden", "Infinity swimming pool"],
     whatsapp: '+94777150066',
   },
   {
