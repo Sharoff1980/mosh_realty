@@ -95,6 +95,65 @@ Expected Price - LKR 245 million
     whatsapp: '+94777150066',
   },
   {
+    id: 'itc-rent',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 1.8 Mn',
+    name: 'Sapphire Residences By ITC',
+    location: 'Colombo 1',
+    beds: 3, baths: 3, sqft: '3150', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/itc-resi/head.jpg',
+    gallery: [
+      './Images/itc-resi/1.jpg',
+      './Images/itc-resi/2.jpg',
+      './Images/itc-resi/3.jpg',
+      './Images/itc-resi/4.jpg',
+      './Images/itc-resi/5.jpg',
+      './Images/itc-resi/6 (1).jpg',
+      './Images/itc-resi/6 (2).jpg',
+      './Images/itc-resi/6.jpg',
+      './Images/itc-resi/7.jpg',
+      './Images/itc-resi/8.jpg',
+      './Images/itc-resi/9.jpg',
+      './Images/itc-resi/10.jpg',
+      './Images/itc-resi/11.jpg',
+      './Images/itc-resi/12.jpg',
+      './Images/itc-resi/13.jpg',
+      './Images/itc-resi/14.jpg',
+      './Images/itc-resi/15.jpg',
+      './Images/itc-resi/16.jpg',
+      './Images/itc-resi/17.jpg',
+      './Images/itc-resi/18.jpg',
+      './Images/itc-resi/19.jpg',
+      './Images/itc-resi/20.jpg',
+      './Images/itc-resi/21.jpg',
+      './Images/itc-resi/22.jpg',
+      './Images/itc-resi/23.jpg',
+      './Images/itc-resi/24.jpg',
+      './Images/itc-resi/25.jpg',
+      './Images/itc-resi/26.jpg',
+    
+    ],
+    description: `For Rent | ITC | Colombo 01
+(Ref – MRH19)
+📍 Colombo 01
+
+- Bedrooms: 3
+- Bathrooms: 3
+- Sq ft area: 3,150 sqft
+- Furnishing: Unfurnished
+- Features: 20-metre Swimming Pool, Kids' & Toddlers' Pool, Sun Deck, BBQ Terrace, Fully Equipped Gym, Spin Studio, Yoga Pavilion, Indoor Squash Court, Table Tennis, Indoor Multi-Purpose Sports Court (Badminton, Futsal, Basketball), Spa Facilities, Private Cinema with 4K Screen & Surround Sound, Kids' & Teens' Social and Active Lounges, Creativity Studio, Kids' Outdoor Lawn, Residents' Club / Club Lounge, Bars & Cafes
+
+- Rent - LKR 1.8 Million / Month
+
+📞 To set up a viewing: 0777150066
+#apartmentforrent #itc #colombo01 #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "3 Bathrooms", "3,150 sq. ft. living space", "Residents' Club / Club Lounge", "20-metre swimming pool", "Kids' pool", "Toddlers' pool", "Sun deck", "BBQ terrace", "Fully equipped gym", "Spin studio", "Yoga pavilion", "Indoor squash court", "Table tennis", "Indoor multi-purpose sports court", "Badminton court", "Futsal court", "Basketball court", "Spa facilities", "Private cinema / media room", "4K screen with surround sound", "Kids' social lounge", "Kids' active lounge", "Teens' social lounge", "Teens' active lounge", "Creativity studio", "Kids' outdoor lawn", "Bars", "Cafes"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'maison-sale',
     status: 'For Sale',
     badgeClass: 'badge-sale',
@@ -516,44 +575,39 @@ Rent - LKR 320,000 / Month
     whatsapp: '+94777150066',
   },
   {
-    id: 'alexandria-homes',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'LKR 495K',
-    name: 'Alexandria Homes',
-    location: 'Colombo 6',
-    beds: 4, baths: 3, sqft: '1375', furnished: true,
+    id: 'castle-regency',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 43 Mn',
+    name: 'Castle Regency',
+    location: 'Ethul Kotte',
+    beds: 2, baths: 1, sqft: '1050', furnished: true,
     type: 'Apartment',
     featured: true,
-    image: './Images/alexandria-homes/head.jpg',
+    image: './Images/castle-regency/head.jpeg',
     gallery: [
-      './Images/alexandria-homes/1.jpg',
-      './Images/alexandria-homes/2.jpg',
-      './Images/alexandria-homes/3.jpg',
-      './Images/alexandria-homes/4.jpg',
-      './Images/alexandria-homes/5.jpg',
-      './Images/alexandria-homes/6.jpg',
-      './Images/alexandria-homes/7.jpg',
-      './Images/alexandria-homes/8.jpg',
-      './Images/alexandria-homes/9.jpg',
+      './Images/castle-regency/1.jpg',
+      './Images/castle-regency/2.jpg',
+      './Images/castle-regency/3.jpg',
+      './Images/castle-regency/4.jpg',
+      './Images/castle-regency/5.jpg',
+      './Images/castle-regency/6.jpg',
     ],
-    description: `For Rent | Alexandria Homes | Colombo 06
-(Ref - MRH30)
+    description: `For Sale | Castle Regency | Ethul Kotte
+(Ref – MRA54)
+📍 Ethul Kotte
 
-📍 Colombo 06
+Bedrooms: 2
+Bathrooms: 1
+Sq ft area: 1,050 sqft
+Furnishing: Furnished
+Features: Open Modern Pantry with Equipment, 3 Balconies, Fully Air Conditioned, Elegant Laminated Flooring & Tiles, Hot Water, 3-Phase Electricity, Standby Generator, SLT Fibre Optic Internet, Secure Gated Car Parking, 24-Hour Security, Rooftop Garden, Infinity Swimming Pool
 
- - Bedrooms: 4
- - Bathrooms: 3
- - Sq ft area: 1375 sqft
- - Furnishing: Fully Furnished
- - Features: Swimming Pool, Rooftop Gymnasium, Rooftop Terrace with City and Ocean Views, Twin Elevators, 24/7 Security with CCTV Monitoring, Standby Backup Generator, Dedicated Covered Parking, Central Garbage Removal
-
-Rent - LKR 495,000 / Month
+Price - LKR 43 Million
 
 📞 To set up a viewing: 0777150066
-
-#apartmentforrent #alexandriahomes #colombo06 #fullyfurnished #luxuryapartment #moshrealty`,
-    features: ["4 Bedrooms", "3 Bathrooms", "1,375 sq. ft. living space", "Fully furnished", "Swimming pool", "Rooftop gymnasium", "Rooftop terrace with city and ocean views", "Twin elevators", "24/7 security with CCTV monitoring", "Standby backup generator", "Dedicated covered parking", "Central garbage removal"],
+#apartmentforsale #castleregency #ethulkotte #kotte #furnished #moshrealty`,
+    features: ["2 Bedrooms", "1 Bathroom", "1,050 sq. ft. living space", "Furnished", "Open modern pantry with equipment", "3 balconies", "Fully air conditioned", "Laminated flooring & tiles", "Hot water", "3-phase electricity", "Standby generator", "SLT fibre optic internet", "Secure gated car parking", "24-hour security", "Rooftop garden", "Infinity swimming pool"],
     whatsapp: '+94777150066',
   },
   {
@@ -635,6 +689,47 @@ Expected Price - LKR 425,000 / Month
     whatsapp: '+94777150066',
   },
   {
+    id: 'alexandria-homes',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 495K',
+    name: 'Alexandria Homes',
+    location: 'Colombo 6',
+    beds: 4, baths: 3, sqft: '1375', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/alexandria-homes/head.jpg',
+    gallery: [
+      './Images/alexandria-homes/1.jpg',
+      './Images/alexandria-homes/2.jpg',
+      './Images/alexandria-homes/3.jpg',
+      './Images/alexandria-homes/4.jpg',
+      './Images/alexandria-homes/5.jpg',
+      './Images/alexandria-homes/6.jpg',
+      './Images/alexandria-homes/7.jpg',
+      './Images/alexandria-homes/8.jpg',
+      './Images/alexandria-homes/9.jpg',
+    ],
+    description: `For Rent | Alexandria Homes | Colombo 06
+(Ref - MRH30)
+
+📍 Colombo 06
+
+ - Bedrooms: 4
+ - Bathrooms: 3
+ - Sq ft area: 1375 sqft
+ - Furnishing: Fully Furnished
+ - Features: Swimming Pool, Rooftop Gymnasium, Rooftop Terrace with City and Ocean Views, Twin Elevators, 24/7 Security with CCTV Monitoring, Standby Backup Generator, Dedicated Covered Parking, Central Garbage Removal
+
+Rent - LKR 495,000 / Month
+
+📞 To set up a viewing: 0777150066
+
+#apartmentforrent #alexandriahomes #colombo06 #fullyfurnished #luxuryapartment #moshrealty`,
+    features: ["4 Bedrooms", "3 Bathrooms", "1,375 sq. ft. living space", "Fully furnished", "Swimming pool", "Rooftop gymnasium", "Rooftop terrace with city and ocean views", "Twin elevators", "24/7 security with CCTV monitoring", "Standby backup generator", "Dedicated covered parking", "Central garbage removal"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: '146-resi',
     status: 'For Sale',
     badgeClass: 'badge-sale',
@@ -673,6 +768,47 @@ Expected Price - LKR 425,000 / Month
 📞 To set up a viewing: 0777150066
 #apartmentforsale #146residencies #colombo06 #luxuryapartment #moshrealty`,
     features: ["4 Bedrooms", "4 Bathrooms", "1,950 sq. ft. living space", "Unfurnished", "Swimming pool", "Gym", "Rooftop lounge area", "Clubhouse", "Children's play area", "Elevators", "Parking facilities", "Backup generator", "BBQ area"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: '6th-avenue',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 89 Mn',
+    name: '6th Avenue Apartment',
+    location: 'Colombo 5',
+    beds: 3, baths: 2, sqft: '1700', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/6th-avenue/head.jpeg',
+    gallery: [
+      './Images/6th-avenue/1.jpg',
+      './Images/6th-avenue/2.jpg',
+      './Images/6th-avenue/3.jpg',
+      './Images/6th-avenue/4.jpg',
+      './Images/6th-avenue/5.jpg',
+      './Images/6th-avenue/6.jpg',
+      './Images/6th-avenue/7.jpg',
+      './Images/6th-avenue/8.jpg',
+      './Images/6th-avenue/9.jpg',
+      './Images/6th-avenue/10.jpg',
+      './Images/6th-avenue/11.jpg',
+    ],
+    description: `For Sale | 6th Avenue Apartment | Colombo 05
+(Ref – MRA07)
+📍 Colombo 05
+
+Bedrooms: 3
+Bathrooms: 2
+Sq ft area: 1,700 sqft
+Furnishing: Furnished
+Features: Fully Air Conditioned Rooms, Close to Havelock City Mall
+
+Price - LKR 89 Million
+
+📞 To set up a viewing: 0777150066
+#apartmentforsale #6thavenue #colombo05 #furnished #moshrealty #colomborealestate`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,700 sq. ft. living space", "Furnished", "Fully air conditioned rooms", "Close to Havelock City Mall"],
     whatsapp: '+94777150066',
   },
   {
@@ -753,65 +889,6 @@ Expected Price - LKR 425,000 / Month
 📞 To set up a viewing: 0777150066
 #apartmentforsale #fingateresidencies #boralesgamuwa #moshrealty`,
     features: ["4 Bedrooms", "3 Bathrooms", "1,700 sq. ft. living space", "Unfurnished"],
-    whatsapp: '+94777150066',
-  },
-  {
-    id: 'itc-rent',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'LKR 1.8 Mn',
-    name: 'Sapphire Residences By ITC',
-    location: 'Colombo 1',
-    beds: 3, baths: 3, sqft: '3150', furnished: false,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/itc-resi/head.jpg',
-    gallery: [
-      './Images/itc-resi/1.jpg',
-      './Images/itc-resi/2.jpg',
-      './Images/itc-resi/3.jpg',
-      './Images/itc-resi/4.jpg',
-      './Images/itc-resi/5.jpg',
-      './Images/itc-resi/6 (1).jpg',
-      './Images/itc-resi/6 (2).jpg',
-      './Images/itc-resi/6.jpg',
-      './Images/itc-resi/7.jpg',
-      './Images/itc-resi/8.jpg',
-      './Images/itc-resi/9.jpg',
-      './Images/itc-resi/10.jpg',
-      './Images/itc-resi/11.jpg',
-      './Images/itc-resi/12.jpg',
-      './Images/itc-resi/13.jpg',
-      './Images/itc-resi/14.jpg',
-      './Images/itc-resi/15.jpg',
-      './Images/itc-resi/16.jpg',
-      './Images/itc-resi/17.jpg',
-      './Images/itc-resi/18.jpg',
-      './Images/itc-resi/19.jpg',
-      './Images/itc-resi/20.jpg',
-      './Images/itc-resi/21.jpg',
-      './Images/itc-resi/22.jpg',
-      './Images/itc-resi/23.jpg',
-      './Images/itc-resi/24.jpg',
-      './Images/itc-resi/25.jpg',
-      './Images/itc-resi/26.jpg',
-    
-    ],
-    description: `For Rent | ITC | Colombo 01
-(Ref – MRH19)
-📍 Colombo 01
-
-- Bedrooms: 3
-- Bathrooms: 3
-- Sq ft area: 3,150 sqft
-- Furnishing: Unfurnished
-- Features: 20-metre Swimming Pool, Kids' & Toddlers' Pool, Sun Deck, BBQ Terrace, Fully Equipped Gym, Spin Studio, Yoga Pavilion, Indoor Squash Court, Table Tennis, Indoor Multi-Purpose Sports Court (Badminton, Futsal, Basketball), Spa Facilities, Private Cinema with 4K Screen & Surround Sound, Kids' & Teens' Social and Active Lounges, Creativity Studio, Kids' Outdoor Lawn, Residents' Club / Club Lounge, Bars & Cafes
-
-- Rent - LKR 1.8 Million / Month
-
-📞 To set up a viewing: 0777150066
-#apartmentforrent #itc #colombo01 #luxuryapartment #moshrealty`,
-    features: ["3 Bedrooms", "3 Bathrooms", "3,150 sq. ft. living space", "Residents' Club / Club Lounge", "20-metre swimming pool", "Kids' pool", "Toddlers' pool", "Sun deck", "BBQ terrace", "Fully equipped gym", "Spin studio", "Yoga pavilion", "Indoor squash court", "Table tennis", "Indoor multi-purpose sports court", "Badminton court", "Futsal court", "Basketball court", "Spa facilities", "Private cinema / media room", "4K screen with surround sound", "Kids' social lounge", "Kids' active lounge", "Teens' social lounge", "Teens' active lounge", "Creativity studio", "Kids' outdoor lawn", "Bars", "Cafes"],
     whatsapp: '+94777150066',
   },
   {
