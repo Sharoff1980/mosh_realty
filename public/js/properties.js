@@ -573,6 +573,80 @@ Rent - LKR 290,000 / Month
     whatsapp: '+94777150066',
   },
   {
+    id: 'trizen-471',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'USD 1,800',
+    name: 'The Tri-zen by John Keells Properties.',
+    location: 'Colombo 2',
+    beds: 2, baths: 2, sqft: '471', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/trizen-471/head.jpg',
+    gallery: [
+      './Images/trizen-471/2.jpg',
+      './Images/trizen-471/3.jpg',
+      './Images/trizen-471/4.jpg',
+      './Images/trizen-471/5.jpg',
+      './Images/trizen-471/6.jpg',
+      './Images/trizen-471/7.jpg',
+      './Images/trizen-471/8.jpg',
+      './Images/trizen-471/9.jpg',
+      './Images/trizen-471/10.jpg',
+    ],
+    description: `For Rent | The Tri-zen by John Keells Properties.
+(Ref – MRA69)
+📍 Colombo 02
+
+Bedrooms: 2
+Bathrooms: 2
+Sq ft area: 471 sqft
+Furnishing: Furnished
+Features: Gym, Swimming Pool, Parking
+Rent - USD 1,800 / Month
+📞 To set up a viewing: 0777150066
+#apartmentforrent #trizen #colombo02 #tower2 #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "471 sq. ft. living space", "Furnished", "Gym", "Swimming pool", "Parking"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'altair-01',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 140 Mn',
+    name: 'Altair Apartment',
+    location: 'Colombo 2',
+    beds: 3, baths: 2, sqft: '1627', furnished: false,
+    type: 'Apartment',
+    featured: false,
+    image: './Images/altair-01/1.jpeg',
+    gallery: [
+      './Images/altair-01/2.jpeg',
+      './Images/altair-01/3.jpeg',
+      './Images/altair-01/4.jpeg',
+      './Images/altair-01/5.jpeg',
+      './Images/altair-01/6.jpeg',
+      './Images/altair-01/7.jpeg',
+      './Images/altair-01/8.jpeg',
+      './Images/altair-01/9.jpeg',
+      './Images/altair-01/10.jpeg',
+    ],
+    description: `Luxury 3 Bedroom Apartment for Sale | Altair | Colombo 02
+
+Enjoy stunning city views from this spacious and elegantly appointed residence, ideally positioned on a mid floor of Altair's Vertical Tower along Sir James Pieris Mawatha.
+
+- 3 Bedrooms | 2 Bathrooms
+- 1,627 sq. ft. of unfurnished living space
+- Maid's room with attached bathroom
+- Access to swimming pool, gym, spa, and play area
+
+Conveniently located in the heart of Colombo 02, close to leading restaurants, shopping, and essential amenities, with easy access to the rest of the city.
+
+A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.`,
+    features: [ "3 Bedrooms", "2 Bathrooms", "Maid's Room with Bathroom", "Mid Floor", "1,627 Sq.ft.", "Unfurnished", "Vertical Tower - Type E", "Swimming Pool", "Gym", "Spa", "Play Area", "City View"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'edmonton-tower',
     status: 'For Rent',
     badgeClass: 'badge-rent',
@@ -1039,6 +1113,45 @@ Expected Price - LKR 240 million
     whatsapp: '+94777150066'
   },
   {
+    id: 'florida-apartment',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 285K',
+    name: 'Florida Apartments',
+    location: 'Dehiwala',
+    beds: 3, baths: 2, sqft: '1300', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/florida-apartment/head.jpg',
+    gallery: [
+      './Images/florida-apartment/1.jpg',
+      './Images/florida-apartment/2.jpg',
+      './Images/florida-apartment/3.jpg',
+      './Images/florida-apartment/4.jpg',
+      './Images/florida-apartment/5.jpg',
+      './Images/florida-apartment/6.jpg',
+      './Images/florida-apartment/7.jpg',
+      './Images/florida-apartment/8.jpg',
+    ],
+    description: `For Rent | Florida Apartments
+(Ref – MRA68)
+📍 Dehiwela
+
+Bedrooms: 3
+Bathrooms: 2
+Sq ft area: 1,300 sqft
+Furnishing: Fully Furnished
+Features: 2 Lifts, 24-Hour Security, 1 Car Parking, Swimming Pool (Under Construction), Beautiful View
+Maintenance Fee: Included
+
+Rent - LKR 285,000 / Month
+
+📞 To set up a viewing: 0777150066
+#apartmentforrent #dehiwela #fullyfurnished #floridaapartments #moshrealty #luxuryapartment`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,300 sq. ft. living space", "Fully furnished", "2 lifts", "24-hour security", "1 car parking", "Swimming pool (under construction)", "Beautiful view", "Maintenance fee included"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'aquaria-apartment',
     status: 'For Rent',
     badgeClass: 'badge-rent',
@@ -1250,7 +1363,7 @@ Deposit - 3 Months
 📞 To set up a viewing: 0777150066
 
 #apartmentforrent #theresidence #kotte #furnished #moshrealty`,
-    features: ["2 Bedrooms", "2 Bathrooms", "824 sq. ft. living space", "Furnished", "Swimming pool", "Gym", "Jogging track", "Badminton court", "Basketball court", "Indoor gaming room"],
+    features: ["2 Bedrooms", "2 Bathrooms", "780 sq. ft. living space", "Furnished", "Air conditioning", "Swimming pool", "1 parking slot", "Lift", "Generator", "Gym", "Security", "3 months deposit"],
     whatsapp: '+94777150066',
   },
   {
@@ -1452,11 +1565,11 @@ Expected Price - LKR 275 million
       './Images/606-address-big/7.jpeg',
       './Images/606-address-big/8.jpeg',
       './Images/606-address-big/9.jpeg',
-      './Images/606-address-big/9.jpeg',
-      './Images/606-address-big/9.jpeg',
-      './Images/606-address-big/9.jpeg',
-      './Images/606-address-big/9.jpeg',
-      './Images/606-address-big/9.jpeg',
+      './Images/606-address-big/10.jpeg',
+      './Images/606-address-big/11.jpeg',
+      './Images/606-address-big/12.jpeg',
+      './Images/606-address-big/13.jpeg',
+      './Images/606-address-big/14.jpeg',
     
     ],
     description: `Luxury 2 Bedroom Apartment for Sale | 606 The Address | Colombo 03
@@ -1475,40 +1588,40 @@ A rare opportunity to own a luxury apartment that perfectly combines stunning vi
     whatsapp: '+94777150066',
   },
   {
-    id: 'altair-01',
+    id: 'span-tower-24',
     status: 'For Sale',
     badgeClass: 'badge-sale',
-    price: 'LKR 140 Mn',
-    name: 'Altair Apartment',
-    location: 'Colombo 2',
-    beds: 3, baths: 2, sqft: '1627', furnished: false,
+    price: 'LKR 89.75 Mn',
+    name: 'Span Tower 24',
+    location: 'Colombo 6',
+    beds: 4, baths: 3, sqft: '1855', furnished: false,
     type: 'Apartment',
-    featured: false,
-    image: './Images/altair-01/1.jpeg',
+    featured: true,
+    image: './Images/span-tower-24/head.jpg',
     gallery: [
-      './Images/altair-01/2.jpeg',
-      './Images/altair-01/3.jpeg',
-      './Images/altair-01/4.jpeg',
-      './Images/altair-01/5.jpeg',
-      './Images/altair-01/6.jpeg',
-      './Images/altair-01/7.jpeg',
-      './Images/altair-01/8.jpeg',
-      './Images/altair-01/9.jpeg',
-      './Images/altair-01/10.jpeg',
+      './Images/span-tower-24/1.jpg',
+      './Images/span-tower-24/2.jpg',
+      './Images/span-tower-24/3.jpg',
+      './Images/span-tower-24/4.jpg',
+      './Images/span-tower-24/5.jpg',
+      './Images/span-tower-24/6.jpg',
+      './Images/span-tower-24/7.jpg',
     ],
-    description: `Luxury 3 Bedroom Apartment for Sale | Altair | Colombo 02
+    description: `For Sale | Span Tower 24 
+(Ref – MRH33)
+📍 Colombo 06
 
-Enjoy stunning city views from this spacious and elegantly appointed residence, ideally positioned on a mid floor of Altair's Vertical Tower along Sir James Pieris Mawatha.
+Bedrooms: 4
+Bathrooms: 3
+Sq ft area: 1,855 sqft
+Furnishing: Unfurnished
+Features: Rooftop Swimming Pool, Gymnasium, Rooftop Terrace, 24/7 Security with CCTV, Fire Protection System, Backup Generators, Passenger Lifts, Dedicated Parking, Private Balconies, Attached Maid's Quarters
 
-- 3 Bedrooms | 2 Bathrooms
-- 1,627 sq. ft. of unfurnished living space
-- Maid's room with attached bathroom
-- Access to swimming pool, gym, spa, and play area
+Price - LKR 89.75 Million
 
-Conveniently located in the heart of Colombo 02, close to leading restaurants, shopping, and essential amenities, with easy access to the rest of the city.
-
-A rare opportunity to own a luxury apartment that perfectly combines stunning views, comfort, and convenience.`,
-    features: [ "3 Bedrooms", "2 Bathrooms", "Maid's Room with Bathroom", "Mid Floor", "1,627 Sq.ft.", "Unfurnished", "Vertical Tower - Type E", "Swimming Pool", "Gym", "Spa", "Play Area", "City View"],
+📞 To set up a viewing: 0777150066
+#apartmentforsale #spantower24 #moshrealty`,
+    features: ["4 Bedrooms", "3 Bathrooms", "1,855 sq. ft. living space", "Unfurnished", "Rooftop swimming pool", "Gymnasium", "Rooftop terrace", "24/7 security with CCTV", "Fire protection system", "Backup generators", "Passenger lifts", "Dedicated parking", "Private balconies", "Attached maid's quarters"],
     whatsapp: '+94777150066',
   },
   {
@@ -1588,7 +1701,7 @@ A rare opportunity to own an expansive, well-equipped property offering comfort,
       './Images/flat-cinnamon/13.jpg',
       './Images/flat-cinnamon/14.jpg',
     ],
-    description: `2 Room Apartment/Flat for Rent or Lease | Cinnamon Gardens, Colombo 07
+    description: `House for Rent or Lease | Cinnamon Gardens, Colombo 07
 
 Ideally located near Viharamahadevi Park, this unfurnished unit offers a versatile layout suited for either residential or commercial use.
 
@@ -1611,7 +1724,7 @@ A versatile opportunity to rent or lease a well-located space in one of Colombo 
     badgeClass: 'badge-rent',
     price: 'LKR 2.5M ',
     name: 'Commercial Space - Col 5',
-    location: 'Colombo 7',
+    location: 'Colombo 5',
     beds: 8, baths: 2, sqft: '4000', furnished: true,
     type: 'Commercial',
     featured: false,
@@ -1727,7 +1840,6 @@ Expected Price - LKR 375,000 / Month ($1,118)
       './Images/the-grand-ward/7.jpg',
       './Images/the-grand-ward/9.jpg',
       './Images/the-grand-ward/10.jpg',
-      './Images/the-grand-ward/7.jpg',
       './Images/the-grand-ward/11.jpg',
       './Images/the-grand-ward/12.jpg',
       './Images/the-grand-ward/13.jpg',
