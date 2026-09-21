@@ -1113,6 +1113,235 @@ Expected Price - LKR 240 million
     whatsapp: '+94777150066'
   },
   {
+    id: 'trzien-25f',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 63 Mn ',
+    name: 'The Tri-zen by John Keells Properties.',
+    location: 'Colombo 2',
+    beds: 1, baths: 1, sqft: '471', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/trizen-25f/head.jpg',
+    gallery: [
+      './Images/trizen-25f/1.jpg',
+      './Images/trizen-25f/2.jpg',
+      './Images/trizen-25f/3.jpg',
+      './Images/trizen-25f/4.jpg',
+      './Images/trizen-25f/5.jpg',
+      './Images/trizen-25f/6.jpg',
+      './Images/trizen-25f/7.jpg',
+    ],
+    description: `For Sale | Trizen | Colombo 02
+(Ref – MRA70)
+📍 Colombo 02
+
+Bedrooms: 1
+Bathrooms: 1
+Sq ft area: 471 sqft
+Furnishing: Furnished
+Features: Gym, Swimming Pool, Parking, City View
+
+Price - LKR 63 Million
+
+📞 To set up a viewing: 0777150066
+#apartmentforsale #trizen #colombo02 #cityview #moshrealtyFor Sale | Trizen | Colombo 02
+`,
+    features: ["1 Bedroom", "1 Bathroom", "471 sq. ft. living space", "Furnished", "Gym", "Swimming pool", "Parking", "City view"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'the-longdon',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 700K',
+    name: 'The Longdon Apartment',
+    location: 'Colombo 7',
+    beds: 3, baths: 2, sqft: '1600', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/the-longdon/head.jpg',
+    gallery: [
+      './Images/the-longdon/1.jpg',
+      './Images/the-longdon/2.jpg',
+      './Images/the-longdon/3.jpg',
+      './Images/the-longdon/4.jpg',
+      './Images/the-longdon/5.jpg',
+      './Images/the-longdon/6.jpg',
+      './Images/the-longdon/7.jpg',
+      './Images/the-longdon/8.jpg',
+      './Images/the-longdon/9.jpg',
+      './Images/the-longdon/10.jpg',
+      './Images/the-longdon/11.jpg',
+    ],
+    description: `For Rent | The Longdon | Colombo 07
+(Ref – MRA66)
+📍 Colombo 07
+
+Bedrooms: 3
+Bathrooms: 2
+Sq ft area: 1,600 sqft
+Furnishing: Fully Furnished
+Features: Parking, Elevator, Generator, Swimming Pool, Rooftop, 24/7 CCTV, Gym, Calm Environment
+
+Rent - LKR 700,000 / Month
+
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,600 sq. ft. living space", "Fully furnished", "Parking", "Elevator", "Generator", "Swimming pool", "Rooftop", "24/7 CCTV", "Gym", "Calm environment"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'altair-sloping-tower',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'USD 2500',
+    name: 'Altair Apartment',
+    location: 'Colombo 2',
+    beds: 3, baths: 3, sqft: '1650', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/altair-sloping-tower/head.jpeg',
+    gallery: [
+      './Images/altair-sloping-tower/1.jpg',
+      './Images/altair-sloping-tower/2.jpg',
+      './Images/altair-sloping-tower/3.jpg',
+      './Images/altair-sloping-tower/4.jpg',
+      './Images/altair-sloping-tower/5.jpg',
+      './Images/altair-sloping-tower/6.jpg',
+      './Images/altair-sloping-tower/7.jpg',
+      './Images/altair-sloping-tower/8.jpg',
+      './Images/altair-sloping-tower/9.jpg',
+    ],
+    description: `For Rent | Altair Residencies | Colombo 02
+(Ref – MRH34)
+📍 Colombo 02
+
+Bedrooms: 3
+Bathrooms: 3
+Sq ft area: 1,650 sqft
+Furnishing: Fully Furnished
+Features: Swimming Pools, Fully Equipped Gym, Steam & Sauna Rooms, 63rd-Floor Sky Deck, Sky Gardens, Jogging Track, Barbecue Pavilion, Children's Play Area, Games Room, 24/7 Security
+
+Rent - USD 2,500 / Month
+
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "3 Bathrooms", "1,650 sq. ft. living space", "Fully furnished", "Swimming pools", "Fully equipped gym", "Steam & sauna rooms", "63rd-floor sky deck", "Sky gardens", "Jogging track", "Barbecue pavilion", "Children's play area", "Games room", "24/7 security"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'ben-and-nancy',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 250K',
+    name: 'Ben & Nancy Tower',
+    location: 'Colombo 6',
+    beds: 3, baths: 2, sqft: '1100', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/ben-and-nancy/head.jpg',
+    gallery: [
+      './Images/ben-and-nancy/1.jpg',
+      './Images/ben-and-nancy/2.jpg',
+      './Images/ben-and-nancy/3.jpg',
+      './Images/ben-and-nancy/4.jpg',
+      './Images/ben-and-nancy/5.jpg',
+      './Images/ben-and-nancy/6.jpg',
+      './Images/ben-and-nancy/7.jpg',
+      './Images/ben-and-nancy/8.jpg',
+    ],
+    description: `For Rent | Ben & Nancy Tower | Colombo 06
+(Ref – MRA42)
+📍 Colombo 06
+
+Bedrooms: 3
+Bathrooms: 2
+Sq ft area: 1,100 sqft
+Furnishing: Fully Furnished
+Features: Swimming Pool, Gymnasium, 24-Hour Security, Backup Power Supply, Secure Parking
+
+Rent - LKR 250,000 / Month
+
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,100 sq. ft. living space", "Fully furnished", "Swimming pool", "Gymnasium", "24-hour security", "Backup power supply", "Secure parking"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'the-resi-sale',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 60 Mn',
+    name: 'The Residencies by Kotte ICC',
+    location: 'Kotte',
+    beds: 2, baths: 2, sqft: '830', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/resi-ude/head.jpg',
+    gallery: [
+      './Images/resi-ude/1.jpg',
+      './Images/resi-ude/2.jpg',
+      './Images/resi-ude/3.jpg',
+      './Images/resi-ude/4.jpg',
+      './Images/resi-ude/5.jpg',
+      './Images/resi-ude/6.jpg',
+      './Images/resi-ude/7.jpg',
+      './Images/resi-ude/8.jpg',
+      './Images/resi-ude/9.jpg',
+      './Images/resi-ude/10.jpg',
+    ],
+    description: `For Sale | The Residencies | Kotte
+(Ref – MRA23)
+📍 Kotte
+
+Bedrooms: 2
+Bathrooms: 2
+Sq ft area: 830 sqft
+Furnishing: Unfurnished
+Features: 2 Parking Slots, Servant Room, Gym, Swimming Pool
+Expected Price - LKR 60 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #colomboliving #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "830 sq. ft. living space", "Unfurnished", "2 parking slots", "Servant room", "Gym", "Swimming pool"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'astoria-sale',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 115 Mn',
+    name: 'Astoria',
+    location: 'Colombo 3',
+    beds: 3, baths: 2, sqft: '1211', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/astoria-tower/head.jpg',
+    gallery: [
+      './Images/astoria-tower/head.jpg',
+      './Images/astoria-tower/1.jpg',
+      './Images/astoria-tower/2.jpg',
+      './Images/astoria-tower/3.jpg',
+      './Images/astoria-tower/4.jpg',
+    ],
+    description: `For Sale | Astoria | Colombo 03
+(Ref – MRH36)
+📍 Colombo 03
+
+Bedrooms: 3
+Bathrooms: 2
+Sq ft area: 1,211 sqft
+Furnishing: Furnished
+Features: Gym, Squash Court, Snooker Room, Yoga Room, Indoor & Outdoor Swimming Pools, Jogging & Cycling Tracks, Designated Private Parking, Fiber-to-the-Home Internet, 24-Hour Security, 24-Hour Backup Generator
+
+Expected Price - LKR 115 Million
+
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,211 sq. ft. living space", "Furnished", "Gym", "Squash court", "Snooker room", "Yoga room", "Indoor swimming pool", "Outdoor swimming pool", "Jogging track", "Cycling track", "Designated private parking", "Fiber-to-the-home internet", "24-hour security", "24-hour backup generator"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'florida-apartment',
     status: 'For Rent',
     badgeClass: 'badge-rent',
