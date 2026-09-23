@@ -6,6 +6,48 @@
 
 const PROPERTIES = [
   {
+    id: 'the-maison-03',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'USD 2,500',
+    name: 'The Maison Apartments',
+    location: 'Colombo 3',
+    beds: 3, baths: 3, sqft: '1980', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/maison-rent/head.jpg',
+    gallery: [
+      './Images/maison-rent/1.jpg',
+      './Images/maison-rent/2.jpg',
+      './Images/maison-rent/3.jpg',
+      './Images/maison-rent/4.jpg',
+      './Images/maison-rent/5.jpg',
+      './Images/maison-rent/6.jpg',
+      './Images/maison-rent/7.jpg',
+      './Images/maison-rent/8.jpg',
+      './Images/maison-rent/9.jpg',
+      './Images/maison-rent/10.jpg',
+      './Images/maison-rent/11.jpg',
+      './Images/maison-rent/12.jpg',
+      './Images/maison-rent/13.jpg',
+      './Images/maison-rent/14.jpg',
+      './Images/maison-rent/15.jpg',
+    ],
+    description: `For Rent | The Maison | Colombo 03
+(Ref – MRM03)
+📍 Colombo 03
+ - Bedrooms: 3
+ - Bathrooms: 3
+ - Sq ft area: 1,980 sqft
+ - Furnishing: Furnished
+ - Features: Air Conditioning, Swimming Pool, Gym, Maid's Quarters
+Rent - USD 2,500 / Month
+📞 To set up a viewing: 0777150066
+#apartmentforrent #themaison #colombo03 #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "3 Bathrooms", "1,980 sq. ft. living space", "Furnished", "Air conditioning", "Swimming pool", "Gym", "Maid's quarters"],
+    whatsapp: '+94777150066',
+},
+  {
     id: '606-2br',
     status: 'For Sale',
     badgeClass: 'badge-sale',
@@ -668,7 +710,7 @@ Rent - LKR 345,000 / Month
       './Images/mulberry-resi/7.jpg',
     ],
     description: `For Sale | Mulberry Residence | Colombo 09
-(Ref – MRH60)
+(Ref – MRA60)
 📍 Colombo 09
  - Bedrooms: 2
  - Bathrooms: 2
@@ -863,7 +905,7 @@ Rent - LKR 800,000 / Month
     status: 'For Rent',
     badgeClass: 'badge-rent',
     price: 'USD 2,500',
-    name: 'The Maison',
+    name: 'The Maison Apartments',
     location: 'Colombo 3',
     beds: 3, baths: 3, sqft: '1980', furnished: true,
     type: 'Apartment',
