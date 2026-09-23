@@ -872,7 +872,7 @@ Rent - LKR 250,000 / Month
     price: 'LKR 800K',
     name: 'Crescat Residencies',
     location: 'Colombo 3',
-    beds: 3, baths: 3, sqft: '1500', furnished: true,
+    beds: 3, baths: 3, sqft: '1400', furnished: true,
     type: 'Apartment',
     featured: true,
     image: './Images/crescat-resi/head.jpg',
@@ -892,7 +892,7 @@ Rent - LKR 250,000 / Month
  - Bedrooms: 3
  - Bathrooms: 3
  - Furnishing: Furnished
- - Sq ft area: 1,500 sqft
+ - Sq ft area: 1,400 sqft
  - Features: Swimming Pool, Gym, Spa, Tennis Court, Direct Mall Access
 Rent - LKR 800,000 / Month
 📞 Get in touch to schedule a viewing: 0777150066
