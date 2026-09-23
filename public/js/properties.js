@@ -573,6 +573,334 @@ Rent - LKR 290,000 / Month
     whatsapp: '+94777150066',
   },
   {
+    id: 'ru-residence',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 62 Mn',
+    name: 'Ru Residencies',
+    location: 'Nugegoda',
+    beds: 3, baths: 2, sqft: '1460', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/ru-residence/head.jpg',
+    gallery: [
+      './Images/ru-residence/1.jpg',
+      './Images/ru-residence/2.jpg',
+      './Images/ru-residence/3.jpg',
+      './Images/ru-residence/4.jpg',
+      './Images/ru-residence/5.jpg',
+      './Images/ru-residence/6.jpg',
+      './Images/ru-residence/7.jpg',
+      './Images/ru-residence/8.jpg',
+      './Images/ru-residence/9.jpg',
+    ],
+    description: `For Sale | Ru Residencies | Nugegoda
+(Ref – MRA72)
+📍 Nugegoda
+
+Bedrooms: 3
+Bathrooms: 2
+Sq ft area: 1,460 sqft
+Furnishing: Unfurnished
+Features: Separate Wet Kitchen, Servant's Room & Bathroom, Rooftop Open Area, Swimming Pool, Fully Equipped Gym, Meeting/Party Room (50 pax), SLT Fiber-Optic, Backup Electricity Generator, 3-Phase Electricity, Central Gas Line with Individual Meters, Individual Water Meters, CCTV, 2 Lifts, 1 Dedicated Parking + 12 Visitor Parking, Garbage Disposal Room on Every Floor, 24-Hour Security
+Expected Price - LKR 62 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,460 sq. ft. living space", "Unfurnished", "Separate wet kitchen", "Servant's room & bathroom", "Rooftop open area", "Swimming pool", "Fully equipped gym", "Meeting/party room (50 pax)", "SLT fiber-optic", "Backup electricity generator", "3-phase electricity", "Central gas line with individual meters", "Individual water meters", "CCTV", "2 lifts", "1 dedicated parking + 12 visitor parking", "Garbage disposal room on every floor", "24-hour security"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'iconic-galaxy',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 345K',
+    name: 'Iconic Galaxy',
+    location: 'Rajagiriya',
+    beds: 2, baths: 2, sqft: '1550', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/iconic-galaxy-6th/head.jpeg',
+    gallery: [
+      './Images/iconic-galaxy-6th/1.jpg',
+      './Images/iconic-galaxy-6th/2.jpg',
+      './Images/iconic-galaxy-6th/3.jpg',
+      './Images/iconic-galaxy-6th/4.jpg',
+      './Images/iconic-galaxy-6th/5.jpg',
+      './Images/iconic-galaxy-6th/6.jpg',
+      './Images/iconic-galaxy-6th/7.jpg',
+      './Images/iconic-galaxy-6th/8.jpg',
+      './Images/iconic-galaxy-6th/9.jpg',
+      './Images/iconic-galaxy-6th/10.jpg',
+    ],
+    description: `For Rent | Iconic Galaxy | Rajagiriya
+(Ref – MRH32)
+📍 Rajagiriya
+
+Bedrooms: 2
+Bathrooms: 2
+Sq ft area: 1,550 sqft
+Furnishing: Fully Furnished
+Features: Glass-Walled Observatory, Rooftop Café, Swimming Pool & Spa, Gym, Yoga Center, Squash Court, Mini Theatre, Indoor Play Zone, Business Center, Banquet Hall, Serviced Guest Rooms, Mini Supermarket, 24/7 Security
+Rent - LKR 345,000 / Month
+📞 To set up a viewing: 0777150066
+#apartmentforrent #iconicgalaxy #rajagiriya #fullyfurnished #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,550 sq. ft. living space", "Fully furnished", "Glass-walled observatory", "Rooftop café", "Swimming pool & spa", "Gym", "Yoga center", "Squash court", "Mini theatre", "Indoor play zone", "Business center", "Banquet hall", "Serviced guest rooms", "Mini supermarket", "24/7 security"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'mulberry-residence-60',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 45 Mn',
+    name: 'Mulberry Residence',
+    location: 'Colombo 9',
+    beds: 2, baths: 2, sqft: '989', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/mulberry-resi/head.jpg',
+    gallery: [
+      './Images/mulberry-resi/1.jpg',
+      './Images/mulberry-resi/2.jpg',
+      './Images/mulberry-resi/3.jpg',
+      './Images/mulberry-resi/4.jpg',
+      './Images/mulberry-resi/5.jpg',
+      './Images/mulberry-resi/6.jpg',
+      './Images/mulberry-resi/7.jpg',
+    ],
+    description: `For Sale | Mulberry Residence | Colombo 09
+(Ref – MRH60)
+📍 Colombo 09
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 989 sqft
+ - Furnishing: Unfurnished
+ - Features: Gym, Swimming Pool, Parking, 24-Hour Security
+Expected Price - LKR 45 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #colomboliving #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "989 sq. ft. living space", "Unfurnished", "Gym", "Swimming pool", "Parking", "24-hour security"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'skyline-residencies-56',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 45 Mn',
+    name: 'Skyline Residencies',
+    location: 'Colombo 8',
+    beds: 3, baths: 2, sqft: '1350', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/skyline-resi/head.jpg',
+    gallery: [
+      './Images/skyline-resi/1.jpg',
+      './Images/skyline-resi/2.jpg',
+      './Images/skyline-resi/3.jpg',
+      './Images/skyline-resi/4.jpg',
+      './Images/skyline-resi/5.jpg',
+      './Images/skyline-resi/6.jpg',
+      './Images/skyline-resi/7.jpg',
+    ],
+    description: `For Sale | Skyline Residencies | Colombo 08
+(Ref – MRA56)
+📍 Colombo 08
+ - Bedrooms: 3 + Maid's Room + Storeroom
+ - Bathrooms: 2 + Maid's Toilet
+ - Sq ft area: 1,350 sqft
+ - Furnishing: Semi Furnished
+ - Features: Private Balcony, Reserved Parking, 24-Hour Security, Modern Amenities, Excellent Accessibility, Minutes from Leading Hospitals, Schools & Commercial Centres
+
+ Expected Price - LKR 45 Million
+
+ 📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms + Maid's Room + Storeroom", "2 Bathrooms + Maid's Toilet", "1,350 sq. ft. living space", "Semi furnished", "Private balcony", "Reserved parking", "24-hour security", "Modern amenities", "Excellent accessibility", "Minutes from hospitals, schools & commercial centres"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'the-grand-64',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 130 Mn',
+    name: 'The Grand',
+    location: 'Colombo 7',
+    beds: 2, baths: 2, sqft: '1128', furnished: true,
+    type: 'Apartment',
+    featured: false,
+    image: './Images/the-grand-mrh64/head.jpg',
+    gallery: [
+      './Images/the-grand-mrh64/1.jpg',
+      './Images/the-grand-mrh64/2.jpg',
+      './Images/the-grand-mrh64/3.jpg',
+      './Images/the-grand-mrh64/4.jpg',
+      './Images/the-grand-mrh64/5.jpg',
+      './Images/the-grand-mrh64/6.jpg',
+      './Images/the-grand-mrh64/7.jpg',
+      './Images/the-grand-mrh64/8.jpg',
+    ],
+    description: `For Sale | The Grand | Colombo 07
+(Ref – MRA64)
+📍 Colombo 07
+ - Bedrooms: 2 + Maid's Room with Bathroom
+ - Bathrooms: 2
+ - Sq ft area: 1,128 sqft
+ - Furnishing: Fully Furnished
+ - Features: Gym, Parking, Swimming Pool, 24/7 Security
+Expected Price - LKR 130 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #colomboliving #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms + Maid's Room with Bathroom", "2 Bathrooms", "1,128 sq. ft. living space", "Fully furnished", "Gym", "Parking", "Swimming pool", "24/7 security"],
+    whatsapp: '+94777150066',
+ },
+ {
+    id: 'prime-bella-77',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 250K',
+    name: 'Prime Bella',
+    location: 'Rajagiriya',
+    beds: 3, baths: 2, sqft: '1353', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/prime-bella/head.jpg',
+    gallery: [
+      './Images/prime-bella/1.jpg',
+      './Images/prime-bella/2.jpg',
+      './Images/prime-bella/3.jpg',
+      './Images/prime-bella/4.jpg',
+      './Images/prime-bella/5.jpg',
+      './Images/prime-bella/6.jpg',
+      './Images/prime-bella/7.jpg',
+      './Images/prime-bella/8.jpg',
+    ],
+    description: `For Rent | Prime Bella | Rajagiriya
+(Ref – MRA77)
+📍 Rajagiriya
+ - Bedrooms: 3 + Maid's Room
+ - Bathrooms: 2 + Maid's Bathroom
+ - Sq ft area: 1,353 sqft
+ - Furnishing: Fully Furnished
+ - Features: Parking, Swimming Pool, Fully Equipped Gym, Large Rooftop Terrace
+Rent - LKR 250,000 / Month
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms + Maid's Room", "2 Bathrooms + Maid's Bathroom", "1,353 sq. ft. living space", "Fully furnished", "Parking", "Swimming pool", "Fully equipped gym", "Large rooftop terrace"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'tri-zen-73',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 750K',
+    name: 'Tri Zen',
+    location: 'Colombo 2',
+    beds: 3, baths: 2, sqft: '1050', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/trizen-mra73/head.jpg',
+    gallery: [
+      './Images/trizen-mra73/1.jpg',
+      './Images/trizen-mra73/2.jpg',
+      './Images/trizen-mra73/3.jpg',
+      './Images/trizen-mra73/4.jpg',
+      './Images/trizen-mra73/5.jpg',
+    ],
+    description: `For Rent | Tri Zen | Colombo 02
+(Ref – MRA73)
+📍 Colombo 02
+ - Bedrooms: 3
+ - Bathrooms: 2
+ - Sq ft area: 1,050 sqft
+ - Furnishing: Fully Furnished
+ - Features: Beautiful View of Colombo Port & Lotus Tower, Hot Water, CCTV/Security, Rooftop Garden, Children's Play Area, Yoga Deck, Swimming Pool, BBQ Area, Coffee Shop, Laundry, Supermarkets within Premises, Nearby Schools, Hospitals & Bus Routes, Parking
+ - Deposit: 4 Months
+ - Maintenance: LKR 30,000/Month
+
+ Rent - LKR 750,000 / Month (USD 2,300)
+
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,050 sq. ft. living space", "Fully furnished", "View of Colombo Port & Lotus Tower", "Hot water", "CCTV/security", "Rooftop garden", "Children's play area", "Yoga deck", "Swimming pool", "BBQ area", "Coffee shop", "Laundry", "Supermarkets within premises", "Nearby schools, hospitals & bus routes", "Parking", "4 months deposit"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'crescat-residencies-18',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 800K',
+    name: 'Crescat Residencies',
+    location: 'Colombo 3',
+    beds: 3, baths: 3, sqft: '1500', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/crescat-resi/head.jpg',
+    gallery: [
+      './Images/crescat-resi/1.jpg',
+      './Images/crescat-resi/2.jpg',
+      './Images/crescat-resi/3.jpg',
+      './Images/crescat-resi/4.jpg',
+      './Images/crescat-resi/5.jpg',
+      './Images/crescat-resi/6.jpg',
+      './Images/crescat-resi/7.jpg',
+      './Images/crescat-resi/8.jpg',
+    ],
+    description: `For Rent | Crescat Residencies | Colombo 03
+(Ref – MRH18)
+📍 Colombo 03
+ - Bedrooms: 3
+ - Bathrooms: 3
+ - Furnishing: Furnished
+ - Sq ft area: 1,500 sqft
+ - Features: Swimming Pool, Gym, Spa, Tennis Court, Direct Mall Access
+Rent - LKR 800,000 / Month
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "3 Bathrooms", "Furnished", "Swimming pool", "Gym", "Spa", "Tennis court", "Direct mall access"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'the-maison-03',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'USD 2,500',
+    name: 'The Maison',
+    location: 'Colombo 3',
+    beds: 3, baths: 3, sqft: '1980', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/maison-rent/head.jpg',
+    gallery: [
+      './Images/maison-rent/1.jpg',
+      './Images/maison-rent/2.jpg',
+      './Images/maison-rent/3.jpg',
+      './Images/maison-rent/4.jpg',
+      './Images/maison-rent/5.jpg',
+      './Images/maison-rent/6.jpg',
+      './Images/maison-rent/7.jpg',
+      './Images/maison-rent/8.jpg',
+      './Images/maison-rent/9.jpg',
+      './Images/maison-rent/10.jpg',
+      './Images/maison-rent/11.jpg',
+      './Images/maison-rent/12.jpg',
+      './Images/maison-rent/13.jpg',
+      './Images/maison-rent/14.jpg',
+      './Images/maison-rent/15.jpg',
+    ],
+    description: `For Rent | The Maison | Colombo 03
+(Ref – MRM03)
+📍 Colombo 03
+ - Bedrooms: 3
+ - Bathrooms: 3
+ - Sq ft area: 1,980 sqft
+ - Furnishing: Furnished
+ - Features: Air Conditioning, Swimming Pool, Gym, Maid's Quarters
+Rent - USD 2,500 / Month
+📞 To set up a viewing: 0777150066
+#apartmentforrent #themaison #colombo03 #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "3 Bathrooms", "1,980 sq. ft. living space", "Furnished", "Air conditioning", "Swimming pool", "Gym", "Maid's quarters"],
+    whatsapp: '+94777150066',
+},
+  {
     id: 'trizen-471',
     status: 'For Rent',
     badgeClass: 'badge-rent',
@@ -683,6 +1011,42 @@ Rent - LKR 320,000 / Month
 
 #apartmentforrent #havelockcity #colombo05 #fullyfurnished #luxuryapartment #moshrealty`,
     features: ["1 Bedroom", "1 Bathroom", "753 sq. ft. living space", "Fully furnished", "Swimming pool", "Jacuzzi", "Kids' pool", "Gymnasium", "Squash court", "Badminton court", "Basketball court", "Jogging track", "Children's play areas", "Mini cinema", "Three banquet halls", "Mini-supermarket", "Hair and beauty salon", "Launderette", "Direct mall access", "24/7 security", "Backup generators", "Private parking"],
+    whatsapp: '+94777150066',
+  },
+  {
+    id: 'iconic-galaxy-65',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 90 Mn',
+    name: 'Iconic Galaxy',
+    location: 'Rajagiriya',
+    beds: 3, baths: 3, sqft: '1580', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/iconic-galaxy-6th/head.jpeg',
+    gallery: [
+      './Images/iconic-galaxy-6th/1.jpg',
+      './Images/iconic-galaxy-6th/2.jpg',
+      './Images/iconic-galaxy-6th/3.jpg',
+      './Images/iconic-galaxy-6th/4.jpg',
+      './Images/iconic-galaxy-6th/5.jpg',
+      './Images/iconic-galaxy-6th/6.jpg',
+      './Images/iconic-galaxy-6th/7.jpg',
+      './Images/iconic-galaxy-6th/8.jpg',
+    ],
+    description: `For Sale | Iconic Galaxy | Rajagiriya
+(Ref – MRA65)
+📍 Rajagiriya
+
+Bedrooms: 3
+Bathrooms: 3
+Sq ft area: 1,580 sqft
+Furnishing: Fully Furnished
+Features: Swimming Pool, Gym, Mini Theatre, Sports Court, Private Supermarket, Car Wash Facility, BBQ Area, Backup Generator
+Expected Price - LKR 90 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "3 Bathrooms", "1,580 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Mini theatre", "Sports court", "Private supermarket", "Car wash facility", "BBQ area", "Backup generator"],
     whatsapp: '+94777150066',
   },
   {
@@ -1145,7 +1509,7 @@ Features: Gym, Swimming Pool, Parking, City View
 Price - LKR 63 Million
 
 📞 To set up a viewing: 0777150066
-#apartmentforsale #trizen #colombo02 #cityview #moshrealtyFor Sale | Trizen | Colombo 02
+#apartmentforsale #trizen #colombo02 #cityview #moshrealty
 `,
     features: ["1 Bedroom", "1 Bathroom", "471 sq. ft. living space", "Furnished", "Gym", "Swimming pool", "Parking", "City view"],
     whatsapp: '+94777150066',
@@ -1378,47 +1742,6 @@ Rent - LKR 285,000 / Month
 📞 To set up a viewing: 0777150066
 #apartmentforrent #dehiwela #fullyfurnished #floridaapartments #moshrealty #luxuryapartment`,
     features: ["3 Bedrooms", "2 Bathrooms", "1,300 sq. ft. living space", "Fully furnished", "2 lifts", "24-hour security", "1 car parking", "Swimming pool (under construction)", "Beautiful view", "Maintenance fee included"],
-    whatsapp: '+94777150066',
-  },
-  {
-    id: 'aquaria-apartment',
-    status: 'For Rent',
-    badgeClass: 'badge-rent',
-    price: 'LKR 250K',
-    name: 'Aquaria Apartments',
-    location: 'Colombo 5',
-    beds: 2, baths: 2, sqft: '750', furnished: false,
-    type: 'Apartment',
-    featured: true,
-    image: './Images/aquaria/head.jpg',
-    gallery: [
-      './Images/aquaria/1.jpg',
-      './Images/aquaria/2.jpg',
-      './Images/aquaria/3.jpg',
-      './Images/aquaria/4.jpg',
-      './Images/aquaria/5.jpg',
-      './Images/aquaria/6.jpg',
-      './Images/aquaria/7.jpg',
-    ],
-    description: `For Rent | Aquaria Apartments |Colombo 05
-(Ref - MRA58)
-
-📍 Colombo 05
-
- - Bedrooms: 2
- - Bathrooms: 2
- - Sq ft area: 750 sqft
- - Furnishing: Unfurnished (Can be Furnished)
-
-Deposit: 3 Months Security + Advance (Negotiable)
-
-Expected Price - LKR 250,000 / Month
-
-📞 To set up a viewing: 0777150066
-
-#apartmentforrent #aquariaapartments #colombo05 #unfurnished #moshrealty
-`,
-    features: ["2 Bedrooms", "2 Bathrooms", "750 sq. ft. living space", "Unfurnished (can be furnished)", "3 months security deposit + advance (negotiable)"],
     whatsapp: '+94777150066',
   },
   {
@@ -2004,6 +2327,47 @@ A rare opportunity to own or lease a versatile property offering ample space for
     whatsapp: '+94777150066',
   },
   {
+    id: 'aquaria-apartment',
+    status: 'Rented',
+    badgeClass: 'badge-rent',
+    price: 'LKR 250K',
+    name: 'Aquaria Apartments',
+    location: 'Colombo 5',
+    beds: 2, baths: 2, sqft: '750', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/aquaria/head.jpg',
+    gallery: [
+      './Images/aquaria/1.jpg',
+      './Images/aquaria/2.jpg',
+      './Images/aquaria/3.jpg',
+      './Images/aquaria/4.jpg',
+      './Images/aquaria/5.jpg',
+      './Images/aquaria/6.jpg',
+      './Images/aquaria/7.jpg',
+    ],
+    description: `For Rent | Aquaria Apartments |Colombo 05
+(Ref - MRA58)
+
+📍 Colombo 05
+
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 750 sqft
+ - Furnishing: Unfurnished (Can be Furnished)
+
+Deposit: 3 Months Security + Advance (Negotiable)
+
+Expected Price - LKR 250,000 / Month
+
+📞 To set up a viewing: 0777150066
+
+#apartmentforrent #aquariaapartments #colombo05 #unfurnished #moshrealty
+`,
+    features: ["2 Bedrooms", "2 Bathrooms", "750 sq. ft. living space", "Unfurnished (can be furnished)", "3 months security deposit + advance (negotiable)"],
+    whatsapp: '+94777150066',
+  },
+  {
     id: 'trizen-rent',
     status: 'Rented',
     badgeClass: 'badge-rent',
@@ -2389,6 +2753,7 @@ A great opportunity to lease a ready-to-operate hotel property in one of Colombo
     features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
     whatsapp: '+94777150066',
   },
+  
 ];
 
 window.PROPERTIES = PROPERTIES;
@@ -2425,7 +2790,6 @@ function renderPropCard(p, rootPrefix = '') {
        <div class="prop-spec"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12V4a1 1 0 011-1h5a1 1 0 011 1v3M2 20h20M20 20v-8a2 2 0 00-2-2h-6"/></svg>${p.baths} Baths</div>
        <div class="prop-spec"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/></svg>${p.sqft} sqft</div>`
     : `<div class="prop-spec"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/></svg>${p.sqft}</div>`;
-
   const furnishedSpec = typeof p.furnished === 'boolean'
     ? `<div class="prop-spec"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20 9V6a2 2 0 00-2-2H6a2 2 0 00-2 2v3M4 9a2 2 0 00-2 2v4h20v-4a2 2 0 00-2-2M4 9h16M2 19h20M4 15v4M20 15v4"/></svg>${p.furnished ? 'Furnished' : 'Unfurnished'}</div>`
     : '';
