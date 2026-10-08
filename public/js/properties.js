@@ -1369,6 +1369,145 @@ Price - LKR 89 Million
     whatsapp: '+94777150066',
   },
   {
+    id: 'the-heights-85',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 60 Mn',
+    name: 'The Heights',
+    location: 'Colombo 5',
+    beds: 2, baths: 2, sqft: '1250', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/the-height/head.jpg',
+    gallery: [
+      './Images/the-height/1.jpg',
+      './Images/the-height/2.jpg',
+      './Images/the-height/3.jpg',
+      './Images/the-height/4.jpg',
+      './Images/the-height/5.jpg',
+      './Images/the-height/6.jpg',
+      './Images/the-height/7.jpg',
+    ],
+    description: `For Sale | The Heights | Colombo 05
+(Ref – MRA85)
+📍 Colombo 05
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 1,250 sqft
+ - Furnishing: Unfurnished
+ - Facilities: Swimming Pool, Gym, Pet Friendly, Library/Relax Area, Children's Play Area
+Expected Price - LKR 60 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #theheights #deedavailable #colomboliving #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,250 sq. ft. living space", "Unfurnished", "Swimming pool", "Gym", "Pet friendly", "Library/relax area", "Children's play area"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'ariyana-resort-81',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 28.85 Mn',
+    name: 'Ariyana Resort Apartments',
+    location: 'Athurugiriya',
+    beds: 2, baths: 2, sqft: '765', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/ariyana-resort/head.jpg',
+    gallery: [
+      './Images/ariyana-resort/1.jpg',
+      './Images/ariyana-resort/2.jpg',
+      './Images/ariyana-resort/3.jpg',
+      './Images/ariyana-resort/4.jpg',
+      './Images/ariyana-resort/5.jpg',
+      './Images/ariyana-resort/6.jpg',
+      './Images/ariyana-resort/7.jpg',
+      './Images/ariyana-resort/8.jpg',
+    ],
+    description: `For Sale | Ariyana Resort Apartments | Athurugiriya
+(Ref – MRA81)
+📍 Athurugiriya
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 765 sqft
+ - Furnishing: Fully Furnished
+ - Features: Swimming Pool, Gym, Outdoor Yoga & Reading Area, Kids Play Area, Cricket Net, BBQ Area, Basketball & Tennis Courts, Pool Table & Gaming Room, Mini Library, Golf Cart Service, 24/7 Security
+Expected Price - LKR 28.85 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #resortliving #athurugiriya #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "765 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Outdoor yoga & reading area", "Kids play area", "Cricket net", "BBQ area", "Basketball court", "Tennis court", "Pool table & gaming room", "Mini library", "Golf cart service", "24/7 security"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'marina-square-84',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 68 Mn',
+    name: 'Marina Square',
+    location: 'Colombo 15',
+    beds: 2, baths: 2, sqft: '961', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/marina-square-01/head.jpg',
+    gallery: [
+      './Images/marina-square-01/1.jpg',
+      './Images/marina-square-01/2.jpeg',
+      './Images/marina-square-01/3.jpg',
+      './Images/marina-square-01/4.jpg',
+      './Images/marina-square-01/5.jpg',
+      './Images/marina-square-01/6.jpg',
+      './Images/marina-square-01/7.jpg',
+      './Images/marina-square-01/8.jpg',
+    ],
+    description: `For Sale | Marina Square | Colombo 15
+(Ref – MRA84)
+📍 Colombo 15
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 961 sqft
+ - Furnishing: Unfurnished
+ - Features: Infinity Pool, Kids Pool & Play Area, Fully Equipped Gym, Squash Courts & Snooker Lounge, Club House, Walking & Jogging Track
+Price - LKR 68 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #marinasquare #harbourview #colomboliving #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "961 sq. ft. living space", "Unfurnished", "Infinity pool", "Kids pool & play area", "Fully equipped gym", "Squash courts", "Snooker lounge", "Club house", "Walking & jogging track"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'mulberry-residencies-78',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'USD 1000',
+    name: 'Mulberry Residencies',
+    location: 'Colombo 9',
+    beds: 2, baths: 2, sqft: '1000', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/mulberry-rent/head.jpg',
+    gallery: [
+      './Images/mulberry-rent/1.jpg',
+      './Images/mulberry-rent/2.jpg',
+      './Images/mulberry-rent/3.jpg',
+      './Images/mulberry-rent/4.jpg',
+      './Images/mulberry-rent/5.jpg',
+      './Images/mulberry-rent/6.jpg',
+      './Images/mulberry-rent/7.jpg',
+    ],
+    description: `For Rent | Mulberry Residencies | Colombo 09
+(Ref – MRA78)
+📍 Colombo 09
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 1,000 sqft
+ - Furnishing: Fully Furnished
+ - Features: Fully Air-Conditioned, Parking, Swimming Pool (Under Construction), Fully Equipped Gym (Under Construction), 24/7 Security, Well-Maintained Common Areas
+Rent - USD 1,000 / Month (LKR Equivalent Accepted, Maintenance Fee Included)
+Lease - 1 Year or Longer
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #colomboliving #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,000 sq. ft. living space", "Fully furnished", "Fully air-conditioned", "Parking", "Swimming pool (under construction)", "Fully equipped gym (under construction)", "24/7 security", "Well-maintained common areas", "Maintenance fee included", "1 year or longer lease"],
+    whatsapp: '+94777150066',
+},
+  {
     id: 'fingate-resi',
     status: 'For Sale',
     badgeClass: 'badge-sale',
