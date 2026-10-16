@@ -574,6 +574,126 @@ Price - LKR 78.3 Million
     features: ["3 Bedrooms", "3 Bathrooms", "1,250 sq. ft. living space", "Fully furnished", "Rooftop swimming pool", "Fully equipped gymnasium", "24/7 security", "Dedicated parking"],
     whatsapp: '+94777150066',
   },
+
+  {
+    id: 'viyathpura-apartments-74',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 300K',
+    name: 'Viyathpura Apartments',
+    location: 'Kotte',
+    beds: 2, baths: 2, sqft: '1000', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/viyathpura-apartment/head.jpg',
+    gallery: [
+      './Images/viyathpura-apartment/1.jpg',
+      './Images/viyathpura-apartment/2.jpg',
+      './Images/viyathpura-apartment/3.jpg',
+      './Images/viyathpura-apartment/4.jpg',
+      './Images/viyathpura-apartment/5.jpg',
+      './Images/viyathpura-apartment/6.jpg',
+      './Images/viyathpura-apartment/7.jpg',
+      './Images/viyathpura-apartment/8.jpg',
+      './Images/viyathpura-apartment/9.jpg',
+      './Images/viyathpura-apartment/10.jpg',
+    ],
+    description: `For Rent | Viyathpura Apartments | Kotte
+(Ref – MRA74)
+📍 Kotte
+ - Bedrooms: 2 + Dedicated Office Room
+ - Bathrooms: 2
+ - Sq ft area: 1,000 sqft
+ - Furnishing: Fully Furnished
+ - Features: Private Balconies in All Rooms, Secure Indoor Parking, Full Air Conditioning, High-Speed Unlimited WIFI, Swimming Pool, Fully Equipped Gym, Cargills Express Mini Grocery within Premises
+ - Deposit: 4 Months
+ - Maintenance: LKR 10,000/Month
+ - Internet & TV: LKR 8,960/Month
+Rent - LKR 300,000 / Month (Can be Paid in USD)
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #colomboliving #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms + Dedicated Office Room", "2 Bathrooms", "1,000 sq. ft. living space", "Fully furnished", "Private balconies in all rooms", "Secure indoor parking", "Full air conditioning", "High-speed unlimited WIFI", "Swimming pool", "Fully equipped gym", "Cargills Express mini grocery on premises", "4 months deposit", "Rent payable in USD"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'luxe-highway-residencies-37',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 200K',
+    name: 'Luxe Highway Residencies',
+    location: 'Kottawa',
+    beds: 3, baths: 3, sqft: '1248', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/luxe-highway/head.jpg',
+    gallery: [
+      './Images/luxe-highway/1.jpg',
+      './Images/luxe-highway/2.jpg',
+      './Images/luxe-highway/3.jpg',
+      './Images/luxe-highway/4.jpg',
+      './Images/luxe-highway/5.jpg',
+      './Images/luxe-highway/6.jpg',
+      './Images/luxe-highway/7.jpg',
+    ],
+    description: `For Rent | Luxe Highway Residencies | Kottawa
+(Ref – MRH37)
+📍 Kottawa
+ - Bedrooms: 3
+ - Bathrooms: 3
+ - Sq ft area: 1,248 sqft
+ - Furnishing: Furnished
+ - Features: Swimming Pool, Fully Equipped Gymnasium, Children's Play Areas, Clubhouse, Landscaped Gardens, Rooftop Space with BBQ Area, On-Site Dining & Shopping (Restaurant, Cafe, Bakery & Minimart), 24-Hour Security, Elevators, Free Private Parking, Electric Vehicle Charging Points
+ - Advance: 1 Month
+ - Security Deposit: 6 Months
+Rent - LKR 200,000 / Month
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #colomboliving #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "3 Bathrooms", "1,248 sq. ft. living space", "Furnished", "Swimming pool", "Fully equipped gymnasium", "Children's play areas", "Clubhouse", "Landscaped gardens", "Rooftop space with BBQ area", "On-site restaurant, cafe, bakery & minimart", "24-hour security", "Elevators", "Free private parking", "EV charging points", "1 month advance", "6 months security deposit"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'trevose-apartments-98',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 75 Mn',
+    name: 'Trevose Apartments',
+    location: 'Colombo 5',
+    beds: 3, baths: 2, sqft: '1477', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/trevose-apartment/head.jpg',
+    gallery: [
+      './Images/trevose-apartment/1.jpg',
+      './Images/trevose-apartment/2.jpg',
+      './Images/trevose-apartment/3.jpg',
+      './Images/trevose-apartment/4.jpg',
+      './Images/trevose-apartment/5.jpg',
+      './Images/trevose-apartment/6.jpg',
+      './Images/trevose-apartment/7.jpg',
+      './Images/trevose-apartment/8.jpg',
+      './Images/trevose-apartment/9.jpg',
+      './Images/trevose-apartment/10.jpg',
+      './Images/trevose-apartment/11.jpg',
+      './Images/trevose-apartment/12.jpg',
+      './Images/trevose-apartment/13.jpg',
+      './Images/trevose-apartment/14.jpg',
+      './Images/trevose-apartment/15.jpg',
+    ],
+    description: `For Sale | Trevose Apartments | Colombo 05
+(Ref – MRA98)
+📍 Colombo 05
+ - Bedrooms: 3 + Maid's Room
+ - Bathrooms: 2 + Maid's Toilet
+ - Sq ft area: 1,477 sqft
+ - Furnishing: Unfurnished
+ - Features: AC & Hot Water, Gym in Building with Roofdeck, Elevator, 24-Hour Security, Parking
+ - Maintenance: LKR 35,000/Month
+Price - LKR 75 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #colombo05 #moshrealty`,
+    features: ["3 Bedrooms + Maid's Room", "2 Bathrooms + Maid's Toilet", "1,477 sq. ft. living space", "Unfurnished", "AC & hot water", "Gym in building with roofdeck", "Elevator", "24-hour security", "Parking", "Maintenance LKR 35,000/month"],
+    whatsapp: '+94777150066',
+},
   {
     id: 'residencies-824-rent',
     status: 'For Rent',
@@ -2934,7 +3054,7 @@ A great opportunity to lease a ready-to-operate hotel property in one of Colombo
     features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
     whatsapp: '+94777150066',
   },
-  
+
 ];
 
 window.PROPERTIES = PROPERTIES;
