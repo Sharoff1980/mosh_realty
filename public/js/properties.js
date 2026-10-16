@@ -1211,6 +1211,43 @@ Expected Price - LKR 90 Million
     features: ["3 Bedrooms", "3 Bathrooms", "1,580 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Mini theatre", "Sports court", "Private supermarket", "Car wash facility", "BBQ area", "Backup generator"],
     whatsapp: '+94777150066',
   },
+
+  {
+    id: 'monarch-103',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'USD 1400',
+    name: 'Monarch',
+    location: 'Colombo 3',
+    beds: 2, baths: 2, sqft: '1100', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/monarch-sadana/head.jpeg',
+    gallery: [
+      './Images/monarch-sadana/1.jpg',
+      './Images/monarch-sadana/2.jpg',
+      './Images/monarch-sadana/3.jpg',
+      './Images/monarch-sadana/4.jpg',
+      './Images/monarch-sadana/5.jpg',
+      './Images/monarch-sadana/6.jpg',
+      './Images/monarch-sadana/7.jpg',
+    ],
+    description: `For Rent | Monarch | Colombo 03
+(Ref – MRA103)
+📍 Colombo 03
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 1,100 sqft
+ - Furnishing: Fully Furnished & Equipped
+ - Features: Swimming Pool, Gym, Sauna, Tennis Court, 24/7 Security
+Rent - USD 1,400 / Month
+ - Lease Terms: Minimum 1 Year, 3 Months Security Deposit, 6 Months Rent Payable Upfront
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #monarchresidencies #colombo02 #oceanview #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,100 sq. ft. living space", "Fully furnished & equipped", "Swimming pool", "Gym", "Sauna", "Tennis court", "24/7 security", "Minimum 1 year lease", "3 months security deposit", "6 months rent payable upfront"],
+    whatsapp: '+94777150066',
+},
+
   {
     id: 'castle-regency',
     status: 'For Sale',
@@ -3054,7 +3091,6 @@ A great opportunity to lease a ready-to-operate hotel property in one of Colombo
     features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
     whatsapp: '+94777150066',
   },
-
 ];
 
 window.PROPERTIES = PROPERTIES;
