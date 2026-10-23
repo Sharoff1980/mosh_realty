@@ -195,6 +195,294 @@ Expected Price - LKR 245 million
     features: ["3 Bedrooms", "3 Bathrooms", "3,150 sq. ft. living space", "Residents' Club / Club Lounge", "20-metre swimming pool", "Kids' pool", "Toddlers' pool", "Sun deck", "BBQ terrace", "Fully equipped gym", "Spin studio", "Yoga pavilion", "Indoor squash court", "Table tennis", "Indoor multi-purpose sports court", "Badminton court", "Futsal court", "Basketball court", "Spa facilities", "Private cinema / media room", "4K screen with surround sound", "Kids' social lounge", "Kids' active lounge", "Teens' social lounge", "Teens' active lounge", "Creativity studio", "Kids' outdoor lawn", "Bars", "Cafes"],
     whatsapp: '+94777150066',
   },
+
+  {
+    id: 'trizen-99',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 500K',
+    name: 'TriZen',
+    location: 'Colombo 2',
+    beds: 2, baths: 2, sqft: '754', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/trizen-28b/head.jpg',
+    gallery: [
+      './Images/trizen-28b/1.jpg',
+      './Images/trizen-28b/2.jpg',
+      './Images/trizen-28b/3.jpg',
+      './Images/trizen-28b/4.jpg',
+      './Images/trizen-28b/5.jpg',
+      './Images/trizen-28b/6.jpg',
+      './Images/trizen-28b/7.jpg',
+    ],
+    description: `For Rent | TriZen | Colombo 02
+(Ref – MRA99)
+📍 Colombo 02
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 754 sqft
+ - Furnishing: Fully Furnished
+ - Facilities: Swimming Pool, Gym, Jogging Track, Badminton Courts, Cinema, Entertainment Area
+ - Lease Terms: 2 Months Refundable Security Deposit, 6 Months Rent in Advance
+Rent - LKR 500,000 / Month
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #trizen #colombo02 #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "754 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Jogging track", "Badminton courts", "Cinema", "Entertainment area", "2 months refundable security deposit", "6 months rent in advance"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'trizen-101',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 350K',
+    name: 'The Tri-zen by John Keells Properties',
+    location: 'Colombo 2',
+    beds: 2, baths: 2, sqft: '750', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/trizen-jude/head.jpg',
+    gallery: [
+      './Images/trizen-jude/1.jpg',
+      './Images/trizen-jude/2.jpg',
+      './Images/trizen-jude/3.jpg',
+      './Images/trizen-jude/4.jpg',
+      './Images/trizen-jude/5.jpg',
+      './Images/trizen-jude/6.jpg',
+    ],
+    description: `For Rent | TriZen | Colombo 02
+(Ref – MRA101)
+📍 Colombo 02
+ - Bedrooms: 2
+ - Bathrooms: 2 (Master Ensuite)
+ - Sq ft area: 750 sqft
+ - Furnishing: Furnished
+ - Amenities: AC, Hot Water, Swimming Pool, Gym, Jogging Track, Badminton Courts, Cinema, Entertainment Area
+ - Lease Terms: Minimum 1 Year Contract, 3 Months Security Deposit, 6 Months Rent in Advance
+Rent - LKR 350,000 + Monthly Maintenance Fee
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #trizen #unionplace #colombo02 #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms (Master ensuite)", "750 sq. ft. living space", "Furnished", "Air conditioning", "Hot water", "Swimming pool", "Gym", "Jogging track", "Badminton courts", "Cinema", "Entertainment area", "Minimum 1 year contract", "3 months security deposit", "6 months rent in advance"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'the-grand-102',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 890K',
+    name: 'The Grand, Ward Place',
+    location: 'Colombo 7',
+    beds: 3, baths: 2, sqft: '1459', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/grand-esh/head.jpg',
+    gallery: [
+      './Images/grand-esh/1.jpg',
+      './Images/grand-esh/2.jpg',
+      './Images/grand-esh/3.jpg',
+      './Images/grand-esh/4.jpg',
+      './Images/grand-esh/5.jpg',
+      './Images/grand-esh/6.jpg',
+      './Images/grand-esh/7.jpg',
+    ],
+    description: `For Rent | The Grand | Colombo 07
+(Ref – MRA102)
+📍 Colombo 07
+ - Bedrooms: 3
+ - Bathrooms: 2 + Maid's Room with Attached Washroom
+ - Sq ft area: 1,459 sqft
+ - Furnishing: Fully Furnished
+ - Facilities: Two Swimming Pools including Panoramic 71m Infinity Pool with Heated Jacuzzi Jets on 32nd Floor, Sky Bar & Restaurant, Badminton Facilities, Gym, Café, Kids Play Area, Enhanced Security
+Rent - LKR 890,000 / Month
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #thegrand #colombo07 #luxuryapartment #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms + Maid's room with attached washroom", "1,459 sq. ft. living space", "Fully furnished", "Two swimming pools", "71m panoramic infinity pool with heated Jacuzzi jets (32nd floor)", "Sky bar & restaurant", "Badminton facilities", "Gym", "Café", "Kids play area", "Enhanced security"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'prime-edmonton-1-106',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 81 Mn',
+    name: 'Prime Edmonton',
+    location: 'Colombo 5',
+    beds: 3, baths: 2, sqft: '1560', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/prime-edmonton/head.jpg',
+    gallery: [
+      './Images/prime-edmonton/1.jpg',
+      './Images/prime-edmonton/2.jpg',
+      './Images/prime-edmonton/3.jpg',
+      './Images/prime-edmonton/4.jpg',
+      './Images/prime-edmonton/5.jpg',
+      './Images/prime-edmonton/6.jpg',
+      './Images/prime-edmonton/7.jpg',
+      './Images/prime-edmonton/8.jpg',
+      './Images/prime-edmonton/9.jpg',
+      './Images/prime-edmonton/10.jpg',
+      './Images/prime-edmonton/11.jpg',
+      './Images/prime-edmonton/12.jpg',
+      './Images/prime-edmonton/13.jpg',
+      './Images/prime-edmonton/14.jpg',
+      
+    ],
+    description: `For Sale | Prime Edmonton 1 | Colombo 05
+(Ref – MRA106)
+📍 Colombo 05
+ - Bedrooms: 3 + Maid's Room with Toilet
+ - Bathrooms: 2
+ - Sq ft area: 1,560 sqft
+ - Furnishing: Fully Furnished (Excluding TV & Side Console Table)
+ - Amenities: Swimming Pool & Gym, Secure Gated Complex and Parking
+Price - LKR 81 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #colombo05 #primeresidencies #moshrealty`,
+    features: ["3 Bedrooms + Maid's room with toilet", "2 Bathrooms", "1,560 sq. ft. living space", "Fully furnished (excluding TV & side console table)", "Swimming pool & gym", "Secure gated complex", "Parking"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'cinnamon-life-residence-96',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'USD 2500',
+    name: 'The Residence at Cinnamon Life',
+    location: 'Colombo 2',
+    beds: 2, baths: 2, sqft: '1130', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/cinna-mra96/head.jpg',
+    gallery: [
+      './Images/cinna-mra96/1.jpg',
+      './Images/cinna-mra96/2.jpg',
+      './Images/cinna-mra96/3.jpg',
+      './Images/cinna-mra96/4.jpg',
+      './Images/cinna-mra96/5.jpg',
+      './Images/cinna-mra96/6.jpg',
+      './Images/cinna-mra96/7.jpg',
+      './Images/cinna-mra96/8.jpg',
+      './Images/cinna-mra96/9.jpg',
+      './Images/cinna-mra96/10.jpg',
+    ],
+    description: `For Rent | The Residence at Cinnamon Life | Colombo 02
+(Ref – MRA96)
+📍 Colombo 02
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 1,130 sqft
+ - Furnishing: Fully Furnished
+ - Facilities: Swimming Pool, Gym, Multipurpose Function Rooms, 1 Parking & Rooftop BBQ Area
+ - Lease Terms: 3 Months Refundable Deposit, 6 Months Advance
+Rent - USD 2,500 / Month
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #cinnamonlife #colombo02 #theresidence #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,130 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Multipurpose function rooms", "1 parking", "Rooftop BBQ area", "3 months refundable deposit", "6 months advance"],
+    whatsapp: '+94777150066',
+},
+
+{
+    id: 'emperor-94',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 450K',
+    name: 'Emperor Residencies',
+    location: 'Colombo 3',
+    beds: 2, baths: 2, sqft: '1200', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/emperor-02/head.jpeg',
+    gallery: [
+      './Images/emperor-02/1.jpg',
+      './Images/emperor-02/2.jpg',
+      './Images/emperor-02/3.jpg',
+      './Images/emperor-02/4.jpg',
+      './Images/emperor-02/5.jpg',
+      './Images/emperor-02/6.jpg',
+    ],
+    description: `For Rent | Emperor | Colombo 03
+(Ref – MRA94)
+📍 Colombo 03
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 1,200 sqft
+ - Furnishing: Furnished
+ - Features: Parking, Pool, Gym, 24-Hour Security
+ - Lease Terms: Minimum 1 Year, 2 Months Refundable Deposit
+Rent - LKR 450,000 / Month
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #emperor #colombo03 #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,200 sq. ft. living space", "Furnished", "Parking", "Swimming pool", "Gym", "24-hour security", "Minimum 1 year lease", "2 months refundable deposit"],
+    whatsapp: '+94777150066',
+},
+{
+    id: '606-address-83',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 120 Mn',
+    name: '606 The Address',
+    location: 'Colombo 3',
+    beds: 2, baths: 2, sqft: '1200', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/anupama_new/head.jpeg',
+    gallery: [
+      './Images/anupama_new/1.jpg',
+      './Images/anupama_new/2.jpg',
+      './Images/anupama_new/3.jpg',
+      './Images/anupama_new/4.jpg',
+      './Images/anupama_new/5.jpg',
+      './Images/anupama_new/6.jpg',
+      './Images/anupama_new/7.jpg',
+      './Images/anupama_new/8.jpg',
+      './Images/anupama_new/9.jpg',
+      './Images/anupama_new/10.jpg',
+    ],
+    description: `For Sale | 606 Address | Colombo 03
+(Ref – MRA83)
+📍 Colombo 03
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 1,200 sqft
+ - Furnishing: Fully Furnished
+ - Features: Swimming Pool, Gym, Kids Play Area, 24/7 Security, 1 Dedicated Parking
+Expected Price - LKR 120 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #colomboliving #luxuryapartment #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,200 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Kids play area", "24/7 security", "1 dedicated parking"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'marina-square-88',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 85 Mn',
+    name: 'Marina Square',
+    location: 'Colombo 15',
+    beds: 3, baths: 2, sqft: '1074', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/marina_square_88/head.jpg',
+    gallery: [
+      './Images/marina_square_88/1.jpg',
+      './Images/marina_square_88/2.jpg',
+      './Images/marina_square_88/3.jpg',
+      './Images/marina_square_88/4.jpg',
+      './Images/marina_square_88/5.jpg',
+    ],
+    description: `For Sale | Marina Square | Colombo 15
+(Ref – MRA88)
+📍 Colombo 15
+ - Bedrooms: 3
+ - Bathrooms: 2
+ - Sq ft area: 1,074 sqft
+ - Features: Swimming Pool, Gym, Kids Play Area, Parking, 24/7 Security
+Price - LKR 85 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #seaview #colomboliving #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,074 sq. ft. living space", "Swimming pool", "Gym", "Kids play area", "Parking", "24/7 security"],
+    whatsapp: '+94777150066',
+},
+
   {
     id: 'maison-sale',
     status: 'For Sale',
@@ -3091,6 +3379,7 @@ A great opportunity to lease a ready-to-operate hotel property in one of Colombo
     features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
     whatsapp: '+94777150066',
   },
+
 ];
 
 window.PROPERTIES = PROPERTIES;

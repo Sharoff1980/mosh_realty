@@ -2788,6 +2788,5 @@ A fully furnished hotel property offering a well-equipped layout, ideal for hosp
 A great opportunity to lease a ready-to-operate hotel property in one of Colombo's most sought-after commercial areas.`,
     features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
     whatsapp: '+94777150066',
-  },
-  
+  },  
 ];
