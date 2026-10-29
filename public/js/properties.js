@@ -231,6 +231,150 @@ Rent - LKR 500,000 / Month
     features: ["2 Bedrooms", "2 Bathrooms", "754 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Jogging track", "Badminton courts", "Cinema", "Entertainment area", "2 months refundable security deposit", "6 months rent in advance"],
     whatsapp: '+94777150066',
 },
+
+  {
+    id: 'fairway-elements-108',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 128 Mn',
+    name: 'Fairway Elements',
+    location: 'Rajagiriya',
+    beds: 4, baths: 3, sqft: '2150', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/fairway/head.jpg',
+    gallery: [
+      './Images/fairway/1.jpg',
+      './Images/fairway/2.jpg',
+      './Images/fairway/3.jpg',
+      './Images/fairway/4.jpg',
+      './Images/fairway/5.jpg',
+      './Images/fairway/6.jpg',
+      './Images/fairway/7.jpg',
+      './Images/fairway/8.jpg',
+      './Images/fairway/9.jpg',
+    ],
+    description: `For Sale | Fairway Elements | Rajagiriya
+(Ref – MRA108)
+📍 Rajagiriya
+ - Bedrooms: 4 + Maid's Room
+ - Bathrooms: 3 + Maid's Bathroom
+ - Sq ft area: 2,150 sqft
+ - Furnishing: Fully Furnished
+ - Facilities: Swimming Pool, Gym, Clubhouse, Banquet Hall, Lounge, Games Room, Mini Mart, Tennis, Badminton, Squash & Basketball Courts and 2 Parkings
+Price - LKR 128 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #fairwayelements #rajagiriya #moshrealty`,
+    features: ["4 Bedrooms + Maid's Room", "3 Bathrooms + Maid's Bathroom", "2,150 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Clubhouse", "Banquet hall", "Lounge", "Games room", "Mini mart", "Tennis court", "Badminton court", "Squash court", "Basketball court", "2 parkings"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'astoria-115',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 95 Mn',
+    name: 'Astoria',
+    location: 'Colombo 3',
+    beds: 3, baths: 2, sqft: '1211', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/astoria-115/head.jpg',
+    gallery: [
+      './Images/astoria-115/1.jpg',
+      './Images/astoria-115/2.jpg',
+      './Images/astoria-115/3.jpg',
+      './Images/astoria-115/4.jpg',
+      './Images/astoria-115/5.jpg',
+      './Images/astoria-115/6.jpg',
+      './Images/astoria-115/7.jpg',
+      './Images/astoria-115/8.jpg',
+      './Images/astoria-115/9.jpg',
+      './Images/astoria-115/10.jpg',
+    ],
+    description: `For Sale | Astoria | Colombo 03
+(Ref – MRA115)
+📍 Colombo 03
+ - Bedrooms: 3
+ - Bathrooms: 2
+ - Sq ft area: 1,211 sqft
+ - Furnishing: Furnished
+ - Facilities: Swimming Pool, Gym, Squash Courts, Yoga Rooms, Rooftop Garden
+Price - LKR 95 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #astoria #colombo03 #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,211 sq. ft. living space", "Furnished", "Swimming pool", "Gym", "Squash courts", "Yoga rooms", "Rooftop garden"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'capital-trust-residencies-114',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 65 Mn',
+    name: 'Capital Trust Residencies',
+    location: 'Ethul Kotte',
+    beds: 2, baths: 2, sqft: '1046', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/capital-trust/head.jpg',
+    gallery: [
+      './Images/capital-trust/1.jpg',
+      './Images/capital-trust/2.jpg',
+      './Images/capital-trust/3.jpg',
+      './Images/capital-trust/4.jpg',
+      './Images/capital-trust/5.jpg',
+    ],
+    description: `For Sale | Capital Trust Residencies | Ethulkotte
+(Ref – MRA114)
+📍 Ethulkotte
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 1,046 sqft
+ - Furnishing: Furnished
+ - Facilities: Infinity Swimming Pool, Gym, Rooftop Terrace, 24/7 Security
+Price - LKR 65 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #capitaltrust #ethulkotte #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,046 sq. ft. living space", "Furnished", "Infinity swimming pool", "Gym", "Rooftop terrace", "24/7 security"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'iconic-galaxy-109',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 450K',
+    name: 'Iconic Galaxy',
+    location: 'Rajagiriya',
+    beds: 2, baths: 2, sqft: '1205', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/iconic-gal-9th/head.jpeg',
+    gallery: [
+      './Images/iconic-gal-9th/1.jpg',
+      './Images/iconic-gal-9th/2.jpg',
+      './Images/iconic-gal-9th/3.jpg',
+      './Images/iconic-gal-9th/4.jpg',
+      './Images/iconic-gal-9th/5.jpg',
+      './Images/iconic-gal-9th/6.jpg',
+      './Images/iconic-gal-9th/7.jpg',
+      './Images/iconic-gal-9th/8.jpg',
+      './Images/iconic-gal-9th/9.jpg',
+    ],
+    description: `For Rent | Iconic Galaxy | Rajagiriya
+(Ref – MRA109)
+📍 Rajagiriya
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 1,205 sqft
+ - Furnishing: Furnished
+ - Facilities: Pool, Gym, Hall, Play Area, Sport Club, Library, Cafe, Supermarket, Business Center, Carwash, Parking, Charging Points etc.
+ - Lease Terms: 2 Months Refundable Deposit, 2 Months Advance
+Rent - LKR 450,000 / Month
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #iconicgalaxy #rajagiriya #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,205 sq. ft. living space", "Furnished", "Pool", "Gym", "Hall", "Play area", "Sport club", "Library", "Cafe", "Supermarket", "Business center", "Carwash", "Parking", "Charging points", "2 months refundable deposit", "2 months advance"],
+    whatsapp: '+94777150066',
+},
+
 {
     id: 'trizen-101',
     status: 'For Rent',
