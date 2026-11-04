@@ -232,6 +232,81 @@ Rent - LKR 500,000 / Month
     whatsapp: '+94777150066',
 },
 
+{
+    id: 'marina-square-95',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 67 Mn',
+    name: 'Marina Square',
+    location: 'Colombo 15',
+    beds: 2, baths: 2, sqft: '904', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/marina-mra95/head.jpg',
+    gallery: [
+      './Images/marina-mra95/1.jpg',
+      './Images/marina-mra95/2.jpg',
+      './Images/marina-mra95/3.jpg',
+      './Images/marina-mra95/4.jpg',
+      './Images/marina-mra95/5.jpg',
+      './Images/marina-mra95/6.jpg',
+      './Images/marina-mra95/7.jpg',
+      './Images/marina-mra95/8.jpg',
+      './Images/marina-mra95/9.jpg',
+    ],
+    description: `For Sale | Marina Square | Colombo 15
+(Ref – MRA95)
+📍 Colombo 15
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 904 sqft
+ - Furnishing: Unfurnished
+ - Amenities: Infinity Pool, Kids Pool & Play Area, Gym, Squash & Indoor Games Room, Clubhouse & Snooker Lounge
+Price - LKR 67 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #marinasquare #uptowncolombo #colombo15 #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "904 sq. ft. living space", "Unfurnished", "Infinity pool", "Kids pool & play area", "Gym", "Squash & indoor games room", "Clubhouse", "Snooker lounge"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'altair-105',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'LKR 900K',
+    name: 'Altair',
+    location: 'Colombo 2',
+    beds: 3, baths: 2, sqft: '1480', furnished: true,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/altair-105/head.jpeg',
+    gallery: [
+      './Images/altair-105/1.jpg',
+      './Images/altair-105/2.jpg',
+      './Images/altair-105/3.jpg',
+      './Images/altair-105/4.jpg',
+      './Images/altair-105/5.jpg',
+      './Images/altair-105/6.jpg',
+      './Images/altair-105/7.jpg',
+      './Images/altair-105/8.jpg',
+      './Images/altair-105/9.jpg',
+      './Images/altair-105/10.jpg',
+      './Images/altair-105/11.jpg',
+    ],
+    description: `For Rent | Altair | Colombo 02
+(Ref – MRA105)
+📍 Colombo 02
+ - Bedrooms: 3
+ - Bathrooms: 2
+ - Sq ft area: 1,480 sqft
+ - Furnishing: Fully Furnished
+ - Facilities: Swimming Pool, Gym, Spa, Play Area, Parking, 24 Hour Security
+Rent - LKR 900,000 / Month
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #altair #colombo02 #moshrealty`,
+    features: ["3 Bedrooms", "2 Bathrooms", "1,480 sq. ft. living space", "Fully furnished", "Swimming pool", "Gym", "Spa", "Play area", "Parking", "24-hour security"],
+    whatsapp: '+94777150066',
+},
+
   {
     id: 'fairway-elements-108',
     status: 'For Sale',
@@ -3482,6 +3557,7 @@ A great opportunity to lease a ready-to-operate hotel property in one of Colombo
     features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
     whatsapp: '+94777150066',
   },
+
 ];
 
 window.PROPERTIES = PROPERTIES;
