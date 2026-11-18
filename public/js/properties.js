@@ -9,7 +9,7 @@ const PROPERTIES = [
     id: '7th-sense-132',
     status: 'For Rent',
     badgeClass: 'badge-rent',
-    price: 'USD 2200',
+    price: 'USD 2,200',
     name: '7th Sense',
     location: 'Colombo 7',
     beds: 2, baths: 2, sqft: '1360', furnished: false,
