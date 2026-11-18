@@ -6,6 +6,80 @@
 
 const PROPERTIES = [
   {
+    id: '7th-sense-132',
+    status: 'For Rent',
+    badgeClass: 'badge-rent',
+    price: 'USD 2200',
+    name: '7th Sense',
+    location: 'Colombo 7',
+    beds: 2, baths: 2, sqft: '1360', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/7th-sense/head.jpg',
+    gallery: [
+      './Images/7th-sense/1.jpg',
+      './Images/7th-sense/2.jpg',
+      './Images/7th-sense/3.jpg',
+      './Images/7th-sense/4.jpg',
+      './Images/7th-sense/5.jpg',
+      './Images/7th-sense/6.jpg',
+      './Images/7th-sense/7.jpg',
+      './Images/7th-sense/8.jpg',
+      './Images/7th-sense/9.jpg',
+      './Images/7th-sense/10.jpg',
+    ],
+    description: `For Rent | 7th Sense | Colombo 07
+(Ref – MRA132)
+📍 Colombo 07
+ - Bedrooms: 2
+ - Bathrooms: 2
+ - Sq ft area: 1,360 sqft
+ - Furnishing: Unfurnished
+ - Facilities: Gym, Swimming Pool, 24/7 Security, Rooftop Area, Lounge Areas, Meeting Rooms & Sauna
+Rent - USD 2,200 / Month
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforrent #7thsense #colombo07 #moshrealty`,
+    features: ["2 Bedrooms", "2 Bathrooms", "1,360 sq. ft. living space", "Unfurnished", "Gym", "Swimming pool", "24/7 security", "Rooftop area", "Lounge areas", "Meeting rooms", "Sauna"],
+    whatsapp: '+94777150066',
+},
+{
+    id: 'the-grand-heights-131',
+    status: 'For Sale',
+    badgeClass: 'badge-sale',
+    price: 'LKR 82.5 Mn',
+    name: 'The Grand Heights',
+    location: 'Colombo 4',
+    beds: 3, baths: 2, sqft: '1463', furnished: false,
+    type: 'Apartment',
+    featured: true,
+    image: './Images/grand-heights/head.jpg',
+    gallery: [
+      './Images/grand-heights/1.jpg',
+      './Images/grand-heights/2.jpg',
+      './Images/grand-heights/3.jpg',
+      './Images/grand-heights/4.jpg',
+      './Images/grand-heights/5.jpg',
+      './Images/grand-heights/6.jpg',
+      './Images/grand-heights/7.jpg',
+      './Images/grand-heights/8.jpg',
+      './Images/grand-heights/9.jpg',
+    ],
+    description: `For Sale | The Grand Heights | Colombo 04
+(Ref – MRA131)
+📍 Frankfurt Place, off Galle Road, Colombo 04
+ - Bedrooms: 3 + Maid's Room
+ - Bathrooms: 2 + Maid's Bathroom
+ - Sq ft area: 1,463 sqft
+ - Furnishing: Unfurnished
+ - Facilities: Rooftop Infinity Swimming Pool, Gym, Open Rooftop Terrace, Multipurpose Function Hall, 2 Passenger Elevators, CCTV & Security, Generator Backup
+Price - LKR 82.5 Million
+📞 Get in touch to schedule a viewing: 0777150066
+#apartmentforsale #grandheights #colombo04 #moshrealty`,
+    features: ["3 Bedrooms + Maid's Room", "2 Bathrooms + Maid's Bathroom", "1,463 sq. ft. living space", "Unfurnished", "Rooftop infinity swimming pool", "Gym", "Open rooftop terrace", "Multipurpose function hall", "2 passenger elevators", "CCTV & security", "Generator backup"],
+    whatsapp: '+94777150066',
+},
+
+  {
     id: 'the-maison-03',
     status: 'For Rent',
     badgeClass: 'badge-rent',
@@ -3557,7 +3631,6 @@ A great opportunity to lease a ready-to-operate hotel property in one of Colombo
     features: ["Car Park for 4 Vehicles", "Balconies in All Rooms", "Air Conditioning", "Attached Bathrooms with Heaters", "Furnished Guest Rooms", "2 Staircases", "Lobby", "Kitchen", "Staff Washroom", "2 Dining Areas", "Restaurant Washrooms", "Staff Room"],
     whatsapp: '+94777150066',
   },
-
 ];
 
 window.PROPERTIES = PROPERTIES;
